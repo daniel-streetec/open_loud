@@ -150,8 +150,9 @@ def main():
         "A0 vermeidet den Wandler und bleibt erste Referenz, überschreitet aber den 300-EUR-Materialansatz. A1 bietet mehr modellierten Tiefbass, gefährdet das 11-kg-Ziel und benötigt Wandler-/Packprüfung. Beide benötigen gemessene Polaren, DSP-Schutz, thermische Prüfung und konkrete Schutzbauteile. Keine endgültige Konzeptauswahl.", "",
         "Pack-Spitzenrechnung: `pack_stress.csv` löst eine hypothetische Konstantleistungsbelastung mit 0,05/0,2 Ohm Packwiderstand. Unterspannungsfälle sind Ausfallindikatoren; 15 V ist kein freigegebener Zellschutzwert. 75 W Audio ist nur ein Versorgungs-Stressfall, keine sichere HF-Dauerleistung."]
     (OUT / "comparison.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    sources = [ROOT / "data/parameters.json", ROOT / "data/components.json", ROOT / "simulation/model.py", Path(__file__), ROOT / "docs/research/OPEN_LOUD_Forschungsbericht_Phase_1.pdf"]
+    sources = [ROOT / "data/parameters.json", ROOT / "data/components.json", ROOT / "simulation/model.py", Path(__file__), ROOT / "data/research_reference.json"]
     manifest = {"python": platform.python_version(), "source_sha256": {str(p.relative_to(ROOT)).replace('\\', '/'): hashlib.sha256(p.read_bytes()).hexdigest() for p in sources}}
+    manifest['external_reference']=json.loads((ROOT/'data/research_reference.json').read_text(encoding='utf-8'))
     (OUT / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     print("Generated acoustics, sensitivity, BOM, energy, pack stress, comparison, summary and manifest in results/")
 

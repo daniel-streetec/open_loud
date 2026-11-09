@@ -26,6 +26,10 @@ def main():
     for path, digest in manifest["source_sha256"].items():
         assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest, path
     checks.append("Source hashes match generated results")
+    reference=manifest.get('external_reference')
+    if reference and (ROOT/reference['path']).exists():
+        assert hashlib.sha256((ROOT/reference['path']).read_bytes()).hexdigest()==reference['sha256'],'Local reference report changed'
+    checks.append('External reference provenance retained; optional local copy checked when present')
     n = 0
     with (ROOT / "results/acoustics.csv").open(encoding="utf-8", newline="") as stream:
         for row in csv.DictReader(stream):

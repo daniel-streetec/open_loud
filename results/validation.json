@@ -3,6 +3,7 @@
   "checks": [
     "All numerical parameter records have units, source, status and uncertainty",
     "Source hashes match generated results",
+    "External reference provenance retained; optional local copy checked when present",
     "4203 frequency rows finite and within selected excursion/port/voltage limits; passive power balance plausible",
     "Structured BOM reproduces report material totals A0 368.34 / A1 445.23 EUR"
   ],
