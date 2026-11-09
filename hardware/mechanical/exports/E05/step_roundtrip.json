@@ -1,0 +1,40 @@
+{
+  "volume_absolute_error_cm3": 0.0027841261471621692,
+  "relative_volume_tolerance": 1e-06,
+  "status": "passed",
+  "source": {
+    "body_count": 204,
+    "solid_count": 204,
+    "total_solid_volume_cm3": 15928.801215762753,
+    "bounds_mm": {
+      "min": [
+        -0.01,
+        -0.02,
+        -14.02
+      ],
+      "max": [
+        330.02,
+        560.02,
+        306.02
+      ]
+    }
+  },
+  "STEP_reimport": {
+    "body_count": 204,
+    "solid_count": 204,
+    "total_solid_volume_cm3": 15928.8039998889,
+    "bounds_mm": {
+      "min": [
+        -0.01,
+        -0.02,
+        -14.02
+      ],
+      "max": [
+        330.02,
+        560.02,
+        306.02000000000004
+      ]
+    }
+  },
+  "scope": "solids, aggregate volumes and bounds; no surface-detail or manufacturing approval"
+}

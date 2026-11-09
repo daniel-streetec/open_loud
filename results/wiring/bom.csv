@@ -1,0 +1,24 @@
+id,quantity,manufacturer,article,gross_unit_EUR,availability,source,status
+ISO7089_M5,26,,ISO7089 M5 A2,,,,standard_part_SKU_pending
+ISO4762_M5x45,8,NormReich supplier; actual screw maker unspecified,0912A2-M050X045TISK,0.1058,"Einzelstück; sofort, 1-3 Werktage DE",https://www.normreich.de/1x-Zylinderschraube-M5x45-DIN-912-A2,selected_nominal_fit_physical_check_pending
+ISO4032_M5,8,,"ISO4032 M5 A2, h4.7 envelope",,,,standard_part_SKU_pending
+ISO7089_M4,8,,ISO7089 M4 A2,,,,standard_part_SKU_pending
+ISO4762_M4x40,4,NormReich supplier; actual screw maker unspecified,0912A2-M040X040TISK,0.0893,"Einzelstück; sofort, 1-3 Werktage DE",https://www.normreich.de/1x-Zylinderschraube-M4x40-DIN-912-A2,selected_nominal_fit_physical_check_pending
+DIN934_M4,4,,"DIN934 M4 A2, h3.2 envelope",,,,standard_part_SKU_pending
+ISO4762_M5x40,10,NormReich supplier; actual screw maker unspecified,0912A2-M050X040TISK,0.0925,"Einzelstück; sofort, 1-3 Werktage DE",https://www.normreich.de/1x-Zylinderschraube-M5x40-DIN-912-A2,selected_nominal_fit_physical_check_pending
+wood_pan_2p5x12,20,,2.5x12 pan wood screw; head5x2mm envelope,,,,candidate_exact_head_and_retention_test_pending
+LAPP_53017210,2,LAPP,53017210,,"Buerklin 45 stock, qty1 observed; private eligibility unresolved. Best4Automation B2B only rejected; Conrad100-pack rejected",https://www.buerklin.com/de/p/lapp/kabelverschraubungen/53017210/32P3067/,DIMENSION_REFERENCE_ONLY_PROCUREMENT_NOT_RELEASED
+M16x1p5_locknut,2,LAPP reference,"SKINDICHT SM-M M16x1.5, 52103010 (check current LF suffix)",,3mm brass locknut manufacturer reference; consumer source pending,https://products.lappgroup.com/fileadmin/documents/technische_doku/datenblaetter/skindicht/DB52103000EN.pdf,REFERENCE_ONLY; 5mm plastic nut does NOT meet reserved stack
+Cordial_CLS215,2,Cordial,"CLS 215 BLACK; reel PN10776, retailer cuts by metre",1.59,"sofort, 1-2 Werktage DE; minimum 1m",https://www.deejayladen.de/de/cordial-speakerkabel-2-x-15qmm-cls-215/pd/14057,selected_provisional_thermal_test
+WAGO_221_2411,6,WAGO,221-2411; consumer pack 221-2411/5,,"Galaxus 5-pack; 9.37 EUR one pack or 8.35 EUR each for two; supplier>10, shown delivery Nov26-28",https://www.galaxus.de/de/s1/product/wago-connector-221-24115-02-4mm2-5-pcs-elektronikkabel-stecker-46364676,selected_dry_service_connector; no keyed mate; label each pole and branch
+WAGO_221_2522,3,WAGO,221-2522,,Elektro4000 1-3 days listing; price/quantity/consumer checkout pending,https://www.elektro4000.de/Installationsmaterial/Reihenklemmen/Zubehoer-fuer-Klemmen/WAGO-GmbH-Co-KG-Befestigungsadapter-221-2522::1521499.html,"carrier_candidate; 20.8x56mm envelope, detailed mounting CAD pending"
+fuse_and_holder,1,Littelfuse reference,"ATO287 7.5A candidate; DC holder>=32V, matching wire capacity",,,,"OPEN inrush, interrupt rating, pack prospective short circuit, holder contacts and thermal coordination"
+DC_switch,1,,>=30VDC 10A candidate; verified DC switching rating required,,,,OPEN exact SKU and mounting
+UVLO_reverse_polarity,1,,,,,,OPEN UVLO threshold/hysteresis and pack temperature path; not included in CAD
+battery_adapter,1,,,,,,"OPEN OEM pack protection through third-party adapter, length and terminals"
+driver_terminals_LF,2,,,,,,OPEN actual tab width/thickness; do not guess 6.3mm; fully insulated female crimp for1.5mm2
+driver_terminals_HF,2,,,,,,OPEN actual terminal style/dimensions; fully insulated termination for1.5mm2
+cable_clamps,8,,round cable P-clips for measured 7mm OD; screw fixing,,,,"OPEN SKU, mounting pitch<=100mm target, >=20mm speaker vibration clearance; no adhesive-only ties"
+wire_labels,6,,"LF+/LF-, HF+/HF-, DC+/DC-",,,,required nonconductive durable labels
+panel_seals,2,,M16 flat panel seals matching gland,,,,OPEN material and compressed thickness0.5mm assumption
+OEM_JAB_cable_set,1,WONDOM,matching AA-JA32173 board-revision cable set,,,https://www.boomaudio.de/kabelset-fuer-wondom-jab3/jab4/jab5-dsp-endstufen,"OPEN actual wire gauge, contact series/rating, J8/J10 pin1 viewing direction"

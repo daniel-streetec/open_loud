@@ -1,0 +1,18 @@
+{
+  "revision": "E03",
+  "scope": "Additional mechanical candidates; not included as verified prices in E01 cost comparison",
+  "price_date": null,
+  "approval": "prototype_candidates_not_released",
+  "items": [
+    {"id":"lf_backing_ring","quantity":1,"unit":"piece","manufacturer":"own_fabrication","mpn":null,"dimensions_source":"data/parameters.json:mechanical.lf_backing_*","drawing":"hardware/mechanical/exports/E03/LF_steel_backing_ring_candidate_E03_DRAFT.dxf","price_EUR":null,"note":"3mm steel candidate; real basket fit and corrosion protection unresolved"},
+    {"id":"rear_thread_plates","quantity":10,"unit":"piece","manufacturer":"own_fabrication","mpn":null,"dimensions_source":"data/parameters.json:mechanical.rear_plate_*","price_EUR":null,"note":"20x40x5mm; M5x0.8 after 4.2mm pilot; confirm tapping process"},
+    {"id":"lf_screws","quantity":8,"unit":"piece","manufacturer":null,"mpn":null,"spec_candidate":"M5x45","price_EUR":null,"note":"Length, head, material and torque require original-driver trial"},
+    {"id":"lf_nuts_washers","quantity":8,"unit":"nut_and_washer_pair","manufacturer":null,"mpn":null,"spec_candidate":"M5","price_EUR":null,"note":"Bear on metal backing, not narrow cutout lip"},
+    {"id":"horn_front_screws","quantity":4,"unit":"bolt_nut_washer_set","manufacturer":null,"mpn":null,"spec_candidate":"M4x40","price_EUR":null},
+    {"id":"hf_to_horn_screws","quantity":2,"unit":"piece","manufacturer":null,"mpn":null,"spec_candidate":"M5; length TBD","price_EUR":null,"note":"76mm PCD; verify thread engagement and horn rear flange"},
+    {"id":"rear_cover_screws","quantity":10,"unit":"piece","manufacturer":null,"mpn":null,"spec_candidate":"M5x40 plus suitable sealing washer","price_EUR":null},
+    {"id":"thread_plate_retainers","quantity":20,"unit":"piece","manufacturer":null,"mpn":null,"spec_candidate":"2.5x12 wood screw; countersink/head TBD","price_EUR":null,"note":"Hold plates during disassembly; rear clamping is carried by M5 screws"},
+    {"id":"rear_gasket","quantity":2,"unit":"m_purchase_length_candidate","manufacturer":null,"mpn":null,"spec_candidate":"Closed-cell, width and compressed thickness to fit 4x1mm recess","price_EUR":null},
+    {"id":"wood","quantity":null,"unit":"paid_panels_or_cut_service","manufacturer":null,"mpn":null,"spec_candidate":"12mm birch plywood; double baffle","price_EUR":null,"note":"Use generated cutlist; sheet nesting/kerf not verified, old 2-panel allowance not current"}
+  ]
+}

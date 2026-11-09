@@ -1,0 +1,61 @@
+# Auftrag, Arbeitsplan und Fortsetzung
+
+## Neuester Übergabestand (überschreibt historische Angaben weiter unten)
+
+Zusätzlich erzeugt und tatsächlich geprüft: `hardware/mechanical/drawings/E05/OPEN_LOUD_E05_review_drawings.pdf` mit28Seiten (25Einzelteil-Prüfblätter, orthografische Gesamtansicht, schattierte native Explosion, Schrauben-Klemmpakete). Alle28SVGs als XML geparst, PDF-Seitenzahl und Text geprüft, Explosionsblatt visuell betrachtet. Keine vollständigen Bohrungs-/Toleranzbemaßungen, keine Fertigungsfreigabe; entsprechende Zeichnungsarbeit bleibt offen. Quelle eigene native E05-Kanten und Tessellierung, keine KI-erfundenen CAD-Details. Reproduktionsgeneratoren tools/generate_review_drawings.py und render_drawing_pdf.py, Geometrieexportskripte unter hardware/mechanical/.
+
+E05 repariert und geprüft: keine Kabelkollisionen, keine Timelinefehler, alle8LF-Muttern-Korridore mit Gelenkwerkzeug bestanden.204Volumenkörper. STEP- und F3D-Rückimport tatsächlich bestanden; native71Parameter erhalten. Fusion-Dokument `OPEN_LOUD_A0_E05_WiringFasteners` erfolgreich gespeichert. Exporte einschließlich vier Durchführungs-DXFs und Ansichten unter hardware/mechanical/exports/E05/. Reparatur `repair_wiring_e05.py` dokumentiert die falsche Y-Ebene im ersten Versuch; korrigierter Erstgenerator verwendet jetzt ebenfalls +Y. Vor einem Neulauf eigene Dokumente prüfen, nichts duplizieren.
+
+Aktueller Kabelzuschnitt250/460/350mm, zusammen1,06m/83,74g.13Python-Tests bestanden einschließlich Wiederanlauf-Supervisor; Reproduktion nach den neuesten Änderungen erneut laufen lassen. E05-Klemmen/Clips/Schlaufen/Originalkontakte sind noch NICHT komplett konstruiert. Kein Gesamtmontage-/Elektro-/Wetterfreigabenachweis. Schraubenanzahlen bleiben42/34Scheiben/12Muttern plus zwei Durchführungsmuttern.
+
+Neueste Nutzersteuerung: ernsthaftes Engineering bis zum Morgen, Commit UND Push ausdrücklich beauftragt. Keine metrischen Schrauben ohne Holz-Gegenstück. Versorgung neu bewerten,4Ah-Werkzeugakku nicht mehr bevorzugt, Bosch Pro nicht bevorzugt. Vorherige andere Box schafft Mittwoch–Sonntag mit12V/100Ah-LFP plus Handyladen; **Handyladen ist KEINE Anforderung** für OPEN//LOUD. Kein unbekanntes Musiknutzungsprofil aus dem Erfahrungsbericht erfinden. Daten und ausführbare Gegenrechnung in data/battery_study.json, tools/compare_festival_energy.py und results/battery/.50Ah-Fertigpack braucht wegen130mm kleinster Abmessung eine andere Unterbringung als den110mm tiefen aktuellen Elektronikraum.6S-LFP mit prismatischen Zellen bleibt ungeprüftes Vergleichskonzept, keine freigegebene Auswahl.
+
+Autorisiertes Wiederanlaufskript `tools/resume_after_reset.py` erstellt, getestet und als versteckter Prozess gestartet. Lokale PID/Status in .tools/overnight/; Startfenster ab2026-11-10 03:38:39 MEZ bis08:00MEZ. Wartet außerdem auf beendeten aktuellen Turn und ready.json. **KEINEN zweiten Supervisor starten.** Fortsetzungsauftrag docs/automation/continue_prompt.md. Der tatsächliche nächtliche Codexlauf ist noch nicht erfolgt; nur Supervisor-Start und Dry-Run sind nachgewiesen. STOP-Datei stoppt weitere Starts. Bisherige gegenteilige Angabe unten („nicht eingerichtet“) ist historisch überholt.
+
+Aktualisiert 2026-11-09, E05 in Arbeit. Nutzer möchte bis zum nächsten Morgen ein vollständiges, nachvollziehbares Entwicklungspaket mit montagegerechtem Produktentwurf, Explosionsdarstellungen, Baugruppen-/Einzelteilzeichnungen, Einkaufsliste mit Preisen, Frequenzgangberechnungen und ein bis zwei guten Renderbildern. Autonom weiterarbeiten; reversible Entscheidungen selbst treffen. Kein fertiges/validiertes Serienprodukt behaupten: reale Messungen, Sicherheit und Wetterbeständigkeit sind weiterhin offen.
+
+## Verbindliche Gestaltung und Beschaffung
+
+- Qualitätsgewinn darf Mehrgewicht rechtfertigen. Keine dünnen Stege ohne Festigkeits-/Montageprüfung. Bevorzugt Multiplex statt MDF für diesen Outdoor-Vorentwurf.
+- Keine Panzeroptik, selbstgebauten Blechecken, umlaufende schwere Schutzschienen, große Porthaube oder seitlichen Anschlusskasten des verworfenen E04 wieder einführen. Kaufteil-Kantenschutz/Ecken auswählen und dezent integrieren. Gute Renderbilder erst vom bereinigten, plausibel montierbaren Entwurf.
+- Endkundenbezug DE/EU in Einzelstück/Kleinmenge. Artikelnummer, Preisdatum, Brutto, Versand, Mindestmenge und Lagerbeobachtung getrennt erfassen. B2B-only und 100er-Pack als vermeintlichen Einzelkauf verwerfen. Unsichere Händlerfreigaben nicht beschönigen.
+- **Jede metrische Schraube braucht ein definiertes Gegenstück:** Mutter, Gewindeplatte oder passende geprüfte Gewindemuffe/Einschlagmutter. Niemals metrisches Gewinde unmittelbar ins Holz unterstellen. Holzschrauben sind eine eigene, entsprechend auszulegende Alternative. In CAD, BOM und Montagezeichnung Gegenstück und Eingriff belegen. Schraubenlänge inklusive Scheiben, Dichtungen, Kopfauflage, Toleranzen und Zugänglichkeit prüfen.
+
+## Reihenfolge und überprüfbare Ergebnisse
+
+| Schritt | Arbeit | Ergebnis / Prüftor |
+|---|---|---|
+| 1 | E05-Kabel-/Durchführungsfehler beheben | `assembly_validation.json`: keine Kabelkollisionen, keine Timelinefehler; tatsächlicher STEP-/F3D-Rückimport; E05 separat speichern |
+| 2 | Elektrische Architektur vollständig auswählen | konkrete Akkuhalter-/Adapterlösung mit Schutzinterface, Sicherung/Halter, DC-Schalter, Verpolschutz/UVLO, Originalpigtails und Treiberkontakte; keine unbekannten Module als freigegeben ausgeben |
+| 3 | Steck-/Klemmenstellen, Halter, Clips und Wartungsschlaufen konstruieren | vollständiger Stromlauf-/Verdrahtungsplan, Polbezeichnungen und Pinansichten, Kabelzuschnitt aus realer Geometrie, Querschnitts-/Temperatur-/Spannungsfallnachweis; WAGO-/OEM-Verbindungen im CAD mit Befestigung |
+| 4 | Befestigungen/Passungen schließen | jedes Schraubengegenstück modelliert; LF-Korb gegen 24mm-Baffle und Gegenring, Hornmutternzugang, Boardhalter/Standoffs, Akkuentnahme und Rückwand-Service tatsächlich geometrisch prüfen; Standardteile bevorzugen |
+| 5 | Äußere Gestaltung und Schutz integrieren | erhältliche fertige Ecken/Füße/Griff und akustisch geeignetes Gitter, moderate Radien, abgedichtete Fugen, Wartung ohne Zerstörung, nachvollziehbarer Wärmeweg. Kein IP-/Sturz-/Traglastversprechen ohne Nachweis |
+| 6 | Akustik/Elektrik aktualisieren | frequenzabhängig SPL/Hub/Port/Spannung/Leistung, A0/A1-Vergleich und Annahmen, Toleranzen, veränderte Verdrängungen; unabhängige Referenzfälle. LF-Berechnung ausdrücklich nicht als vollständigen gemessenen Zweiwege-Frequenzgang ausgeben; HF-/Polaren-/Crossoverdaten und Messbedarf zeigen |
+| 7 | Zeichnungssatz erstellen | Gesamt-Explosion mit Positionsnummern, Baugruppen Gehäuse/Front/Elektronik/Kabel/Akku, jedes Fertigungsteil mit Maßen/Bohrungen/Toleranzen/Material/Oberfläche; PDF/SVG plus DXF/STEP/F3D. Keine reine Perspektive als Fertigungszeichnung ausgeben |
+| 8 | Einkaufsliste abschließen | automatisch aus strukturierten Quellen: installierte Menge/Einkaufsmenge/Rest, Hersteller/PN/Alternative/Status, Brutto/Versand/Stand; Schrauben, Hülsen, Scheiben, Muttern, Klemmen, Stecker, Kontakte, Kabel, Sicherungen, Dichtungen, Kleber, Finish enthalten; unbekannte Preise bleiben null |
+| 9 | Montage-/Prüfunterlagen und Lizenzinventar | Montagefolge mit Werkzeug/Anzugskonzept, Abnahmewerte, bekannte Restrisiken und Freigabesperren; Hardware/Software/Doku-Lizenzoptionen separat, LICENSE nicht ungefragt ändern, keine fremden CAD/Datenblätter veröffentlichen |
+| 10 | Darstellung und Reproduzierbarkeit | ein bis zwei ansprechende CAD-basierte Renderbilder des tatsächlichen Stands, Explosionen und Preis-/Leistungsübersicht; Generatoren, Versionen, Quellenhashes, Prüfberichte; Übergabe mit offenen Messaufgaben |
+
+## Historischer Stand beim Anlegen dieses Plans
+
+E03 ist der geprüfte Rückfallstand; nicht überschreiben. E05 ist ein separates offenes Fusion-Dokument `OPEN_LOUD_A0_E05_WiringFasteners`, noch nicht cloudgespeichert und noch nicht exportiert. Generator `hardware/mechanical/build_wiring_e05.py` lief erfolgreich: 95 zusätzliche Komponenten, darunter 42 Schrauben, 34 Scheiben, 12 Muttern, zwei Durchführungen und drei Kabelmäntel. Baseline weiterhin 330×560×300mm; Konstruktion noch eckiger Vorentwurf.
+
+Elektrische Näherungsrechnung ausgeführt: Versorgung6A, LF4Arms, HF2,1Arms, jeweils2×1,5mm². Zuschnitt250/460/330mm, zusammen1,04m. Annahmen, Modellgrenzen und Originalpigtail-Bottleneck in `docs/build/wiring.md`. Elf Python-Tests bestehen. `results/wiring/harness.csv`, `calculation.json`, `bom.csv/json` vorhanden. BOM ausdrücklich nur E05-Ergänzung, noch keine vollständige Produktbestellliste.
+
+**Tatsächlich fehlgeschlagene E05-Prüfung:** `hardware/mechanical/exports/E05/assembly_validation.json` enthält Kabelkollisionen (DC gegen LF-Verschraubung, LF gegen Wartungsboden, HF gegen HF-Verschraubung) und zwei fehlgeschlagene Schnitte `Extrusion6/7`. Diese beheben, nicht ignorieren. Alle acht LF-Muttern-Werkzeugkorridore mit angenommener Gelenkverlängerung≤25° bestanden; vier direkte Wege sind blockiert. Kein physischer Montagebeweis. Durchführungen und Kabelenden sind vereinfachte/ungeprüfte Maßreferenzen, keine komplette Anschlusskonstruktion.
+
+Auslegung berücksichtigt für M16 eine3mm-Metallmutter, keine5mm-Kunststoffmutter. Herstellerreferenz LAPP52103010 / aktuelle LF-Variante prüfen, Endkundenquelle noch offen. 53017210-Durchführung:2,2015EUR brutto/45Stück Lager bei Bürklin beobachtet, aber Privatkundenberechtigung nicht vollständig verifiziert; deshalb nicht als Einkauf freigegeben. Best4Automation ausdrücklich B2B-only, Conrad100er-Pack verworfen. Cordial CLS215 als Meterware1,59EUR/m, Schrauben einzeln bei NormReich mit3,90EUR Versand/Bestellung nachgewiesen. WAGO221-2411 als5er-Pack bei Galaxus; schraubbarer Zweifachhalter221-2522 Kandidat.
+
+## Werkzeuge und Besonderheiten
+
+PowerShell, Python3.13.7, lokaler Fusion-MCP `http://127.0.0.1:27182/mcp`, Health `/health`. `tools/fusion_bridge.py` verwendet HTTP-JSON-RPC, `run`/`inspect` mit Dateipfad. Fusion-Skripte definieren `run(_context: str)`. Keine fremden Dokumente schließen. Vor Skriptaufrufen muss Fusion außerhalb eines offenen Kontextmenüs/aktiven Befehls sein: ein Aufruf wartete180s, danach Timeout; nach Schließen des Kontextmenüs funktionierte ein gleicher Prüfaufruf in8s. Ein Timeout ist kein Erfolgsnachweis.
+
+Aktuelle Skripte: `build_wiring_e05.py`, `verify_wiring_e05.py`, `inspect_wiring_cuts_e05.py`. Letzter Inspektionsversuch scheiterte an nicht existierender API `Sketch.zDirection` (entfernen/Normal aus transform ableiten). Scoped Extrusioncuts: niemals `addSimple(Cut)` über Nachbarkomponenten; explizite `participantBodies`. Frühere Reparatur als Muster in `repair_cut_scope_e03.py`. Änderungen bestehender Features können Timeline-Cacheproblem auslösen: gezielt eigene Schnitte löschen und neu erstellen, dann Gesundheit prüfen.
+
+`python -B tools/reproduce.py` jetzt einschließlich Wiringgenerator/BOM und rekursiver Ergebnis-Hashprüfung. Vor jedem „bestanden“ tatsächlichen Lauf prüfen. Kein Git-Commit bisher; Dateien sind vorhanden, überwiegend untracked. Git braucht hier `git -c safe.directory=C:/Repositories/open_loud ...`.
+
+Nicht `tools/setup_wiring_e05.py` erneut ausführen, nachdem Eingaben geändert wurden; dieses einmalige Initialisierungswerkzeug würde die autorisierten Werte zurücksetzen. `data/parameters.json` ist die zentrale Eingabe. Neue Sitzung beginnt mit diesem Dokument, `docs/DEVELOPMENT.md`, den Projektanweisungen und `hardware/mechanical/README.md`; Forschungsbericht wurde zuvor vollständig gelesen, bleibt kritisch zu prüfende Grundlage.
+
+## Laufzeitgrenze
+
+Ein API-/Nutzungslimit oder beendeter Turn startet nicht allein durch Zeitablauf automatisch neu. Kein Hintergrundlauf/Termin wurde eingerichtet. Fortschritt deshalb in Dateien sichern; bei erneuter Sitzung anhand dieses Dokuments weiterarbeiten. Fertige Dateien/Exportprüfungen und offene Aufgaben jeweils konkret nachführen.

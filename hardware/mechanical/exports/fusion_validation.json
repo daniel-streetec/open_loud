@@ -1,0 +1,313 @@
+{
+  "fusion_version": "2705.1.15",
+  "project_name": "OPEN_LOUD",
+  "project_id": "a.YnVzaW5lc3M6c3RyZWV0ZWMyIzIwMjYxMTA5MTE2NzI5MDY4MQ",
+  "document_name": "OPEN_LOUD_A0_E02_Concept",
+  "net_l": 34.00000000000001,
+  "gross_internal_l": 41.890176000000004,
+  "service_z_mm": 171.64431914000002,
+  "service_excluded_l": 5.625564458219279,
+  "port_length_mm": 161.47860433000002,
+  "port_d_mm": 90.9728368293,
+  "status": "concept_not_manufacturing_release",
+  "timeline_issues": [],
+  "solid_bodies": [
+    {
+      "component": "Side_left",
+      "body": "Side_left",
+      "solid": true,
+      "volume_cm3": 1872.0000000000002
+    },
+    {
+      "component": "Side_right",
+      "body": "Side_right",
+      "solid": true,
+      "volume_cm3": 1871.9999999999989
+    },
+    {
+      "component": "Bottom",
+      "body": "Bottom",
+      "solid": true,
+      "volume_cm3": 1101.6000000000001
+    },
+    {
+      "component": "Top",
+      "body": "Top",
+      "solid": true,
+      "volume_cm3": 1101.6000000000026
+    },
+    {
+      "component": "Baffle",
+      "body": "Baffle",
+      "solid": true,
+      "volume_cm3": 1083.6673737782917
+    },
+    {
+      "component": "Rear_removable",
+      "body": "Rear_removable",
+      "solid": true,
+      "volume_cm3": 1821.311999999999
+    },
+    {
+      "component": "Service_partition",
+      "body": "Service_partition",
+      "solid": true,
+      "volume_cm3": 536.1119999999995
+    },
+    {
+      "component": "Service_floor",
+      "body": "Service_floor",
+      "solid": true,
+      "volume_cm3": 427.25806011792105
+    },
+    {
+      "component": "Brace_lower",
+      "body": "Brace_lower",
+      "solid": true,
+      "volume_cm3": 73.43999999999996
+    },
+    {
+      "component": "Port_round_candidate",
+      "body": "Port_tube",
+      "solid": true,
+      "volume_cm3": 143.01725954591757
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "body": "LF_flange_envelope",
+      "solid": true,
+      "volume_cm3": 72.36564429764508
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "body": "K\u00f6rper2",
+      "solid": true,
+      "volume_cm3": 1455.4700027418357
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "body": "Magnet_envelope",
+      "solid": true,
+      "volume_cm3": 362.308039290417
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "body": "Horn_flange_envelope",
+      "solid": true,
+      "volume_cm3": 24.85699999999997
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "body": "K\u00f6rper2",
+      "solid": true,
+      "volume_cm3": 391.2339598584472
+    },
+    {
+      "component": "REF_BC_DE10_DATASHEET_ENVELOPE",
+      "body": "DE10_cylinder_envelope",
+      "solid": true,
+      "volume_cm3": 337.17143154653917
+    },
+    {
+      "component": "RESERVE_amp_wiring_UNVERIFIED_no_mounting_holes",
+      "body": "Amp_space_reserve",
+      "solid": true,
+      "volume_cm3": 484.0
+    }
+  ],
+  "cloud_save_requested": false,
+  "saved": true,
+  "rectangles_constrained": [],
+  "sketches": [
+    {
+      "component": "Side_left",
+      "sketch": "Side_left_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Side_left",
+      "sketch": "Side_left_export_face_DRAFT",
+      "fully_constrained": true
+    },
+    {
+      "component": "Side_right",
+      "sketch": "Side_right_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Side_right",
+      "sketch": "Side_right_export_face_DRAFT",
+      "fully_constrained": true
+    },
+    {
+      "component": "Bottom",
+      "sketch": "Bottom_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Bottom",
+      "sketch": "Bottom_export_face_DRAFT",
+      "fully_constrained": true
+    },
+    {
+      "component": "Top",
+      "sketch": "Top_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Top",
+      "sketch": "Top_export_face_DRAFT",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "Baffle_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "LF_cutout",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "Port_cutout",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "Horn_cutout",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "LF_8x45deg_mounting_centres_VERIFY_slots",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "Baffle_export_face_DRAFT",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_removable_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_removable_export_face_DRAFT",
+      "fully_constrained": true
+    },
+    {
+      "component": "Service_partition",
+      "sketch": "Service_partition_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Service_partition",
+      "sketch": "Service_partition_export_face_DRAFT",
+      "fully_constrained": true
+    },
+    {
+      "component": "Service_floor",
+      "sketch": "Service_floor_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Service_floor",
+      "sketch": "Service_floor_export_face_DRAFT",
+      "fully_constrained": true
+    },
+    {
+      "component": "Brace_lower",
+      "sketch": "Brace_lower_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Brace_lower",
+      "sketch": "Brace_lower_export_face_DRAFT",
+      "fully_constrained": true
+    },
+    {
+      "component": "Port_round_candidate",
+      "sketch": "Port_tube_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "sketch": "LF_flange",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "sketch": "LF_basket_front",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "sketch": "LF_basket_rear",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "sketch": "LF_magnet",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "sketch": "Horn_flange",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "sketch": "Horn_flange_open",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "sketch": "Horn_mouth_envelope",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "sketch": "Horn_throat_envelope",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_BC_DE10_DATASHEET_ENVELOPE",
+      "sketch": "DE10_envelope",
+      "fully_constrained": true
+    },
+    {
+      "component": "RESERVE_amp_wiring_UNVERIFIED_no_mounting_holes",
+      "sketch": "Amp_installation_reserve",
+      "fully_constrained": true
+    }
+  ],
+  "width_edit_test": {
+    "delta_input_mm": 10,
+    "delta_panel_mm": 10.0,
+    "restored": true,
+    "note": "Dependent volume-budget lengths regenerated from Python when design input changes."
+  },
+  "interferences": [],
+  "wood_volume_cm3": 9888.989433896213,
+  "wood_mass_kg_density_600_to_700": [
+    5.933393660337727,
+    6.922292603727349
+  ],
+  "weight_status": "Assembly mass unknown until battery, fasteners, grille, straps and finish are selected; wood + LF + HF + horn only already near 10kg.",
+  "dxf_exports": [
+    "Side_left_E02_DRAFT.dxf",
+    "Side_right_E02_DRAFT.dxf",
+    "Bottom_E02_DRAFT.dxf",
+    "Top_E02_DRAFT.dxf",
+    "Baffle_E02_DRAFT.dxf",
+    "Rear_removable_E02_DRAFT.dxf",
+    "Service_partition_E02_DRAFT.dxf",
+    "Service_floor_E02_DRAFT.dxf",
+    "Brace_lower_E02_DRAFT.dxf"
+  ],
+  "cloud_file_id": "urn:adsk.wipprod:dm.lineage:ysIC-xyzTBCF_Lm4n8ZEVg"
+}

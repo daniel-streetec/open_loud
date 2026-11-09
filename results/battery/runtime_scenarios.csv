@@ -1,0 +1,25 @@
+option,path,profile,nominal_Wh,power_low_W,power_high_W,runtime_low_h,runtime_high_h,status
+tool_18V_4Ah,direct,normal,72,4.272727272727273,11.53076923076923,4.683122081387592,15.165957446808507,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+tool_18V_4Ah,boost,normal,72,4.944268774703557,13.865610859728507,3.8945272982410337,13.106083619793747,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+tool_18V_4Ah,direct,loud,72,9.954545454545453,26.915384615384614,2.006287510717348,6.509589041095891,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+tool_18V_4Ah,boost,loud,72,11.120158102766798,31.965158371040722,1.6893393542176862,5.827255278310941,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_6Ah,direct,normal,76.8,4.272727272727273,11.53076923076923,4.995330220146764,16.17702127659574,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_6Ah,boost,normal,76.8,4.944268774703557,13.865610859728507,4.154162451457102,13.97982252778,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_6Ah,direct,loud,76.8,9.954545454545453,26.915384615384614,2.1400400114318376,6.943561643835618,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_6Ah,boost,loud,76.8,11.120158102766798,31.965158371040722,1.8019619778321985,6.21573896353167,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_18Ah,direct,normal,230.4,4.272727272727273,11.53076923076923,14.985990660440295,48.53106382978723,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_18Ah,boost,normal,230.4,4.944268774703557,13.865610859728507,12.462487354371309,41.93946758334,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_18Ah,direct,loud,230.4,9.954545454545453,26.915384615384614,6.420120034295514,20.830684931506852,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_18Ah,boost,loud,230.4,11.120158102766798,31.965158371040722,5.405885933496596,18.64721689059501,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_50Ah,direct,normal,640,4.272727272727273,11.53076923076923,41.62775183455637,134.80851063829786,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_50Ah,boost,normal,640,4.944268774703557,13.865610859728507,34.61802042880919,116.49852106483331,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_50Ah,direct,loud,640,9.954545454545453,26.915384615384614,17.833666761931983,57.86301369863015,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EREMIT_12p8V_50Ah,boost,loud,640,11.120158102766798,31.965158371040722,15.016349815268322,51.79782469609725,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EVE_LF32_6S_DIY,direct,normal,614.4,4.272727272727273,11.53076923076923,39.96264176117411,129.41617021276593,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EVE_LF32_6S_DIY,boost,normal,614.4,4.944268774703557,13.865610859728507,33.23329961165682,111.83858022224,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EVE_LF32_6S_DIY,direct,loud,614.4,9.954545454545453,26.915384615384614,17.1203200914547,55.54849315068494,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+EVE_LF32_6S_DIY,boost,loud,614.4,11.120158102766798,31.965158371040722,14.415695822657588,49.72591170825336,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+user_previous_box_reference,direct,normal,1280,4.272727272727273,11.53076923076923,83.25550366911274,269.6170212765957,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+user_previous_box_reference,boost,normal,1280,4.944268774703557,13.865610859728507,69.23604085761838,232.99704212966662,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+user_previous_box_reference,direct,loud,1280,9.954545454545453,26.915384615384614,35.66733352386397,115.7260273972603,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this
+user_previous_box_reference,boost,loud,1280,11.120158102766798,31.965158371040722,30.032699630536644,103.5956493921945,unmeasured_energy_scenario; voltage cutoff/thermal/pack limits may reduce this

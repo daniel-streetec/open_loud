@@ -1,0 +1,1596 @@
+{
+  "schema_version": 1,
+  "revision": "E04",
+  "date": "2026-11-09",
+  "convention": "SI intern; RMS voltage/current, peak excursion/port speed; null uncertainty means unknown, never zero",
+  "environment": {
+    "rho": {
+      "value": 1.2,
+      "unit": "kg/m3",
+      "source": "report:p8",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "c": {
+      "value": 343,
+      "unit": "m/s",
+      "source": "report:p8",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "p0": {
+      "value": 2e-05,
+      "unit": "Pa",
+      "source": "report:p8",
+      "status": "reference",
+      "uncertainty": null
+    },
+    "distance": {
+      "value": 1,
+      "unit": "m",
+      "source": "report:p8",
+      "status": "model_condition",
+      "uncertainty": null
+    }
+  },
+  "model": {
+    "ql": {
+      "value": 7,
+      "unit": "1",
+      "source": "report:p8",
+      "status": "assumption",
+      "uncertainty": {
+        "range": [
+          4,
+          12
+        ],
+        "kind": "sensitivity_not_confidence"
+      }
+    },
+    "qp": {
+      "value": 20,
+      "unit": "1",
+      "source": "report:p8",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "port_peak_limit": {
+      "value": 17,
+      "unit": "m/s",
+      "source": "report:p7",
+      "status": "comparison_threshold_not_validation",
+      "uncertainty": null
+    },
+    "rail_fraction": {
+      "value": 0.9,
+      "unit": "1",
+      "source": "report:p8",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "end_correction": {
+      "value": 0.73,
+      "unit": "1",
+      "source": "report:p8",
+      "status": "equivalent_round_port_approximation",
+      "uncertainty": null
+    },
+    "f_min": {
+      "value": 20,
+      "unit": "Hz",
+      "source": "engineering:E01",
+      "status": "grid_choice",
+      "uncertainty": null
+    },
+    "f_max": {
+      "value": 400,
+      "unit": "Hz",
+      "source": "engineering:E01",
+      "status": "grid_choice_interpret_below_250Hz",
+      "uncertainty": null
+    },
+    "points": {
+      "value": 1401,
+      "unit": "count",
+      "source": "report:attachment_modell.py",
+      "status": "grid_choice",
+      "uncertainty": null
+    },
+    "norm_low": {
+      "value": 180,
+      "unit": "Hz",
+      "source": "report:p7",
+      "status": "reference_band",
+      "uncertainty": null
+    },
+    "norm_high": {
+      "value": 250,
+      "unit": "Hz",
+      "source": "report:p7",
+      "status": "reference_band",
+      "uncertainty": null
+    }
+  },
+  "drivers": {
+    "10FE200-4": {
+      "manufacturer": "FaitalPRO",
+      "mpn": "02504057",
+      "source": "S31",
+      "Re": {
+        "value": 3.0,
+        "unit": "ohm",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Bl": {
+        "value": 7.0,
+        "unit": "N/A",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Mms": {
+        "value": 0.0248,
+        "unit": "kg",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Rms": {
+        "value": 0.9,
+        "unit": "kg/s",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Fs": {
+        "value": 55,
+        "unit": "Hz",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Sd": {
+        "value": 0.036,
+        "unit": "m2",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Xmax": {
+        "value": 0.00462,
+        "unit": "m",
+        "source": "S31",
+        "status": "geometric_with_gap_allowance_not_THD_limit",
+        "uncertainty": null
+      },
+      "Pn": {
+        "value": 150,
+        "unit": "W",
+        "source": "S31",
+        "status": "AES_rating_not_continuous_sine_copper_limit",
+        "uncertainty": null
+      },
+      "Vas": {
+        "value": 0.061,
+        "unit": "m3",
+        "source": "S31",
+        "status": "manufacturer_nominal_check_only",
+        "uncertainty": null
+      },
+      "Qts": {
+        "value": 0.49,
+        "unit": "1",
+        "source": "S31",
+        "status": "manufacturer_nominal_check_only",
+        "uncertainty": null
+      },
+      "mass": {
+        "value": 2.2,
+        "unit": "kg",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "displacement": {
+        "value": 0.0006,
+        "unit": "m3",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      }
+    },
+    "10FE300-4": {
+      "manufacturer": "FaitalPRO",
+      "mpn": "02504357",
+      "source": "S33",
+      "Re": {
+        "value": 3.3,
+        "unit": "ohm",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Bl": {
+        "value": 9.7,
+        "unit": "N/A",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Mms": {
+        "value": 0.037,
+        "unit": "kg",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Rms": {
+        "value": 1.1,
+        "unit": "kg/s",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Fs": {
+        "value": 50,
+        "unit": "Hz",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Sd": {
+        "value": 0.0358,
+        "unit": "m2",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Xmax": {
+        "value": 0.00547,
+        "unit": "m",
+        "source": "S33",
+        "status": "geometric_with_gap_allowance_not_THD_limit",
+        "uncertainty": null
+      },
+      "Pn": {
+        "value": 250,
+        "unit": "W",
+        "source": "S33",
+        "status": "AES_rating_not_continuous_sine_copper_limit",
+        "uncertainty": null
+      },
+      "Vas": {
+        "value": 0.049,
+        "unit": "m3",
+        "source": "S33",
+        "status": "manufacturer_nominal_check_only",
+        "uncertainty": null
+      },
+      "Qts": {
+        "value": 0.39,
+        "unit": "1",
+        "source": "S33",
+        "status": "manufacturer_nominal_check_only",
+        "uncertainty": null
+      },
+      "mass": {
+        "value": 3.2,
+        "unit": "kg",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "displacement": {
+        "value": 0.00125,
+        "unit": "m3",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      }
+    }
+  },
+  "concepts": {
+    "A0": {
+      "driver": "10FE200-4",
+      "hf": "DE10",
+      "horn": "ME10V3",
+      "power_path": "direct",
+      "Vb": {
+        "value": 0.034,
+        "unit": "m3",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "Fb": {
+        "value": 50,
+        "unit": "Hz",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "port_area": {
+        "value": 0.0065,
+        "unit": "m2",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "rail": {
+        "value": 18,
+        "unit": "V",
+        "source": "report:p7",
+        "status": "nominal_scenario",
+        "uncertainty": {
+          "range": [
+            15,
+            21
+          ],
+          "kind": "scenario_not_tolerance"
+        }
+      },
+      "amp_rms_cap": {
+        "value": 14.142135623730951,
+        "unit": "V",
+        "source": "report:p8_50W_at_4ohm",
+        "status": "provisional_cap",
+        "uncertainty": null
+      },
+      "mass_low": {
+        "value": 8,
+        "unit": "kg",
+        "source": "report:p1",
+        "status": "unverified_estimate",
+        "uncertainty": null
+      },
+      "mass_high": {
+        "value": 10,
+        "unit": "kg",
+        "source": "report:p1",
+        "status": "unverified_estimate",
+        "uncertainty": null
+      }
+    },
+    "A1": {
+      "driver": "10FE300-4",
+      "hf": "CDX1-1445",
+      "horn": "H1-8050",
+      "power_path": "boost",
+      "Vb": {
+        "value": 0.034,
+        "unit": "m3",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "Fb": {
+        "value": 48,
+        "unit": "Hz",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "port_area": {
+        "value": 0.008,
+        "unit": "m2",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "rail": {
+        "value": 23.5,
+        "unit": "V",
+        "source": "report:p7",
+        "status": "requires_boost_validation",
+        "uncertainty": null
+      },
+      "amp_rms_cap": {
+        "value": 14.142135623730951,
+        "unit": "V",
+        "source": "report:p8_50W_at_4ohm",
+        "status": "provisional_cap",
+        "uncertainty": null
+      },
+      "mass_low": {
+        "value": 10,
+        "unit": "kg",
+        "source": "report:p1",
+        "status": "unverified_estimate",
+        "uncertainty": null
+      },
+      "mass_high": {
+        "value": 12,
+        "unit": "kg",
+        "source": "report:p1",
+        "status": "conflicts_with_11kg_target",
+        "uncertainty": null
+      }
+    }
+  },
+  "mechanical": {
+    "height": {
+      "value": 0.56,
+      "unit": "m",
+      "source": "engineering:E03_user_quality_and_assembly_priority",
+      "status": "reversible_layout_for_wider_webs",
+      "uncertainty": null
+    },
+    "width": {
+      "value": 0.33,
+      "unit": "m",
+      "source": "report:p12",
+      "status": "envelope_not_CAD",
+      "uncertainty": null
+    },
+    "depth": {
+      "value": 0.3,
+      "unit": "m",
+      "source": "report:p12",
+      "status": "envelope_not_CAD",
+      "uncertainty": null
+    },
+    "wall": {
+      "value": 0.012,
+      "unit": "m",
+      "source": "report:p12",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "density_low": {
+      "value": 600,
+      "unit": "kg/m3",
+      "source": "report:p12",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "density_high": {
+      "value": 700,
+      "unit": "kg/m3",
+      "source": "report:p12",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "lf_outer": {
+      "value": 0.2568,
+      "unit": "m",
+      "source": "S31",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_cutout": {
+      "value": 0.2333,
+      "unit": "m",
+      "source": "S31",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_depth": {
+      "value": 0.102,
+      "unit": "m",
+      "source": "S31",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_flange": {
+      "value": 0.008,
+      "unit": "m",
+      "source": "S31",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_pcd": {
+      "value": 0.2438,
+      "unit": "m",
+      "source": "S31",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_magnet_d": {
+      "value": 0.1153,
+      "unit": "m",
+      "source": "S31:drawing_4",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_magnet_depth": {
+      "value": 0.0347,
+      "unit": "m",
+      "source": "S31:drawing_4",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_basket_d": {
+      "value": 0.2318,
+      "unit": "m",
+      "source": "S31:drawing_4",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_hole_d": {
+      "value": 0.0057,
+      "unit": "m",
+      "source": "S31:drawing_4",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_width": {
+      "value": 0.1305,
+      "unit": "m",
+      "source": "S50",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_depth": {
+      "value": 0.09,
+      "unit": "m",
+      "source": "S50",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_cutout": {
+      "value": 0.104,
+      "unit": "m",
+      "source": "S50:cutout_shape_to_verify",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_throat": {
+      "value": 0.025,
+      "unit": "m",
+      "source": "S50",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_flange": {
+      "value": 0.0055,
+      "unit": "m",
+      "source": "S50:drawing_me10v3",
+      "status": "manufacturer_dimension",
+      "uncertainty": null
+    },
+    "hf_diameter": {
+      "value": 0.09,
+      "unit": "m",
+      "source": "S48",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "hf_depth": {
+      "value": 0.053,
+      "unit": "m",
+      "source": "S48",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_displacement": {
+      "value": 0.00015,
+      "unit": "m3",
+      "source": "S50",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_y": {
+      "value": 0.26,
+      "unit": "m",
+      "source": "engineering:E03_user_quality_and_assembly_priority",
+      "status": "reversible_layout_for_wider_webs",
+      "uncertainty": null
+    },
+    "horn_y": {
+      "value": 0.47,
+      "unit": "m",
+      "source": "engineering:E03_user_quality_and_assembly_priority",
+      "status": "reversible_layout_for_wider_webs",
+      "uncertainty": null
+    },
+    "port_y": {
+      "value": 0.07,
+      "unit": "m",
+      "source": "engineering:E03_user_quality_and_assembly_priority",
+      "status": "reversible_layout_for_wider_webs",
+      "uncertainty": null
+    },
+    "port_wall": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "service_floor_y": {
+      "value": 0.35,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "brace_y": {
+      "value": 0.14,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "brace_z": {
+      "value": 0.2,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "brace_height": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "baffle_clearance": {
+      "value": 0.0005,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "radial_manufacturing_allowance",
+      "uncertainty": null
+    },
+    "amp_reserve_width": {
+      "value": 0.11,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "unverified_installation_reserve_not_board_dimension",
+      "uncertainty": null
+    },
+    "amp_reserve_height": {
+      "value": 0.11,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "unverified_installation_reserve_not_board_dimension",
+      "uncertainty": null
+    },
+    "amp_reserve_depth": {
+      "value": 0.04,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "unverified_installation_reserve_not_board_dimension",
+      "uncertainty": null
+    },
+    "baffle_layers": {
+      "value": 2,
+      "unit": "count",
+      "source": "user:2026-11-09_quality_over_mass",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "rear_cleat_width": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "rear_cleat_depth": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "lf_backing_outer_d": {
+      "value": 0.28,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "lf_backing_thickness": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "lf_bolt_clearance": {
+      "value": 0.0055,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "horn_bolt_clearance": {
+      "value": 0.0045,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "horn_bolt_pitch": {
+      "value": 0.114,
+      "unit": "m",
+      "source": "S50:drawing_me10v3",
+      "status": "manufacturer_dimension",
+      "uncertainty": null
+    },
+    "port_backing_relief": {
+      "value": 0.001,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "rear_bolt_clearance": {
+      "value": 0.0055,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "rear_plate_width": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "rear_plate_length": {
+      "value": 0.04,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "rear_plate_thickness": {
+      "value": 0.005,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "rear_tap_pilot": {
+      "value": 0.0042,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "rear_retainer_bore": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "rear_retainer_pitch": {
+      "value": 0.024,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "gasket_groove_width": {
+      "value": 0.004,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "gasket_groove_depth": {
+      "value": 0.001,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "gasket_edge_offset": {
+      "value": 0.002,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "lf_backing_inner_d": {
+      "value": 0.226,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "conservative_basket_envelope_clearance_candidate",
+      "uncertainty": null
+    }
+  },
+  "energy": {
+    "nominal_Wh": {
+      "value": 72,
+      "unit": "Wh",
+      "source": "report:p10_18V_times_4Ah",
+      "status": "nominal_not_usable",
+      "uncertainty": null
+    },
+    "usable_low": {
+      "value": 58,
+      "unit": "Wh",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "usable_high": {
+      "value": 65,
+      "unit": "Wh",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "idle": {
+      "value": 1.8,
+      "unit": "W",
+      "source": "report:p8",
+      "status": "reported_manufacturer_not_independently_verified",
+      "uncertainty": null
+    },
+    "aux_low": {
+      "value": 0.2,
+      "unit": "W",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "aux_high": {
+      "value": 0.5,
+      "unit": "W",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "eta_low": {
+      "value": 0.65,
+      "unit": "1",
+      "source": "report:p10",
+      "status": "assumption_incremental",
+      "uncertainty": null
+    },
+    "eta_high": {
+      "value": 0.88,
+      "unit": "1",
+      "source": "report:p10",
+      "status": "assumption_incremental",
+      "uncertainty": null
+    },
+    "boost_eta_low": {
+      "value": 0.85,
+      "unit": "1",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "boost_eta_high": {
+      "value": 0.92,
+      "unit": "1",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "boost_idle": {
+      "value": 0.3,
+      "unit": "W",
+      "source": "engineering:E01",
+      "status": "explicit_unmeasured_scenario",
+      "uncertainty": null
+    },
+    "pack_resistance_low": {
+      "value": 0.05,
+      "unit": "ohm",
+      "source": "engineering:E01",
+      "status": "sensitivity_only_not_pack_spec",
+      "uncertainty": null
+    },
+    "pack_resistance_high": {
+      "value": 0.2,
+      "unit": "ohm",
+      "source": "engineering:E01",
+      "status": "sensitivity_only_not_pack_spec",
+      "uncertainty": null
+    },
+    "uvlo_trial": {
+      "value": 15,
+      "unit": "V",
+      "source": "report:p10",
+      "status": "trial_not_safe_cell_limit",
+      "uncertainty": null
+    },
+    "voc_nominal": {
+      "value": 18,
+      "unit": "V",
+      "source": "report:p10",
+      "status": "scenario",
+      "uncertainty": null
+    },
+    "voc_low": {
+      "value": 15.5,
+      "unit": "V",
+      "source": "engineering:E01",
+      "status": "near_cutoff_scenario",
+      "uncertainty": null
+    },
+    "peak_audio": {
+      "value": 75,
+      "unit": "W",
+      "source": "engineering:E01_50W_LF_plus_25W_8ohm_HF",
+      "status": "electrical_stress_scenario_not_music_or_HF_safe_rating",
+      "uncertainty": null
+    },
+    "profiles": {
+      "background": {
+        "value": [
+          0.5,
+          1.5
+        ],
+        "unit": "W",
+        "source": "report:p10",
+        "status": "mean_audio_scenario",
+        "uncertainty": null
+      },
+      "normal": {
+        "value": [
+          2,
+          6
+        ],
+        "unit": "W",
+        "source": "report:p10",
+        "status": "mean_audio_scenario",
+        "uncertainty": null
+      },
+      "loud": {
+        "value": [
+          7,
+          16
+        ],
+        "unit": "W",
+        "source": "report:p10",
+        "status": "mean_audio_scenario",
+        "uncertainty": null
+      },
+      "near_max": {
+        "value": [
+          16,
+          28
+        ],
+        "unit": "W",
+        "source": "report:p10",
+        "status": "mean_audio_scenario",
+        "uncertainty": null
+      }
+    }
+  },
+  "integration": {
+    "basket_lip_depth": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "conservative_profile_assumption_not_manufacturer_dimension",
+      "uncertainty": null
+    },
+    "ring_radial_min": {
+      "value": 0.002,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "tool_socket_d": {
+      "value": 0.013,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "tool_joint_d": {
+      "value": 0.018,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "tool_stub": {
+      "value": 0.028,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "tool_max_angle": {
+      "value": 25,
+      "unit": "deg",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "horn_nut_plate_width": {
+      "value": 0.014,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "horn_nut_plate_height": {
+      "value": 0.024,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "horn_nut_plate_thickness": {
+      "value": 0.004,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "pcb_width": {
+      "value": 0.09144,
+      "unit": "m",
+      "source": "WONDOM:AA-JA32173:p3",
+      "status": "manufacturer_nominal",
+      "uncertainty": {
+        "plus_minus": 0.0005,
+        "unit": "m"
+      }
+    },
+    "pcb_height": {
+      "value": 0.0686,
+      "unit": "m",
+      "source": "WONDOM:AA-JA32173:p3",
+      "status": "manufacturer_nominal",
+      "uncertainty": {
+        "plus_minus": 0.0005,
+        "unit": "m"
+      }
+    },
+    "pcb_thickness": {
+      "value": 0.0016,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "unverified_board_thickness",
+      "uncertainty": null
+    },
+    "pcb_total_depth": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "WONDOM:AA-JA32173:p3",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    },
+    "pcb_hole_pitch_x": {
+      "value": 0.0838,
+      "unit": "m",
+      "source": "WONDOM:AA-JA32173:p3",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    },
+    "pcb_hole_pitch_y": {
+      "value": 0.061,
+      "unit": "m",
+      "source": "WONDOM:AA-JA32173:p3",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    },
+    "pcb_hole_d": {
+      "value": 0.0036,
+      "unit": "m",
+      "source": "WONDOM:AA-JA32173:p3",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    },
+    "pcb_origin": {
+      "value": [
+        0.045,
+        0.39,
+        0.2
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "tray_origin": {
+      "value": [
+        0.035,
+        0.375,
+        0.19
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "tray_size": {
+      "value": [
+        0.12,
+        0.105,
+        0.003
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "gland_thread_d": {
+      "value": 0.012,
+      "unit": "m",
+      "source": "LAPP:DB53111000EN",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    },
+    "gland_thread_length": {
+      "value": 0.008,
+      "unit": "m",
+      "source": "LAPP:DB53111000EN",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    },
+    "gland_body_d": {
+      "value": 0.0166,
+      "unit": "m",
+      "source": "LAPP:DB53111000EN",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    },
+    "gland_body_length": {
+      "value": 0.022,
+      "unit": "m",
+      "source": "LAPP:DB53111000EN",
+      "status": "derived_from_30mm_total_minus_8mm_thread",
+      "uncertainty": null
+    },
+    "gland_nut_size": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "wrench_space_envelope_not_manufacturer_dimension",
+      "uncertainty": null
+    },
+    "gland_nut_depth": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "counter_nut_candidate",
+      "uncertainty": null
+    },
+    "bulkhead_plate_size": {
+      "value": [
+        0.09,
+        0.003,
+        0.045
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "bulkhead_plate_origin": {
+      "value": [
+        0.215,
+        0.363,
+        0.19
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "bulkhead_opening_origin": {
+      "value": [
+        0.225,
+        0.35,
+        0.2
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "bulkhead_opening_size": {
+      "value": [
+        0.07,
+        0.012,
+        0.025
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "bulkhead_seal": {
+      "value": 0.001,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "gland_cable_range": {
+      "value": [
+        0.0035,
+        0.007
+      ],
+      "unit": "m",
+      "source": "LAPP:DB53111000EN",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    },
+    "cable_bend_radius": {
+      "value": 0.015,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "3x_5mm_OD_design_assumption_verify_selected_cable",
+      "uncertainty": null
+    },
+    "copper_resistivity_20C": {
+      "value": 0.0175,
+      "unit": "ohm*mm2/m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "copper_alpha": {
+      "value": 0.00393,
+      "unit": "1/K",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "power_conductor": {
+      "value": 1.5,
+      "unit": "mm2",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "lf_conductor": {
+      "value": 1.0,
+      "unit": "mm2",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "hf_conductor": {
+      "value": 0.75,
+      "unit": "mm2",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "power_cable_od": {
+      "value": 0.0065,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "procurement_target_not_measured",
+      "uncertainty": null
+    },
+    "speaker_cable_od": {
+      "value": 0.005,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "procurement_target_not_measured",
+      "uncertainty": null
+    },
+    "supply_max_scenario": {
+      "value": 8,
+      "unit": "A",
+      "source": "engineering:E04",
+      "status": "stress_scenario_not_fuse_approval",
+      "uncertainty": null
+    },
+    "power_route": {
+      "value": [
+        [
+          0.385,
+          0.365,
+          0.23
+        ],
+        [
+          0.385,
+          0.42,
+          0.23
+        ],
+        [
+          0.3,
+          0.42,
+          0.23
+        ],
+        [
+          0.26,
+          0.42,
+          0.22
+        ],
+        [
+          0.24,
+          0.42,
+          0.22
+        ]
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "lf_route": {
+      "value": [
+        [
+          0.15,
+          0.42,
+          0.222
+        ],
+        [
+          0.28,
+          0.42,
+          0.222
+        ],
+        [
+          0.28,
+          0.39,
+          0.2125
+        ],
+        [
+          0.28,
+          0.31,
+          0.2125
+        ],
+        [
+          0.29,
+          0.31,
+          0.12
+        ],
+        [
+          0.245,
+          0.31,
+          0.1
+        ],
+        [
+          0.18,
+          0.34,
+          0.1
+        ]
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "hf_route": {
+      "value": [
+        [
+          0.15,
+          0.44,
+          0.222
+        ],
+        [
+          0.24,
+          0.44,
+          0.222
+        ],
+        [
+          0.24,
+          0.41,
+          0.2125
+        ],
+        [
+          0.24,
+          0.33,
+          0.2125
+        ],
+        [
+          0.24,
+          0.33,
+          0.245
+        ],
+        [
+          0.06,
+          0.33,
+          0.245
+        ],
+        [
+          0.06,
+          0.33,
+          0.145
+        ],
+        [
+          0.06,
+          0.47,
+          0.145
+        ],
+        [
+          0.215,
+          0.47,
+          0.145
+        ]
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "slack_fraction": {
+      "value": 0.15,
+      "unit": "1",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "termination_allowance": {
+      "value": 0.1,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "corner_leg": {
+      "value": 0.045,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "corner_thickness": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "rear_guard_lip": {
+      "value": 0.009,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "edge_leg": {
+      "value": 0.015,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "edge_thickness": {
+      "value": 0.0015,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "rail_end_gap": {
+      "value": 0.001,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "front_grille_origin": {
+      "value": [
+        0.018,
+        0.028,
+        -0.0244
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "front_grille_size": {
+      "value": [
+        0.294,
+        0.504
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "mesh_pitch": {
+      "value": 0.006,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "mesh_wire": {
+      "value": 0.0012,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "grille_frame_width": {
+      "value": 0.01,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "port_hood_origin": {
+      "value": [
+        0.075,
+        0.015,
+        -0.084
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "port_hood_size": {
+      "value": [
+        0.18,
+        0.115,
+        0.058
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "hood_wall": {
+      "value": 0.004,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "rain_drip_cover_depth": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "feet_height": {
+      "value": 0.015,
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "side_plate_origin": {
+      "value": [
+        0.332,
+        0.4,
+        0.2
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "side_plate_size": {
+      "value": [
+        0.003,
+        0.08,
+        0.06
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "side_hood_origin": {
+      "value": [
+        0.335,
+        0.39,
+        0.198
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    },
+    "side_hood_size": {
+      "value": [
+        0.065,
+        0.096,
+        0.064
+      ],
+      "unit": "m",
+      "source": "engineering:E04",
+      "status": "design_candidate_not_physical_validation",
+      "uncertainty": null
+    }
+  },
+  "approval": "REJECTED_by_user_2026-11-09_overbuilt_exterior_and_bulkhead"
+}

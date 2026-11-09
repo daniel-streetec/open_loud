@@ -1,0 +1,45 @@
+{
+  "status": "trade_study_not_runtime_guarantee",
+  "usb_required": false,
+  "festival_reference": "Wednesday-Sunday from user, duty unknown",
+  "demands": [
+    {
+      "music_h": 40,
+      "profile": "normal",
+      "required_nominal_low_Wh": 219.74527887571367,
+      "required_nominal_high_Wh": 739.4992458521871
+    },
+    {
+      "music_h": 40,
+      "profile": "loud",
+      "required_nominal_low_Wh": 494.22924901185763,
+      "required_nominal_high_Wh": 1704.8084464555052
+    },
+    {
+      "music_h": 60,
+      "profile": "normal",
+      "required_nominal_low_Wh": 329.6179183135705,
+      "required_nominal_high_Wh": 1109.2488687782804
+    },
+    {
+      "music_h": 60,
+      "profile": "loud",
+      "required_nominal_low_Wh": 741.3438735177865,
+      "required_nominal_high_Wh": 2557.212669683258
+    },
+    {
+      "music_h": 80,
+      "profile": "normal",
+      "required_nominal_low_Wh": 439.49055775142733,
+      "required_nominal_high_Wh": 1478.9984917043741
+    },
+    {
+      "music_h": 80,
+      "profile": "loud",
+      "required_nominal_low_Wh": 988.4584980237153,
+      "required_nominal_high_Wh": 3409.6168929110104
+    }
+  ],
+  "nominal_voltage_limited_SPL_delta_12p8_vs18_dB": -2.9612507091087537,
+  "note": "Voltage SPL delta applies only when LF output is rail limited; full system limit may be excursion/thermal/limiter. Direct4S LFP below12V outside JAB supply specification."
+}

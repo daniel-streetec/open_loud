@@ -1,0 +1,2 @@
+# Preserve versioned source/export bytes: provenance hashes must survive checkout.
+* -text

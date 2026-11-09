@@ -1,0 +1,33 @@
+concept,id,manufacturer,mpn,quantity,purchase_unit,unit_price_EUR_gross,line_total_EUR_gross,date,source,price_status,mass_kg_each,alternative,approval,note
+A0,lf,FaitalPRO,02504057,1,piece,52.0,52.0,2026-11-09,S32,web_checked,2.2,other_concept_requires_revalidation,not_released,
+A0,hf,B&C,DE10-8,1,piece,42,42,2026-11-09,S49,report_only,0.8,other_concept_requires_crossover_measurement,not_released,
+A0,horn,B&C,ME10V3,1,piece,19,19,2026-11-09,S51,report_only,0.17,,not_released,
+A0,amp_dsp_bt,Wondom,AA-JA32173,1,module,48.8,48.8,2026-11-09,S59,report_only_fetch_timeout,,KABD-250_unqualified,not_released,
+A0,additional_cable_set,Wondom,,1,set,9.8,9.8,2026-11-09,S73,report_only,,,not_released,
+A0,pack_bms_charger,Einhell,4512042,1,kit,34.95,34.95,2026-11-09,S67,web_checked_stock_ambiguous,,,not_released,Includes OEM BMS and charger; revision/adapter protection unresolved
+A0,wood,,,2,1200x600x12mm_panel,24.95,49.9,2026-11-09,S74,report_only,,local_quoted_cut_panels,not_released,
+A0,finish,,,1,purchase_pack,12,12,2026-11-09,report:p11,allowance,,,not_released,Edge sealer and outdoor coating; consumption/SKU unresolved
+A0,grille,,,1,set,15,15,2026-11-09,report:p11,allowance,,,not_released,"Sheet plus protective layer, fasteners unresolved"
+A0,gasket_glue_fasteners,,,1,purchase_pack_each_group,11,11,2026-11-09,report:p11,allowance,,,not_released,"Must split into gasket, glue, screws, T-nuts and washers"
+A0,adapter_protection,,,1,set,18,18,2026-11-09,report:p11,allowance,,,not_released,"Holder, contacts, DC fuse/holder, UVLO/hysteresis; no SKU or rating approved"
+A0,controls_connectors,,,1,set,18,18,2026-11-09,report:p11,allowance,,,not_released,"Switch, wires, connectors, AUX and HF capacitor; sizes/counts unresolved"
+A0,carry_feet,,,1,set,18,18,2026-11-09,report:p11,allowance,,,not_released,"Handle, feet, straps, padding, metal backplates; mechanical validation pending"
+A0,shipping,,,1,combined_orders,19.89,19.89,2026-11-09,report:p11,report_only_no_checkout,,,not_released,
+A0,programmer,Wondom,DB-DP11226,1,piece,25.8,25.8,2026-11-09,S60,report_only,,,not_released,
+A1,lf,FaitalPRO,02504357,1,piece,85.99,85.99,2026-11-09,S34,web_checked,3.2,other_concept_requires_revalidation,not_released,
+A1,hf,Celestion,CDX1-1445-8,1,piece,55,55,2026-11-09,S88,report_only,1.0,other_concept_requires_crossover_measurement,not_released,
+A1,horn,Celestion,H1-8050,1,piece,18.5,18.5,2026-11-09,S94,report_only,,,not_released,
+A1,amp_dsp_bt,Wondom,AA-JA32173,1,module,48.8,48.8,2026-11-09,S59,report_only_fetch_timeout,,KABD-250_unqualified,not_released,
+A1,additional_cable_set,Wondom,,1,set,9.8,9.8,2026-11-09,S73,report_only,,,not_released,
+A1,pack_bms_charger,Einhell,4512042,1,kit,34.95,34.95,2026-11-09,S67,web_checked_stock_ambiguous,,,not_released,Includes OEM BMS and charger; revision/adapter protection unresolved
+A1,wood,,,2,1200x600x12mm_panel,24.95,49.9,2026-11-09,S74,report_only,,local_quoted_cut_panels,not_released,
+A1,finish,,,1,purchase_pack,12,12,2026-11-09,report:p11,allowance,,,not_released,Edge sealer and outdoor coating; consumption/SKU unresolved
+A1,grille,,,1,set,15,15,2026-11-09,report:p11,allowance,,,not_released,"Sheet plus protective layer, fasteners unresolved"
+A1,gasket_glue_fasteners,,,1,purchase_pack_each_group,11,11,2026-11-09,report:p11,allowance,,,not_released,"Must split into gasket, glue, screws, T-nuts and washers"
+A1,adapter_protection,,,1,set,18,18,2026-11-09,report:p11,allowance,,,not_released,"Holder, contacts, DC fuse/holder, UVLO/hysteresis; no SKU or rating approved"
+A1,controls_connectors,,,1,set,18,18,2026-11-09,report:p11,allowance,,,not_released,"Switch, wires, connectors, AUX and HF capacitor; sizes/counts unresolved"
+A1,carry_feet,,,1,set,18,18,2026-11-09,report:p11,allowance,,,not_released,"Handle, feet, straps, padding, metal backplates; mechanical validation pending"
+A1,boost,,,1,module,12.5,12.5,2026-11-09,S72,report_only,,,not_released,
+A1,boost_cooling_filter,,,1,set,12,12,2026-11-09,report:p11,allowance,,,not_released,
+A1,shipping,,,1,combined_orders,25.79,25.79,2026-11-09,report:p11,report_only_no_checkout,,,not_released,
+A1,programmer,Wondom,DB-DP11226,1,piece,25.8,25.8,2026-11-09,S60,report_only,,,not_released,

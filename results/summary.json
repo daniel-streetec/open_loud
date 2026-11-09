@@ -1,0 +1,101 @@
+{
+  "revision": "E05",
+  "model_status": "simulation_not_measurement",
+  "acoustics": [
+    {
+      "concept": "A0",
+      "F3_Hz": 73.32011129901211,
+      "F6_Hz": 60.44733713562274,
+      "F10_Hz": 47.538320500451675,
+      "port_effective_m": 0.22788877521527368,
+      "port_physical_m": 0.16147860432985212,
+      "SPL_30Hz_dB": 87.05895695654638,
+      "limit_30Hz": "excursion",
+      "SPL_40Hz_dB": 99.23574913845286,
+      "limit_40Hz": "rail",
+      "SPL_50Hz_dB": 103.07897268554116,
+      "limit_50Hz": "rail",
+      "SPL_63Hz_dB": 106.90099536547261,
+      "limit_63Hz": "rail",
+      "SPL_80Hz_dB": 110.39728713384972,
+      "limit_80Hz": "rail",
+      "SPL_100Hz_dB": 112.40125042060929,
+      "limit_100Hz": "rail"
+    },
+    {
+      "concept": "A0-sealed-control",
+      "F3_Hz": 82.59852488649308,
+      "F6_Hz": 66.10903977937629,
+      "F10_Hz": 51.79512753332356,
+      "port_effective_m": 0,
+      "port_physical_m": 0,
+      "SPL_30Hz_dB": 92.02006213345011,
+      "limit_30Hz": "excursion",
+      "SPL_40Hz_dB": 97.01761159778212,
+      "limit_40Hz": "excursion",
+      "SPL_50Hz_dB": 100.89401211810437,
+      "limit_50Hz": "excursion",
+      "SPL_63Hz_dB": 104.90883392280688,
+      "limit_63Hz": "excursion",
+      "SPL_80Hz_dB": 108.32024737229075,
+      "limit_80Hz": "rail",
+      "SPL_100Hz_dB": 110.4242919526348,
+      "limit_100Hz": "rail"
+    },
+    {
+      "concept": "A1",
+      "F3_Hz": 61.01603401890941,
+      "F6_Hz": 49.00061757596406,
+      "F10_Hz": 40.18570279484527,
+      "port_effective_m": 0.30433864211441475,
+      "port_physical_m": 0.23066317247142606,
+      "SPL_30Hz_dB": 89.56082959616542,
+      "limit_30Hz": "excursion",
+      "SPL_40Hz_dB": 101.61220933053494,
+      "limit_40Hz": "board_cap",
+      "SPL_50Hz_dB": 106.05801165447329,
+      "limit_50Hz": "board_cap",
+      "SPL_63Hz_dB": 109.04016886542621,
+      "limit_63Hz": "board_cap",
+      "SPL_80Hz_dB": 110.67029729352333,
+      "limit_80Hz": "board_cap",
+      "SPL_100Hz_dB": 111.34491608103708,
+      "limit_100Hz": "board_cap"
+    }
+  ],
+  "TS_consistency": {
+    "A0": {
+      "derived_Vas_l": 61.77854720435056,
+      "listed_Vas_l": 61.0,
+      "Vas_deviation_percent": 1.2763068923779652,
+      "derived_Qts": 0.4973074328235758,
+      "listed_Qts": 0.49
+    },
+    "A1": {
+      "derived_Vas_l": 49.548905989894635,
+      "listed_Vas_l": 49.0,
+      "Vas_deviation_percent": 1.1202163059074177,
+      "derived_Qts": 0.3925383370889416,
+      "listed_Qts": 0.39
+    }
+  },
+  "costs": {
+    "A0": {
+      "material": 368.34,
+      "tools": 25.8,
+      "allowance": 92
+    },
+    "A1": {
+      "material": 445.23,
+      "tools": 25.8,
+      "allowance": 104
+    }
+  },
+  "envelope": {
+    "inner_geometric_l": 45.268415999999995,
+    "shell_mass_before_cutouts_kg": [
+      6.102950400000006,
+      7.120108800000008
+    ]
+  }
+}

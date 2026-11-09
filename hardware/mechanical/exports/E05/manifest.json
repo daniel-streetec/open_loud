@@ -1,0 +1,48 @@
+{
+  "sources": {
+    "data/parameters.json": "11f9425ec687694d9bb6695f9ce99c5de503035a9e2f50c3d5fb92f21ef7da7d",
+    "hardware/mechanical/build_wiring_e05.py": "09f40a43772ecd881188583e0ec0696dff7101e6a9e5e05e903a2ffc50cc8942",
+    "hardware/mechanical/verify_wiring_e05.py": "0f8d529b429c18ce238efcd8dd6efb80b28f2ebf8fc36a54a400884da69c4e5a",
+    "tools/generate_wiring.py": "083b1ccf7e41ae079e0fce54cddc1ea0cd86ee48f41e8bf5ae0b4765394c8880",
+    "hardware/mechanical/exports/E03/OPEN_LOUD_A0_E03.f3d": "22e956f76d1257a4561a43cbf662858d8adfd022ed31758b60c13dae4714a187"
+  },
+  "fusion_version": "2705.1.15",
+  "exports": {
+    "front.png": {
+      "bytes": 145052,
+      "sha256": "2bd0e53d97d4ed0cf2b8522eddf9007fac7a923caabd6a9a43dea733356406a2"
+    },
+    "inside.png": {
+      "bytes": 306732,
+      "sha256": "bd856186bbd333317aab3ab0a70efc397998eed207e15e075f00edd1a08ad5da"
+    },
+    "OPEN_LOUD_A0_E05.f3d": {
+      "bytes": 2361362,
+      "sha256": "39a39fcd35049b2efd887d9aaff6f266824fab35e6b72bfaeac924fccb9bda38"
+    },
+    "OPEN_LOUD_A0_E05.step": {
+      "bytes": 1523557,
+      "sha256": "c2e8fb1a263743370273c84fc641141abae665658d1e7160707398b13c9c9799"
+    },
+    "overview.png": {
+      "bytes": 145052,
+      "sha256": "2bd0e53d97d4ed0cf2b8522eddf9007fac7a923caabd6a9a43dea733356406a2"
+    },
+    "Service_floor_E05_LF_inside_counterbore.dxf": {
+      "bytes": 2327,
+      "sha256": "4401797be58b19886b010ab25541a445e965f6fd0830e57de39cad69527bfca8"
+    },
+    "Service_floor_E05_LF_M16_through.dxf": {
+      "bytes": 2327,
+      "sha256": "0da82d5bb3f96a061a578ab014bf81413576b5d5432cbdaa6ed8ebb13bf885d5"
+    },
+    "Service_partition_E05_HF_inside_counterbore.dxf": {
+      "bytes": 2341,
+      "sha256": "05b44792643011ee6d5acc1dc4d35c702aa9480492e405466d7d2274a37ac98f"
+    },
+    "Service_partition_E05_HF_M16_through.dxf": {
+      "bytes": 2341,
+      "sha256": "f97821ffc349f09005769b0fdc41a3cb609e2f56883243caf08c092a5f8c5c54"
+    }
+  }
+}

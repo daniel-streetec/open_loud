@@ -1,0 +1,10 @@
+{
+  "python": "3.13.7",
+  "source_sha256": {
+    "data/parameters.json": "11f9425ec687694d9bb6695f9ce99c5de503035a9e2f50c3d5fb92f21ef7da7d",
+    "data/components.json": "2d6c2df3c8c8fc517cef1c4366c250a9839d38441ec0c8a5d8fc722270e87041",
+    "simulation/model.py": "dc8ca8aabf8648e7ec08c1952b2ab509c0bcbcfc7697eb3754053f19eaf79b63",
+    "simulation/run.py": "4932de2be4dadee7eabeec57b89548dc15b309f2861ae24e583effdfaa763b00",
+    "docs/research/OPEN_LOUD_Forschungsbericht_Phase_1.pdf": "781e336f07b78e0714f0eaf2d6fd27babe3e848905366f5ffe0bd1206d7543d2"
+  }
+}

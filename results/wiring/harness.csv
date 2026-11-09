@@ -1,0 +1,4 @@
+id,current_A,conductor_mm2,route_length_m,cut_length_m,drop_V,cable_loss_W,status
+power,6,1.5,0.08298229715025705,0.25,0.3111519364417178,0.27703368,"PROVISIONAL: OEM pigtail, contacts, thermal test and exact endpoints unverified"
+lf,4,1.5,0.2930509671834868,0.46,0.15329110109447852,0.2265519872,"PROVISIONAL: OEM pigtail, contacts, thermal test and exact endpoints unverified"
+hf,2.1,1.5,0.18195478943644208,0.35,0.07336729695460123,0.047511276119999994,"PROVISIONAL: OEM pigtail, contacts, thermal test and exact endpoints unverified"

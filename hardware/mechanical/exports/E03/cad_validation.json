@@ -1,0 +1,373 @@
+{
+  "status": "passed",
+  "scope": "DXF units, closed contours, panel dimensions and mounting bores; F3D archive directory and actual Fusion native reimport; STEP syntax and actual Fusion reimport",
+  "native_zip_compression_methods": [
+    0,
+    93
+  ],
+  "native_zip_crc_checked_by_python": false,
+  "native_integrity_basis": "Actual Fusion import with parameter/body/timeline verification; Python ZIP CRC unavailable for unsupported compression methods",
+  "dxf": {
+    "Side_left_E03_DRAFT.dxf": {
+      "size_mm": [
+        560.0,
+        300.0
+      ],
+      "circle_diameters_mm": [],
+      "closed_polylines": 1
+    },
+    "Side_right_E03_DRAFT.dxf": {
+      "size_mm": [
+        560.0,
+        300.0
+      ],
+      "circle_diameters_mm": [],
+      "closed_polylines": 1
+    },
+    "Bottom_E03_DRAFT.dxf": {
+      "size_mm": [
+        306.0,
+        300.0
+      ],
+      "circle_diameters_mm": [],
+      "closed_polylines": 1
+    },
+    "Top_E03_DRAFT.dxf": {
+      "size_mm": [
+        306.0,
+        300.0
+      ],
+      "circle_diameters_mm": [],
+      "closed_polylines": 1
+    },
+    "Baffle_E03_DRAFT.dxf": {
+      "size_mm": [
+        306.0,
+        536.0
+      ],
+      "circle_diameters_mm": [
+        4.499999999999993,
+        4.499999999999993,
+        4.500000000000028,
+        4.500000000000028,
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.500000000000007,
+        5.500000000000007,
+        5.500000000000007,
+        97.97283682930001,
+        234.30000000000007
+      ],
+      "closed_polylines": 2
+    },
+    "Rear_removable_E03_DRAFT.dxf": {
+      "size_mm": [
+        306.0,
+        536.0
+      ],
+      "circle_diameters_mm": [
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999998,
+        5.499999999999998,
+        5.499999999999998,
+        5.500000000000007,
+        5.500000000000007
+      ],
+      "closed_polylines": 1
+    },
+    "Baffle_inner_lamination_E03_DRAFT.dxf": {
+      "size_mm": [
+        306.0,
+        536.0
+      ],
+      "circle_diameters_mm": [
+        4.499999999999993,
+        4.499999999999993,
+        4.500000000000028,
+        4.500000000000028,
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.500000000000007,
+        5.500000000000007,
+        5.500000000000007,
+        97.97283682930001,
+        234.30000000000007
+      ],
+      "closed_polylines": 2
+    },
+    "LF_steel_backing_ring_candidate_E03_DRAFT.dxf": {
+      "size_mm": [
+        280.0,
+        280.0
+      ],
+      "circle_diameters_mm": [
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.499999999999972,
+        5.500000000000007,
+        5.500000000000007,
+        5.500000000000007,
+        220.0,
+        280.0
+      ],
+      "closed_polylines": 0
+    },
+    "Rear_cleat_left_E03_DRAFT.dxf": {
+      "size_mm": [
+        20.0,
+        536.0
+      ],
+      "circle_diameters_mm": [],
+      "closed_polylines": 1
+    },
+    "Rear_cleat_right_E03_DRAFT.dxf": {
+      "size_mm": [
+        20.0,
+        536.0
+      ],
+      "circle_diameters_mm": [],
+      "closed_polylines": 1
+    },
+    "Rear_cleat_bottom_E03_DRAFT.dxf": {
+      "size_mm": [
+        266.0,
+        20.0
+      ],
+      "circle_diameters_mm": [
+        5.499999999999972,
+        5.500000000000007
+      ],
+      "closed_polylines": 1
+    },
+    "Rear_cleat_top_E03_DRAFT.dxf": {
+      "size_mm": [
+        266.0,
+        20.0
+      ],
+      "circle_diameters_mm": [
+        5.499999999999972,
+        5.500000000000007
+      ],
+      "closed_polylines": 1
+    },
+    "Service_partition_E03_DRAFT.dxf": {
+      "size_mm": [
+        306.0,
+        186.0
+      ],
+      "circle_diameters_mm": [],
+      "closed_polylines": 1
+    },
+    "Service_floor_E03_DRAFT.dxf": {
+      "size_mm": [
+        306.0,
+        122.09850915300001
+      ],
+      "circle_diameters_mm": [],
+      "closed_polylines": 1
+    },
+    "Brace_lower_E03_DRAFT.dxf": {
+      "size_mm": [
+        306.0,
+        20.0
+      ],
+      "circle_diameters_mm": [],
+      "closed_polylines": 1
+    },
+    "Rear_thread_plate_left_0.15_E03_DRAFT.dxf": {
+      "size_mm": [
+        20.0,
+        40.0
+      ],
+      "circle_diameters_mm": [
+        2.9999999999999982,
+        2.9999999999999982,
+        4.199999999999999
+      ],
+      "closed_polylines": 1
+    },
+    "Rear_thread_plate_left_0.5_E03_DRAFT.dxf": {
+      "size_mm": [
+        20.0,
+        40.0
+      ],
+      "circle_diameters_mm": [
+        2.9999999999999982,
+        2.9999999999999982,
+        4.199999999999999
+      ],
+      "closed_polylines": 1
+    },
+    "Rear_thread_plate_left_0.85_E03_DRAFT.dxf": {
+      "size_mm": [
+        20.0,
+        40.0
+      ],
+      "circle_diameters_mm": [
+        2.9999999999999982,
+        2.9999999999999982,
+        4.199999999999999
+      ],
+      "closed_polylines": 1
+    },
+    "Rear_thread_plate_right_0.15_E03_DRAFT.dxf": {
+      "size_mm": [
+        20.0,
+        40.0
+      ],
+      "circle_diameters_mm": [
+        2.9999999999999716,
+        2.9999999999999716,
+        4.200000000000017
+      ],
+      "closed_polylines": 1
+    },
+    "Rear_thread_plate_right_0.5_E03_DRAFT.dxf": {
+      "size_mm": [
+        20.0,
+        40.0
+      ],
+      "circle_diameters_mm": [
+        2.9999999999999716,
+        2.9999999999999716,
+        4.200000000000017
+      ],
+      "closed_polylines": 1
+    },
+    "Rear_thread_plate_right_0.85_E03_DRAFT.dxf": {
+      "size_mm": [
+        20.0,
+        40.0
+      ],
+      "circle_diameters_mm": [
+        2.9999999999999716,
+        2.9999999999999716,
+        4.200000000000017
+      ],
+      "closed_polylines": 1
+    },
+    "Rear_thread_plate_bottom_0.27_E03_DRAFT.dxf": {
+      "size_mm": [
+        40.0,
+        20.0
+      ],
+      "circle_diameters_mm": [
+        3.000000000000007,
+        3.000000000000007,
+        4.200000000000017
+      ],
+      "closed_polylines": 1
+    },
+    "Rear_thread_plate_bottom_0.73_E03_DRAFT.dxf": {
+      "size_mm": [
+        39.99999999999997,
+        20.0
+      ],
+      "circle_diameters_mm": [
+        2.9999999999999716,
+        2.9999999999999716,
+        4.200000000000017
+      ],
+      "closed_polylines": 1
+    },
+    "Rear_thread_plate_top_0.27_E03_DRAFT.dxf": {
+      "size_mm": [
+        40.0,
+        20.0
+      ],
+      "circle_diameters_mm": [
+        3.000000000000007,
+        3.000000000000007,
+        4.200000000000017
+      ],
+      "closed_polylines": 1
+    },
+    "Rear_thread_plate_top_0.73_E03_DRAFT.dxf": {
+      "size_mm": [
+        39.99999999999997,
+        20.0
+      ],
+      "circle_diameters_mm": [
+        2.9999999999999716,
+        2.9999999999999716,
+        4.200000000000017
+      ],
+      "closed_polylines": 1
+    },
+    "Rear_gasket_recess_E03_DRAFT.dxf": {
+      "size_mm": [
+        302.0,
+        532.0
+      ],
+      "circle_diameters_mm": [],
+      "closed_polylines": 2
+    }
+  },
+  "source_sha256": {
+    "data/parameters.json": "7418af3353d20f2b215f57a466a2556a015e566fcb3ec13aa0fd4da9eeeed250",
+    "tools/check_cad_exports.py": "7ff3f9c868262e00fe0daf12af8b9b2f5aecf463be5afd6aa433d10253f99146",
+    "tools/fusion_bridge.py": "7c7141b91212d772b56b0c927d1c4c231e9e886fe53c6e24c97d410975b730f7",
+    "hardware/mechanical/assemble_fusion_e03.py": "5059b42e97859582cb8668867e556408a71a752298084390f1f90d59c48fd9c9",
+    "hardware/mechanical/build_fusion.py": "0cd7755265001ef0e5246f72f2df24a38908435b518c98ac018e4fc650c7a9c7",
+    "hardware/mechanical/build_fusion_e03.py": "4a4648843c16470c3be6e7c0d5a14a48840e84b28992b5793d4792ff06641291",
+    "hardware/mechanical/check_native_roundtrip_e03.py": "9db7b47310ffee3b86018c322074d377bc336b1dfbdca8765c4a6e9bca85470b",
+    "hardware/mechanical/check_step_roundtrip.py": "9587b0630512cda8bdb8a3e486acbbd2fb97ec54996ae22b12fd39830f01e805",
+    "hardware/mechanical/check_step_roundtrip_e03.py": "c66a46762590a49f6870e0db594a50d06ad5815ceae81d41e8bc05ce8ec62da0",
+    "hardware/mechanical/finalize_fusion.py": "1570b7536d5544a947de986cd67fa43d1c3521966d73c28b31ae3c2506f47d32",
+    "hardware/mechanical/finalize_fusion_e03.py": "3c68b5b26aec103493e3157ca892ef9a7d0c68d286d27b1d0ea984dcc1f9fd3a",
+    "hardware/mechanical/inspect_fusion.py": "e728821db588fdcbc8fc56c8754f9a5209ca0b3a8d9c7786549764d88ba08e82",
+    "hardware/mechanical/layout.py": "f492eef5ee3eb08def5e0bb8e27e76da026546f13e7c271e5366f7f48de222e8",
+    "hardware/mechanical/probe_units.py": "f6b83e0021afb972ad4abf1d991abd57a27abeefa4f64c8772b7cc560d4ab627",
+    "hardware/mechanical/repair_cut_scope_e03.py": "4016bce1a6f8c755dddfae2c225879735b212a5005a2837dcc896275c5f22c47",
+    "hardware/mechanical/save_fusion.py": "09f9f5a45052bf860112decdf3ba873046689797393705bb845421166e1843ef"
+  },
+  "output_sha256": {
+    "Baffle_E03_DRAFT.dxf": "1fc5c4766e383436f9b5944853a6784907a00c9723669701de96d17056c2807a",
+    "Baffle_inner_lamination_E03_DRAFT.dxf": "9f9a1f1524a695bcad2072fc6f65012d7f339aa9264cbbbfe22f07ed58c6c81c",
+    "Bottom_E03_DRAFT.dxf": "4c57c83dbba2081b8c7a4e6a9ef9719098ca5bf95d2d2fd46824295bf8cf64e7",
+    "Brace_lower_E03_DRAFT.dxf": "0990cb1aa71babd3b8a8459da78766be117896ada5310345a7ca3f3269642c01",
+    "cutlist_DRAFT.csv": "a25c055a559090268301d7b44c0c658d927becbfd93386a06038ac57ca6376c0",
+    "fusion_validation.json": "940030df3d5409c98ef72a26f7d8c7d3dcc171d2fbe422c0e15c0a189266506e",
+    "LF_steel_backing_ring_candidate_E03_DRAFT.dxf": "8f69445cc88e780e56449fd07c2ba6023f9ee6eb0bbf5f7bc0da594b099b5b52",
+    "native_roundtrip.json": "4ab954473b34f1a94d5cca2c9f9a90e29d7c98f146cc3d642482e82619638d90",
+    "OPEN_LOUD_A0_E03.f3d": "22e956f76d1257a4561a43cbf662858d8adfd022ed31758b60c13dae4714a187",
+    "OPEN_LOUD_A0_E03.png": "df68a2ce209fcb6b2ddb624f38912a2243c2763dcbce7053fe18c7ba08cd6190",
+    "OPEN_LOUD_A0_E03.step": "7764e299ad3835d9deecb3404107361f8379a34b097900b322a0eb45dd756b19",
+    "OPEN_LOUD_A0_E03_front.png": "df68a2ce209fcb6b2ddb624f38912a2243c2763dcbce7053fe18c7ba08cd6190",
+    "OPEN_LOUD_A0_E03_inside.png": "1f4a9bbbc384035efeafccd55f9f6818800bae6afb330a3e11dd88d7cda1efb1",
+    "Rear_cleat_bottom_E03_DRAFT.dxf": "6bc7b5bf92faa82ffcb0327b988b2909b9c1760a810b6e34f8640f60c4b648c9",
+    "Rear_cleat_left_E03_DRAFT.dxf": "b2484a6d940b564c1c1aa160fc1651ff0327b92df90125a426a5e6d70a3775fe",
+    "Rear_cleat_right_E03_DRAFT.dxf": "4a68081546e851719a448b27b4e32b83a5dfc4459be08b0b1e5fc1828689a308",
+    "Rear_cleat_top_E03_DRAFT.dxf": "a5e99aaaffe8bddc9dcd1ee0ab447d2886b3afd98c64133041b1b9311eadd06d",
+    "Rear_gasket_recess_E03_DRAFT.dxf": "7ea5cec5632723df93070dbafc4e0c30c42346f3fa445c9592d95f80536eb8d4",
+    "Rear_removable_E03_DRAFT.dxf": "8772ffccdf02e57a49afc5478b310af72a7c873f71e8ff02cd2a378d1bf33742",
+    "Rear_thread_plate_bottom_0.27_E03_DRAFT.dxf": "a31e10a822f73f9c47c0fdf90065ac290cf7f87a6078d5c908da8779f383da8f",
+    "Rear_thread_plate_bottom_0.73_E03_DRAFT.dxf": "5dc3650da5218fa95f9e9dfa41fd0be66209fad9c6872e1c30f75bf4d63e938b",
+    "Rear_thread_plate_left_0.15_E03_DRAFT.dxf": "81473b182c068815ba4356511974f126c5e722c29f2631b4cc7308f95cf52f6a",
+    "Rear_thread_plate_left_0.5_E03_DRAFT.dxf": "96120dc5fca9a0fbd832b21f1800324368e47f5ec3edd92729e28bb7a7fba069",
+    "Rear_thread_plate_left_0.85_E03_DRAFT.dxf": "ec3ea9be76b852f9c683f1c88b2fc373120d0564b97a2022165d06a9d5dbd625",
+    "Rear_thread_plate_right_0.15_E03_DRAFT.dxf": "aaa39a53f3bd60c874ddf45dc7b8381a01a5b5ee62666dfdd22b19f88573d3f2",
+    "Rear_thread_plate_right_0.5_E03_DRAFT.dxf": "cdac89bc5851a64a7571351578317942312b0dfd969e3b366f12063446bcd688",
+    "Rear_thread_plate_right_0.85_E03_DRAFT.dxf": "f72d2eeefdfcc0c688726b1b74324dbba0a1239bca766bf92b7b4daf306f16cb",
+    "Rear_thread_plate_top_0.27_E03_DRAFT.dxf": "36915e05914f8c9718900985a67bc7938b51909fea74d8288e4634ab0a266ebf",
+    "Rear_thread_plate_top_0.73_E03_DRAFT.dxf": "441b0e497bf754405740e8a2fa4488f6f9288d7b5dcdbd0166e1ead9f8d8bc07",
+    "Service_floor_E03_DRAFT.dxf": "2c4f6caa41f7892d3c2546f4cadbd472a172112fbc147e69c0678dd827b66f0a",
+    "Service_partition_E03_DRAFT.dxf": "b8e0223deb3b1d6967d8c9c18f43c7b43d40611bc1e7ec1b08b535639c5fc2fc",
+    "Side_left_E03_DRAFT.dxf": "d3611cf4754eb12f5076376ab339c00b6456a5b93dfb6f4a8a52c77413b5e11e",
+    "Side_right_E03_DRAFT.dxf": "d3611cf4754eb12f5076376ab339c00b6456a5b93dfb6f4a8a52c77413b5e11e",
+    "step_roundtrip.json": "2a5b2d6cbfda1e0ee4ee44f99c6d4ed1f8c23695f9adf4e1db7b887ea392f39a",
+    "Top_E03_DRAFT.dxf": "4c57c83dbba2081b8c7a4e6a9ef9719098ca5bf95d2d2fd46824295bf8cf64e7"
+  }
+}

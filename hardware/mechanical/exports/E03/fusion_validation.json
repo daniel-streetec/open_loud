@@ -1,0 +1,1080 @@
+{
+  "fusion_version": "2705.1.15",
+  "project_name": "OPEN_LOUD",
+  "project_id": "a.YnVzaW5lc3M6c3RyZWV0ZWMyIzIwMjYxMTA5MTE2NzI5MDY4MQ",
+  "document_name": "OPEN_LOUD_A0_E03_Concept",
+  "net_l": 34.0,
+  "gross_internal_l": 45.268415999999995,
+  "service_z_mm": 165.90149084650423,
+  "service_excluded_l": 7.397704472592001,
+  "baffle_total_mm": 24,
+  "reinforcement_l": 1.080623170496907,
+  "rear_cleats_acoustic_l": 0.3768,
+  "steel_backing_l": 0.053826110183150075,
+  "port_length_mm": 161.47860433000002,
+  "port_d_mm": 90.9728368293,
+  "status": "concept_not_manufacturing_release",
+  "timeline_issues": [],
+  "solid_bodies": [
+    {
+      "component": "Side_left",
+      "body": "Side_left",
+      "solid": true,
+      "volume_cm3": 2016.0000000000005,
+      "size_mm": [
+        12.000000000000002,
+        560.0,
+        300.0
+      ]
+    },
+    {
+      "component": "Side_right",
+      "body": "Side_right",
+      "solid": true,
+      "volume_cm3": 2015.9999999999989,
+      "size_mm": [
+        11.999999999999993,
+        560.0,
+        300.0
+      ]
+    },
+    {
+      "component": "Bottom",
+      "body": "Bottom",
+      "solid": true,
+      "volume_cm3": 1101.6000000000001,
+      "size_mm": [
+        306.0,
+        12.000000000000002,
+        300.0
+      ]
+    },
+    {
+      "component": "Top",
+      "body": "Top",
+      "solid": true,
+      "volume_cm3": 1101.6000000000026,
+      "size_mm": [
+        306.0,
+        12.000000000000028,
+        300.0
+      ]
+    },
+    {
+      "component": "Baffle",
+      "body": "Baffle",
+      "solid": true,
+      "volume_cm3": 1227.503170496963,
+      "size_mm": [
+        306.0,
+        536.0,
+        12.000000000000002
+      ]
+    },
+    {
+      "component": "Rear_removable",
+      "body": "Rear_removable",
+      "solid": true,
+      "volume_cm3": 1958.7330046668656,
+      "size_mm": [
+        306.0,
+        536.0,
+        11.999999999999993
+      ]
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "body": "Baffle_inner_lamination",
+      "solid": true,
+      "volume_cm3": 1227.503170496963,
+      "size_mm": [
+        306.0,
+        536.0,
+        12.000000000000002
+      ]
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "body": "Steel_backing_ring",
+      "solid": true,
+      "volume_cm3": 70.11563563914682,
+      "size_mm": [
+        280.0,
+        280.0,
+        2.9999999999999982
+      ]
+    },
+    {
+      "component": "Rear_cleat_left",
+      "body": "Rear_cleat_left",
+      "solid": true,
+      "volume_cm3": 214.4,
+      "size_mm": [
+        20.0,
+        536.0,
+        20.0
+      ]
+    },
+    {
+      "component": "Rear_cleat_right",
+      "body": "Rear_cleat_right",
+      "solid": true,
+      "volume_cm3": 214.4,
+      "size_mm": [
+        20.0,
+        536.0,
+        20.0
+      ]
+    },
+    {
+      "component": "Rear_cleat_bottom",
+      "body": "Rear_cleat_bottom",
+      "solid": true,
+      "volume_cm3": 105.44966822228913,
+      "size_mm": [
+        266.0,
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "component": "Rear_cleat_top",
+      "body": "Rear_cleat_top",
+      "solid": true,
+      "volume_cm3": 105.44966822228913,
+      "size_mm": [
+        266.0,
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "component": "Service_partition",
+      "body": "Service_partition",
+      "solid": true,
+      "volume_cm3": 682.9919999999994,
+      "size_mm": [
+        306.0,
+        185.99999999999994,
+        11.999999999999993
+      ]
+    },
+    {
+      "component": "Service_floor",
+      "body": "Service_floor",
+      "solid": true,
+      "volume_cm3": 438.74572560981716,
+      "size_mm": [
+        306.0,
+        12.000000000000028,
+        122.09850915300002
+      ]
+    },
+    {
+      "component": "Brace_lower",
+      "body": "Brace_lower",
+      "solid": true,
+      "volume_cm3": 73.43999999999996,
+      "size_mm": [
+        306.0,
+        20.0,
+        11.999999999999993
+      ]
+    },
+    {
+      "component": "Port_round_candidate",
+      "body": "Port_tube",
+      "solid": true,
+      "volume_cm3": 143.01725954591757,
+      "size_mm": [
+        96.9728368293,
+        96.9728368293,
+        161.47860433000002
+      ]
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "body": "LF_flange_envelope",
+      "solid": true,
+      "volume_cm3": 72.36564429764508,
+      "size_mm": [
+        256.80000000000007,
+        256.80000000000007,
+        8.0
+      ]
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "body": "K\u00f6rper2",
+      "solid": true,
+      "volume_cm3": 1455.4700027418362,
+      "size_mm": [
+        231.80000000000007,
+        231.80000000000007,
+        59.3
+      ]
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "body": "Magnet_envelope",
+      "solid": true,
+      "volume_cm3": 362.308039290417,
+      "size_mm": [
+        115.30000000000001,
+        115.30000000000001,
+        34.7
+      ]
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "body": "Horn_flange_envelope",
+      "solid": true,
+      "volume_cm3": 34.17837499999997,
+      "size_mm": [
+        130.5,
+        130.49999999999997,
+        5.5
+      ]
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "body": "K\u00f6rper2",
+      "solid": true,
+      "volume_cm3": 384.4101117213812,
+      "size_mm": [
+        104.00000000000003,
+        103.99999999999999,
+        84.5
+      ]
+    },
+    {
+      "component": "REF_BC_DE10_DATASHEET_ENVELOPE",
+      "body": "DE10_cylinder_envelope",
+      "solid": true,
+      "volume_cm3": 337.17143154653917,
+      "size_mm": [
+        90.0,
+        90.0,
+        53.00000000000001
+      ]
+    },
+    {
+      "component": "RESERVE_amp_wiring_UNVERIFIED_no_mounting_holes",
+      "body": "Amp_space_reserve",
+      "solid": true,
+      "volume_cm3": 484.0,
+      "size_mm": [
+        110.0,
+        110.0,
+        40.0
+      ]
+    },
+    {
+      "component": "Rear_thread_plate_left_0.15",
+      "body": "Steel_plate_M5_tap_after_drilling",
+      "solid": true,
+      "volume_cm3": 3.860042047282569,
+      "size_mm": [
+        20.0,
+        40.0,
+        5.0
+      ]
+    },
+    {
+      "component": "Rear_thread_plate_left_0.5",
+      "body": "Steel_plate_M5_tap_after_drilling",
+      "solid": true,
+      "volume_cm3": 3.860042047282569,
+      "size_mm": [
+        20.0,
+        40.0,
+        5.0
+      ]
+    },
+    {
+      "component": "Rear_thread_plate_left_0.85",
+      "body": "Steel_plate_M5_tap_after_drilling",
+      "solid": true,
+      "volume_cm3": 3.860042047282569,
+      "size_mm": [
+        20.0,
+        40.0,
+        5.0
+      ]
+    },
+    {
+      "component": "Rear_thread_plate_right_0.15",
+      "body": "Steel_plate_M5_tap_after_drilling",
+      "solid": true,
+      "volume_cm3": 3.8600420472825694,
+      "size_mm": [
+        20.0,
+        40.0,
+        5.0
+      ]
+    },
+    {
+      "component": "Rear_thread_plate_right_0.5",
+      "body": "Steel_plate_M5_tap_after_drilling",
+      "solid": true,
+      "volume_cm3": 3.8600420472825694,
+      "size_mm": [
+        20.0,
+        40.0,
+        5.0
+      ]
+    },
+    {
+      "component": "Rear_thread_plate_right_0.85",
+      "body": "Steel_plate_M5_tap_after_drilling",
+      "solid": true,
+      "volume_cm3": 3.8600420472825694,
+      "size_mm": [
+        20.0,
+        40.0,
+        5.0
+      ]
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.27",
+      "body": "Steel_plate_M5_tap_after_drilling",
+      "solid": true,
+      "volume_cm3": 3.860042047282568,
+      "size_mm": [
+        40.0,
+        20.0,
+        5.0
+      ]
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.73",
+      "body": "Steel_plate_M5_tap_after_drilling",
+      "solid": true,
+      "volume_cm3": 3.8600420472825694,
+      "size_mm": [
+        40.0,
+        20.0,
+        5.0
+      ]
+    },
+    {
+      "component": "Rear_thread_plate_top_0.27",
+      "body": "Steel_plate_M5_tap_after_drilling",
+      "solid": true,
+      "volume_cm3": 3.860042047282568,
+      "size_mm": [
+        40.0,
+        20.0,
+        5.0
+      ]
+    },
+    {
+      "component": "Rear_thread_plate_top_0.73",
+      "body": "Steel_plate_M5_tap_after_drilling",
+      "solid": true,
+      "volume_cm3": 3.8600420472825694,
+      "size_mm": [
+        40.0,
+        20.0,
+        5.0
+      ]
+    }
+  ],
+  "cloud_save_requested": false,
+  "saved": true,
+  "rectangles_constrained": [],
+  "sketches": [
+    {
+      "component": "Side_left",
+      "sketch": "Side_left_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Side_right",
+      "sketch": "Side_right_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Bottom",
+      "sketch": "Bottom_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Top",
+      "sketch": "Top_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "Baffle_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "LF_cutout",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "Port_cutout",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "Horn_cutout",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "LF_M5_clearance_0",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "LF_M5_clearance_1",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "LF_M5_clearance_2",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "LF_M5_clearance_3",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "LF_M5_clearance_4",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "LF_M5_clearance_5",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "LF_M5_clearance_6",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "LF_M5_clearance_7",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "Horn_M4_clearance_-1_-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "Horn_M4_clearance_-1_1",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "Horn_M4_clearance_1_-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle",
+      "sketch": "Horn_M4_clearance_1_1",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_removable_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_M5_clearance_left_0.15",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_M5_clearance_left_0.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_M5_clearance_left_0.85",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_M5_clearance_right_0.15",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_M5_clearance_right_0.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_M5_clearance_right_0.85",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_M5_clearance_bottom_0.27",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_M5_clearance_bottom_0.73",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_M5_clearance_top_0.27",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_M5_clearance_top_0.73",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_removable",
+      "sketch": "Rear_gasket_recess",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "Baffle_inner_lamination_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "LF_reinforcement_cutout",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "Port_reinforcement_cutout",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "Horn_reinforcement_cutout",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "LF_M5_clearance_0",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "LF_M5_clearance_1",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "LF_M5_clearance_2",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "LF_M5_clearance_3",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "LF_M5_clearance_4",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "LF_M5_clearance_5",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "LF_M5_clearance_6",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "LF_M5_clearance_7",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "Horn_M4_clearance_-1_-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "Horn_M4_clearance_-1_1",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "Horn_M4_clearance_1_-1",
+      "fully_constrained": true
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "sketch": "Horn_M4_clearance_1_1",
+      "fully_constrained": true
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "sketch": "Steel_backing_annulus",
+      "fully_constrained": true
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "sketch": "Port_relief",
+      "fully_constrained": true
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "sketch": "Steel_M5_0",
+      "fully_constrained": true
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "sketch": "Steel_M5_1",
+      "fully_constrained": true
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "sketch": "Steel_M5_2",
+      "fully_constrained": true
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "sketch": "Steel_M5_3",
+      "fully_constrained": true
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "sketch": "Steel_M5_4",
+      "fully_constrained": true
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "sketch": "Steel_M5_5",
+      "fully_constrained": true
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "sketch": "Steel_M5_6",
+      "fully_constrained": true
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "sketch": "Steel_M5_7",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_left",
+      "sketch": "Rear_cleat_left_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_left",
+      "sketch": "Rear_M5_clearance_left_0.15",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_left",
+      "sketch": "Rear_M5_clearance_left_0.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_left",
+      "sketch": "Rear_M5_clearance_left_0.85",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_right",
+      "sketch": "Rear_cleat_right_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_right",
+      "sketch": "Rear_M5_clearance_right_0.15",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_right",
+      "sketch": "Rear_M5_clearance_right_0.5",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_right",
+      "sketch": "Rear_M5_clearance_right_0.85",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_bottom",
+      "sketch": "Rear_cleat_bottom_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_bottom",
+      "sketch": "Rear_M5_clearance_bottom_0.27",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_bottom",
+      "sketch": "Rear_M5_clearance_bottom_0.73",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_top",
+      "sketch": "Rear_cleat_top_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_top",
+      "sketch": "Rear_M5_clearance_top_0.27",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_cleat_top",
+      "sketch": "Rear_M5_clearance_top_0.73",
+      "fully_constrained": true
+    },
+    {
+      "component": "Service_partition",
+      "sketch": "Service_partition_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Service_floor",
+      "sketch": "Service_floor_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Service_floor",
+      "sketch": "Cleat_corner_notch",
+      "fully_constrained": true
+    },
+    {
+      "component": "Service_floor",
+      "sketch": "Cleat_corner_notch (1)",
+      "fully_constrained": true
+    },
+    {
+      "component": "Brace_lower",
+      "sketch": "Brace_lower_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "Port_round_candidate",
+      "sketch": "Port_tube_profile",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "sketch": "LF_flange",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "sketch": "LF_basket_front",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "sketch": "LF_basket_rear",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "sketch": "LF_magnet",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "sketch": "Horn_flange",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "sketch": "Horn_flange_open",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "sketch": "Horn_mouth_envelope",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "sketch": "Horn_throat_envelope",
+      "fully_constrained": true
+    },
+    {
+      "component": "REF_BC_DE10_DATASHEET_ENVELOPE",
+      "sketch": "DE10_envelope",
+      "fully_constrained": true
+    },
+    {
+      "component": "RESERVE_amp_wiring_UNVERIFIED_no_mounting_holes",
+      "sketch": "Amp_installation_reserve",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.15",
+      "sketch": "Plate_outline",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.15",
+      "sketch": "M5x0p8_pilot_VERIFY",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.15",
+      "sketch": "Retainer_screw_clearance",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.15",
+      "sketch": "Retainer_screw_clearance (1)",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.5",
+      "sketch": "Plate_outline",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.5",
+      "sketch": "M5x0p8_pilot_VERIFY",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.5",
+      "sketch": "Retainer_screw_clearance",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.5",
+      "sketch": "Retainer_screw_clearance (1)",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.85",
+      "sketch": "Plate_outline",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.85",
+      "sketch": "M5x0p8_pilot_VERIFY",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.85",
+      "sketch": "Retainer_screw_clearance",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_left_0.85",
+      "sketch": "Retainer_screw_clearance (1)",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.15",
+      "sketch": "Plate_outline",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.15",
+      "sketch": "M5x0p8_pilot_VERIFY",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.15",
+      "sketch": "Retainer_screw_clearance",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.15",
+      "sketch": "Retainer_screw_clearance (1)",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.5",
+      "sketch": "Plate_outline",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.5",
+      "sketch": "M5x0p8_pilot_VERIFY",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.5",
+      "sketch": "Retainer_screw_clearance",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.5",
+      "sketch": "Retainer_screw_clearance (1)",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.85",
+      "sketch": "Plate_outline",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.85",
+      "sketch": "M5x0p8_pilot_VERIFY",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.85",
+      "sketch": "Retainer_screw_clearance",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_right_0.85",
+      "sketch": "Retainer_screw_clearance (1)",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.27",
+      "sketch": "Plate_outline",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.27",
+      "sketch": "M5x0p8_pilot_VERIFY",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.27",
+      "sketch": "Retainer_screw_clearance",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.27",
+      "sketch": "Retainer_screw_clearance (1)",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.73",
+      "sketch": "Plate_outline",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.73",
+      "sketch": "M5x0p8_pilot_VERIFY",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.73",
+      "sketch": "Retainer_screw_clearance",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.73",
+      "sketch": "Retainer_screw_clearance (1)",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_top_0.27",
+      "sketch": "Plate_outline",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_top_0.27",
+      "sketch": "M5x0p8_pilot_VERIFY",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_top_0.27",
+      "sketch": "Retainer_screw_clearance",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_top_0.27",
+      "sketch": "Retainer_screw_clearance (1)",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_top_0.73",
+      "sketch": "Plate_outline",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_top_0.73",
+      "sketch": "M5x0p8_pilot_VERIFY",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_top_0.73",
+      "sketch": "Retainer_screw_clearance",
+      "fully_constrained": true
+    },
+    {
+      "component": "Rear_thread_plate_top_0.73",
+      "sketch": "Retainer_screw_clearance (1)",
+      "fully_constrained": true
+    }
+  ],
+  "width_edit_test": {
+    "delta_input_mm": 10,
+    "delta_panel_mm": 10.0,
+    "restored": true,
+    "note": "Dependent volume-budget lengths regenerated from Python when design input changes."
+  },
+  "interferences": [],
+  "steel_backing_mass_kg_assumed_7850kg_m3": 0.5504077397673025,
+  "wood_volume_cm3": 12483.816407715189,
+  "wood_mass_kg_density_600_to_700": [
+    7.490289844629112,
+    8.738671485400632
+  ],
+  "weight_status": "Assembly mass unknown until battery, fasteners, grille, straps and finish are selected; quality over mass per user; 24mm laminated baffle, backing ring and rear assembly cleats increase mass.",
+  "dxf_exports": [
+    "Side_left_E03_DRAFT.dxf",
+    "Side_right_E03_DRAFT.dxf",
+    "Bottom_E03_DRAFT.dxf",
+    "Top_E03_DRAFT.dxf",
+    "Baffle_E03_DRAFT.dxf",
+    "Rear_removable_E03_DRAFT.dxf",
+    "Baffle_inner_lamination_E03_DRAFT.dxf",
+    "LF_steel_backing_ring_candidate_E03_DRAFT.dxf",
+    "Rear_cleat_left_E03_DRAFT.dxf",
+    "Rear_cleat_right_E03_DRAFT.dxf",
+    "Rear_cleat_bottom_E03_DRAFT.dxf",
+    "Rear_cleat_top_E03_DRAFT.dxf",
+    "Service_partition_E03_DRAFT.dxf",
+    "Service_floor_E03_DRAFT.dxf",
+    "Brace_lower_E03_DRAFT.dxf",
+    "Rear_thread_plate_left_0.15_E03_DRAFT.dxf",
+    "Rear_thread_plate_left_0.5_E03_DRAFT.dxf",
+    "Rear_thread_plate_left_0.85_E03_DRAFT.dxf",
+    "Rear_thread_plate_right_0.15_E03_DRAFT.dxf",
+    "Rear_thread_plate_right_0.5_E03_DRAFT.dxf",
+    "Rear_thread_plate_right_0.85_E03_DRAFT.dxf",
+    "Rear_thread_plate_bottom_0.27_E03_DRAFT.dxf",
+    "Rear_thread_plate_bottom_0.73_E03_DRAFT.dxf",
+    "Rear_thread_plate_top_0.27_E03_DRAFT.dxf",
+    "Rear_thread_plate_top_0.73_E03_DRAFT.dxf",
+    "Rear_gasket_recess_E03_DRAFT.dxf"
+  ],
+  "cloud_file_id": "urn:adsk.wipprod:dm.lineage:Iru-8aEsTsO3LyiYcsT8FQ",
+  "layout_source": "data/parameters.json",
+  "rear_fixing_acoustic_l": 0.02030925695056271,
+  "envelope_mm": [
+    330.0,
+    560.0,
+    300.0
+  ],
+  "construction": "12mm birch plywood shell, 24mm laminated baffle, 3mm steel LF backing, 20mm rear cleats, ten 5mm tapped steel plates",
+  "rear_thread_plates_mass_kg_assumed_7850kg_m3": 0.30301330071168164
+}

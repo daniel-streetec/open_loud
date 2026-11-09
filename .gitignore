@@ -1,0 +1,5 @@
+.tools/
+__pycache__/
+*.pyc
+# User-supplied reference report: redistribution rights not established.
+docs/research/OPEN_LOUD_Forschungsbericht_Phase_1.pdf

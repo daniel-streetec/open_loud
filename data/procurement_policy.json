@@ -1,0 +1,22 @@
+{
+  "revision": "P01",
+  "source": "explicit_user_instruction_2026-11-09",
+  "market": "Private end users in Germany/EU",
+  "requirements": {
+    "standard_parts_preferred": true,
+    "consumer_checkout_required": true,
+    "exclusive_b2b_not_eligible": true,
+    "industrial_bulk_packs_not_eligible": true,
+    "quantity_rule": "Single pieces or sensible small packs matching one build; record paid pack quantity and actual used quantity separately",
+    "gross_price_and_shipping_required": true,
+    "dated_stock_or_lead_time_required": true,
+    "manufacturer_datasheet_is_not_retail_availability_evidence": true
+  },
+  "release_fields": ["manufacturer", "mpn", "used_quantity", "paid_pack_quantity", "consumer_retailer_url", "gross_price_EUR", "price_date", "availability_checked", "shipping_basis", "alternative", "approval"],
+  "existing_candidates": [
+    {"id":"LAPP_ST_M_M12","approval":"not_released","reason":"Manufacturer lists industrial packing quantities; individual consumer supply not yet verified. Do not require a 100-piece pack."},
+    {"id":"Amphenol_AT_disconnect","approval":"not_released","reason":"Bare housing is not a usable connector kit; contacts, wedges, caps, tooling and individual consumer availability must all be checked."},
+    {"id":"Penn_C1539","approval":"not_released","reason":"Checked manufacturer page requests an inquiry; concrete consumer SKU, dimensions and per-piece supply still to verify."},
+    {"id":"own_E04_corner_guards_and_hoods","approval":"rejected","reason":"User explicitly rejected this overbuilt custom exterior. Prefer suitable finished standard parts."}
+  ]
+}

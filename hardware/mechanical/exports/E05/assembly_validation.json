@@ -1,0 +1,96 @@
+{
+  "revision": "E05",
+  "cable_intersections": {
+    "power": [],
+    "lf": [],
+    "hf": []
+  },
+  "LF_nut_socket_checks": [
+    {
+      "index": 0,
+      "straight_obstructions": [],
+      "articulated_obstructions": [],
+      "angle_deg": 0.0,
+      "accepted": true
+    },
+    {
+      "index": 1,
+      "straight_obstructions": [
+        {
+          "component": "Service_floor",
+          "volume_cm3": 1.1360985243466868
+        }
+      ],
+      "articulated_obstructions": [],
+      "angle_deg": 13.819881100743245,
+      "accepted": true
+    },
+    {
+      "index": 2,
+      "straight_obstructions": [
+        {
+          "component": "Service_partition",
+          "volume_cm3": 1.140398133253045
+        },
+        {
+          "component": "RESERVE_amp_wiring_UNVERIFIED_no_mounting_holes",
+          "volume_cm3": 3.8013271108434856
+        }
+      ],
+      "articulated_obstructions": [],
+      "angle_deg": 20.74015549017671,
+      "accepted": true
+    },
+    {
+      "index": 3,
+      "straight_obstructions": [
+        {
+          "component": "Service_floor",
+          "volume_cm3": 1.136098524346687
+        }
+      ],
+      "articulated_obstructions": [],
+      "angle_deg": 13.819881100743245,
+      "accepted": true
+    },
+    {
+      "index": 4,
+      "straight_obstructions": [],
+      "articulated_obstructions": [],
+      "angle_deg": 0.0,
+      "accepted": true
+    },
+    {
+      "index": 5,
+      "straight_obstructions": [],
+      "articulated_obstructions": [],
+      "angle_deg": 0.0,
+      "accepted": true
+    },
+    {
+      "index": 6,
+      "straight_obstructions": [
+        {
+          "component": "Brace_lower",
+          "volume_cm3": 0.3244807690949529
+        }
+      ],
+      "articulated_obstructions": [],
+      "angle_deg": 12.954180037844651,
+      "accepted": true
+    },
+    {
+      "index": 7,
+      "straight_obstructions": [],
+      "articulated_obstructions": [],
+      "angle_deg": 0.0,
+      "accepted": true
+    }
+  ],
+  "timeline_issues": [],
+  "numerical_failures": [],
+  "solids": 204,
+  "scope": "Nominal cable jackets; no slack loops or actual OEM terminal ends. Mounting contact and threaded engagement are intentional.",
+  "electrical_release": false,
+  "assembly_release": false
+}

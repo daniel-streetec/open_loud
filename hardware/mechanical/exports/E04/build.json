@@ -1,0 +1,26 @@
+{
+  "revision": "E04",
+  "document": "OPEN_LOUD_A0_E04_Integration",
+  "source_archive": "exports/E03/OPEN_LOUD_A0_E03.f3d",
+  "fusion_version": "2705.1.15",
+  "integration_source": "data/parameters.json:integration",
+  "screening": {
+    "status": "analytical_screening_not_physical_validation",
+    "ring_clearance_conservative_m": 0.003028753180661578,
+    "ring_required_m": 0.002,
+    "gland_thread_margin_m": 0.001,
+    "standard_gland_direct_12mm_wood_fits": false,
+    "mesh_open_fraction_ideal": 0.6400000000000001,
+    "hood_bottom_free_m2": 0.009288000000000001,
+    "port_area_m2": 0.0065,
+    "rear_guard_panel_edge_clearance_m": 0.003000000000000001
+  },
+  "pcb_source": "WONDOM manufacturer datasheet AA-JA32173 p3, distributor-hosted copy; internals not modeled",
+  "notes": [
+    "New E04 base features regenerate from source; not live-driven by Fusion user parameter edits.",
+    "Battery holder, UVLO and reverse-polarity circuitry are still unresolved.",
+    "No IP or real assembly/fit claim from nominal CAD alone."
+  ],
+  "approval": "REJECTED_BY_USER",
+  "current_design": false
+}

@@ -1,0 +1,176 @@
+{
+  "revision": "E04",
+  "date_checked": "2026-11-09",
+  "architecture": "A0 original 18V pack, removed for OEM charging; no boost converter; two independent BTL speaker pairs",
+  "release": "bench_only_until_pack_adapter_protection_and_DSP_are_validated",
+  "power_path": [
+    "OEM_pack",
+    "pack_near_fuse",
+    "sealed_disconnect",
+    "reverse_polarity_protection",
+    "external_UVLO_with_hysteresis",
+    "DC_rated_main_switch",
+    "JAB3_J8"
+  ],
+  "audio_path": [
+    "Bluetooth_or_optional_AUX",
+    "mono_sum_headroom",
+    "DSP_LF_HP_LP_and_HF_HP",
+    "independent_RMS_peak_limiters",
+    "two_BTL_outputs",
+    "HF_series_protection_capacitor"
+  ],
+  "items": [
+    {
+      "id": "amp_dsp_bt",
+      "manufacturer": "WONDOM/Sure Electronics",
+      "mpn": "AA-JA32173",
+      "quantity": 1,
+      "state": "manufacturer_dimensions_and_functions_checked_board_revision_pending",
+      "source": "W04",
+      "note": "Already integrates amplifier, ADAU1701 DSP and Bluetooth. No extra MCU or BT receiver required. No charging circuit."
+    },
+    {
+      "id": "pack_and_OEM_charger",
+      "manufacturer": "Einhell",
+      "mpn": "4512042",
+      "quantity": 1,
+      "state": "adapter_safety_unverified_blocker",
+      "source": "S66",
+      "note": "Keep pack closed; no charging through JAB3; OEM-temperature and undervoltage shutdown at foreign adapter not established."
+    },
+    {
+      "id": "pack_adapter",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "state": "missing_blocker",
+      "note": "Covered contacts, keyed polarity, retention, fuse access and confirmed protection interface required. Battery mount/hood not dimensioned without exact pack/adapter."
+    },
+    {
+      "id": "main_fuse",
+      "manufacturer": "Littelfuse",
+      "mpn": null,
+      "family": "ATO 287, 10A candidate",
+      "quantity": 1,
+      "state": "series_verified_value_not_released",
+      "source": "W07",
+      "note": "257 series obsolete according to manufacturer. 32V series; verify specific interrupt rating, inrush I2t, holder and temperature derating. Place within planned 50mm of pack adapter positive contact."
+    },
+    {
+      "id": "sealed_fuse_holder",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "state": "missing",
+      "note": "DC-rated, touch protected, >= planned branch rating; wire and sealing compatible with selected fuse."
+    },
+    {
+      "id": "battery_disconnect_socket",
+      "manufacturer": "Amphenol Sine",
+      "mpn": "AT06-2S",
+      "quantity": 1,
+      "state": "candidate_datasheet_checked_complete_contacts_seals_and_keying_pending",
+      "source": "W06",
+      "note": "Recessed female contacts on battery side. 13A stated. Manufacturer moisture rating only for specified correctly mated assembly. Cap unused live side."
+    },
+    {
+      "id": "battery_disconnect_mate",
+      "manufacturer": "Amphenol Sine",
+      "mpn": "AT04-2P",
+      "quantity": 1,
+      "state": "candidate_exact_mate_contacts_and_wedgelocks_to_qualify",
+      "note": "Include wedges, contacts, seals, crimp tooling and strain relief; housing alone is not a finished connector."
+    },
+    {
+      "id": "disconnect_caps",
+      "manufacturer": "Amphenol Sine",
+      "mpn": null,
+      "quantity": 2,
+      "state": "candidate_exact_sided_caps_pending",
+      "source": "W06cap",
+      "note": "AT06-2S-CAP family documented. Confirm cap against chosen connector side, especially hot battery connector when unplugged."
+    },
+    {
+      "id": "reverse_polarity_stage",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "state": "missing_blocker",
+      "note": "Qualified MOSFET or module, transient/current envelope and thermal loss not designed yet. Keying alone is insufficient assembly verification."
+    },
+    {
+      "id": "external_UVLO",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "state": "missing_blocker",
+      "note": "Load-dependent threshold, hysteresis, restart and pack protection interface require bench data. 15V is only a project trial value, not a cell-safety guarantee."
+    },
+    {
+      "id": "main_switch",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "state": "missing",
+      "note": "DC voltage, interrupt current, inrush and environmental sealing must be specified; standby is not battery isolation."
+    },
+    {
+      "id": "HF_protection_capacitor",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "state": "47uF_50V_bipolar_candidate_not_released",
+      "note": "Nonpolar series part; check measured HF impedance, startup/reset and crossover. Does not replace DSP peak/RMS protection."
+    },
+    {
+      "id": "DSP_programmer",
+      "manufacturer": "WONDOM",
+      "mpn": "DB-DP11226 / ICP5",
+      "quantity": 1,
+      "state": "required_for_configuration",
+      "note": "Programmed DSP, EEPROM boot image, readback, channel mapping and mute/reset tests absent."
+    },
+    {
+      "id": "round_cable_glands",
+      "manufacturer": "LAPP",
+      "mpn": "53111200 / SKINTOP ST-M M12 black candidate",
+      "quantity": 3,
+      "state": "manufacturer_family_dimensions_checked_mounting_candidate",
+      "source": "W05",
+      "note": "3.5-7mm cable diameter range, 8mm thread. Two speaker pairs plus external DC lead. Mount on 3mm insert plates, with correct nuts and seals; not straight through 12mm wood."
+    },
+    {
+      "id": "wiring_harness",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "state": "routing_candidate_lengths_generated",
+      "note": "DC 1.5mm2, LF 1.0mm2, HF .75mm2 pair targets. Manufacturer J8/J10 pigtail contacts, ampacity, crimps and jacket diameters still to qualify."
+    },
+    {
+      "id": "thermal_path_and_sensor",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "state": "missing",
+      "note": "Sealed bay has no qualified heat path yet. Verify heat-sink potential, isolation and worst-case closed-box temperature; no unsealed ventilation holes into wet acoustic space."
+    }
+  ],
+  "JAB3_connections_from_W04": {
+    "J8": {
+      "1": "VCC",
+      "2": "GND",
+      "qualification": "Pin-1 orientation and supplied connector revision must be checked on actual board"
+    },
+    "J10": {
+      "1": "ROUT1+",
+      "2": "LOUT2-",
+      "3": "ROUT1-",
+      "4": "LOUT2+",
+      "qualification": "Right pair 1/3; left pair 4/2. Confirm with low-level bench measurement before assigning LF/HF. Neither negative output is common ground."
+    },
+    "J5": "ICP5 programming, accessible only behind service cover",
+    "J7": "Line output; not a third powered speaker channel"
+  }
+}

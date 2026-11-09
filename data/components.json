@@ -1,0 +1,309 @@
+{
+  "revision": "E01",
+  "currency": "EUR",
+  "price_basis": "Germany gross; quantities are paid purchase units; unknown fields null, not zero",
+  "default_price_date": "2026-11-09",
+  "default_approval": "not_released",
+  "items": [
+    {
+      "id": "lf",
+      "manufacturer": "FaitalPRO",
+      "mpn": {
+        "A0": "02504057",
+        "A1": "02504357"
+      },
+      "quantity": 1,
+      "unit": "piece",
+      "price": {
+        "A0": 52.0,
+        "A1": 85.99
+      },
+      "price_status": "web_checked",
+      "source": {
+        "A0": "S32",
+        "A1": "S34"
+      },
+      "mass_parameter": "drivers.{driver}.mass",
+      "alternative": "other_concept_requires_revalidation"
+    },
+    {
+      "id": "hf",
+      "manufacturer": {
+        "A0": "B&C",
+        "A1": "Celestion"
+      },
+      "mpn": {
+        "A0": "DE10-8",
+        "A1": "CDX1-1445-8"
+      },
+      "quantity": 1,
+      "unit": "piece",
+      "price": {
+        "A0": 42,
+        "A1": 55
+      },
+      "price_status": "report_only",
+      "source": {
+        "A0": "S49",
+        "A1": "S88"
+      },
+      "mass_kg": {
+        "A0": 0.8,
+        "A1": 1.0
+      },
+      "alternative": "other_concept_requires_crossover_measurement"
+    },
+    {
+      "id": "horn",
+      "manufacturer": {
+        "A0": "B&C",
+        "A1": "Celestion"
+      },
+      "mpn": {
+        "A0": "ME10V3",
+        "A1": "H1-8050"
+      },
+      "quantity": 1,
+      "unit": "piece",
+      "price": {
+        "A0": 19,
+        "A1": 18.5
+      },
+      "price_status": "report_only",
+      "source": {
+        "A0": "S51",
+        "A1": "S94"
+      },
+      "mass_kg": {
+        "A0": 0.17,
+        "A1": null
+      },
+      "alternative": null
+    },
+    {
+      "id": "amp_dsp_bt",
+      "manufacturer": "Wondom",
+      "mpn": "AA-JA32173",
+      "quantity": 1,
+      "unit": "module",
+      "price": {
+        "A0": 48.8,
+        "A1": 48.8
+      },
+      "price_status": "report_only_fetch_timeout",
+      "source": "S59",
+      "mass_kg": null,
+      "alternative": "KABD-250_unqualified"
+    },
+    {
+      "id": "additional_cable_set",
+      "manufacturer": "Wondom",
+      "mpn": null,
+      "quantity": 1,
+      "unit": "set",
+      "price": {
+        "A0": 9.8,
+        "A1": 9.8
+      },
+      "price_status": "report_only",
+      "source": "S73",
+      "mass_kg": null,
+      "alternative": null
+    },
+    {
+      "id": "pack_bms_charger",
+      "manufacturer": "Einhell",
+      "mpn": "4512042",
+      "quantity": 1,
+      "unit": "kit",
+      "price": {
+        "A0": 34.95,
+        "A1": 34.95
+      },
+      "price_status": "web_checked_stock_ambiguous",
+      "source": "S67",
+      "mass_kg": null,
+      "alternative": null,
+      "note": "Includes OEM BMS and charger; revision/adapter protection unresolved"
+    },
+    {
+      "id": "wood",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 2,
+      "unit": "1200x600x12mm_panel",
+      "price": {
+        "A0": 24.95,
+        "A1": 24.95
+      },
+      "price_status": "report_only",
+      "source": "S74",
+      "mass_kg": null,
+      "alternative": "local_quoted_cut_panels"
+    },
+    {
+      "id": "finish",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "unit": "purchase_pack",
+      "price": {
+        "A0": 12,
+        "A1": 12
+      },
+      "price_status": "allowance",
+      "source": "report:p11",
+      "mass_kg": null,
+      "alternative": null,
+      "note": "Edge sealer and outdoor coating; consumption/SKU unresolved"
+    },
+    {
+      "id": "grille",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "unit": "set",
+      "price": {
+        "A0": 15,
+        "A1": 15
+      },
+      "price_status": "allowance",
+      "source": "report:p11",
+      "mass_kg": null,
+      "alternative": null,
+      "note": "Sheet plus protective layer, fasteners unresolved"
+    },
+    {
+      "id": "gasket_glue_fasteners",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "unit": "purchase_pack_each_group",
+      "price": {
+        "A0": 11,
+        "A1": 11
+      },
+      "price_status": "allowance",
+      "source": "report:p11",
+      "mass_kg": null,
+      "alternative": null,
+      "note": "Must split into gasket, glue, screws, T-nuts and washers"
+    },
+    {
+      "id": "adapter_protection",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "unit": "set",
+      "price": {
+        "A0": 18,
+        "A1": 18
+      },
+      "price_status": "allowance",
+      "source": "report:p11",
+      "mass_kg": null,
+      "alternative": null,
+      "note": "Holder, contacts, DC fuse/holder, UVLO/hysteresis; no SKU or rating approved"
+    },
+    {
+      "id": "controls_connectors",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "unit": "set",
+      "price": {
+        "A0": 18,
+        "A1": 18
+      },
+      "price_status": "allowance",
+      "source": "report:p11",
+      "mass_kg": null,
+      "alternative": null,
+      "note": "Switch, wires, connectors, AUX and HF capacitor; sizes/counts unresolved"
+    },
+    {
+      "id": "carry_feet",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "unit": "set",
+      "price": {
+        "A0": 18,
+        "A1": 18
+      },
+      "price_status": "allowance",
+      "source": "report:p11",
+      "mass_kg": null,
+      "alternative": null,
+      "note": "Handle, feet, straps, padding, metal backplates; mechanical validation pending"
+    },
+    {
+      "id": "boost",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "unit": "module",
+      "price": {
+        "A0": 0,
+        "A1": 12.5
+      },
+      "price_status": "report_only",
+      "source": "S72",
+      "mass_kg": null,
+      "alternative": null,
+      "applies_to": [
+        "A1"
+      ]
+    },
+    {
+      "id": "boost_cooling_filter",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "unit": "set",
+      "price": {
+        "A0": 0,
+        "A1": 12
+      },
+      "price_status": "allowance",
+      "source": "report:p11",
+      "mass_kg": null,
+      "alternative": null,
+      "applies_to": [
+        "A1"
+      ]
+    },
+    {
+      "id": "shipping",
+      "manufacturer": null,
+      "mpn": null,
+      "quantity": 1,
+      "unit": "combined_orders",
+      "price": {
+        "A0": 19.89,
+        "A1": 25.79
+      },
+      "price_status": "report_only_no_checkout",
+      "source": "report:p11",
+      "mass_kg": null,
+      "alternative": null
+    },
+    {
+      "id": "programmer",
+      "manufacturer": "Wondom",
+      "mpn": "DB-DP11226",
+      "quantity": 1,
+      "unit": "piece",
+      "price": {
+        "A0": 25.8,
+        "A1": 25.8
+      },
+      "price_status": "report_only",
+      "source": "S60",
+      "mass_kg": null,
+      "alternative": null,
+      "cost_group": "reusable_tool"
+    }
+  ],
+  "scope": "E01 reference purchasing estimate; excludes E03 reinforcement and rear fixing changes; not a current manufacturing BOM"
+}

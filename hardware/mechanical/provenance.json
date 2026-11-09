@@ -1,0 +1,41 @@
+{
+  "revision": "E03",
+  "checked_at": "2026-11-09",
+  "origin": "Own parametric enclosure and simplified purchased-part clearance geometry; no third-party CAD imported",
+  "references": [
+    {
+      "part": "FaitalPRO 10FE200 4 ohm / 02504057",
+      "product_url": "https://faitalpro.com/en/products/LF_Loudspeakers/product_details/index.php?id=401040101",
+      "drawing_url": "https://faitalpro.com/products/files/10FE200/4/10FE200_drawing_4.pdf",
+      "download_pack_url": "https://faitalpro.com/en/products/LF_Loudspeakers/product_details/datasheet.php?act=ip&id=401040101",
+      "pack_inventory": ["10FE200_datasheet_4.pdf", "10FE200_curves_4.pdf", "10FE200_drawing_4.pdf"],
+      "manufacturer_3d_cad": "Not found in checked product download pack",
+      "method": "Outer flange, eight mounting axes, magnet and simplified basket frustum from dimensions; not a faithful cast-basket model",
+      "limits": "Basket contour, slots, terminals and compliance not fully modeled. 220mm backing opening must be checked on the real basket at 24mm baffle depth.",
+      "redistribution": "Original PDF pack not included; inspection copies in ignored .tools/references only"
+    },
+    {
+      "part": "B&C ME10V3",
+      "product_url": "https://www.bcspeakers.com/en/products/horn/1/0/ME10V3/",
+      "drawing_url": "https://www.bcspeakers.com/uploads/products/drawing/me10v3-drawing.pdf",
+      "manufacturer_3d_cad": "No STEP/IGES download found on checked product page",
+      "method": "130.5mm conservative external square, 104mm mouth reference, 90mm depth, 5.5mm flange; straight loft used only as clearance approximation",
+      "limits": "Product page 130.5mm differs from drawing 130mm; actual hyperbolic flare, rear flange, ribs and rear screw details not replicated",
+      "redistribution": "Manufacturer drawing linked; local inspection copy ignored"
+    },
+    {
+      "part": "B&C DE10 8 ohm",
+      "product_url": "https://www.bcspeakers.com/en/products/hf-driver/1/8/DE10",
+      "manufacturer_3d_cad": "Not found on checked product page",
+      "method": "90mm diameter / 53mm depth clearance cylinder; mass taken from manufacturer rather than proxy solid volume",
+      "limits": "Two M5 holes on 76mm PCD documented for assembly; not modeled as a production drawing"
+    },
+    {
+      "part": "AA-JA32173 and battery",
+      "manufacturer_3d_cad": "Not verified",
+      "method": "Only an explicitly assumed installation reserve for amplifier and wiring; battery not modeled",
+      "limits": "No mounting holes, connectors, heat sink, holder or device envelope may be inferred from the reserve"
+    }
+  ],
+  "licensing": "No hardware license decision made. Existing root LICENSE unchanged. Clearance reconstructions are own geometry from factual dimensions; originals remain external."
+}
