@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-10",
+  "license_decision": "pending; existing repository LICENSE unchanged",
+  "items": [
+    {
+      "id": "victron_orion_small_step",
+      "owner": "Victron Energy",
+      "source_url": "https://www.victronenergy.com/upload/documents/Orion-Tr-110W-120W-Isolated-%28stp%29.STEP",
+      "sha256": "cc9bc9940f969d7af3b24d411727f16d678f2b6408672059060d990c2a288598",
+      "local_path": ".tools/references/orion-small.step",
+      "redistribution_permission": "not established",
+      "published": false,
+      "use": "Temporary local Fusion import to inspect nominal mounting thickness and tool clearance; closed without saving",
+      "derived_project_outputs": ["data/verification/orion_mount.json", "own conservative converter envelope"],
+      "geometry_policy": "No vendor BRep, mesh or STEP included in project exports; own primitive envelope with measured numeric facts only"
+    },
+    {
+      "id": "wago_2212522_cad",
+      "owner": "WAGO",
+      "source_url": "https://wago.partcommunity.com/3d-cad-models/?info=wago%2Fpg07%2Fserie221%2F0221-2522_0999-0962.prj",
+      "redistribution_permission": "not established",
+      "downloaded": false,
+      "published": false,
+      "use": "Catalog metadata only; not represented as an imported manufacturer CAD model"
+    }
+  ],
+  "own_artifacts": [
+    "Python CAD builders and numeric checks",
+    "Parametric bracket design and dimensioned review drawing",
+    "Conservative primitive part envelopes and hardware references"
+  ],
+  "local_tool_dependencies": [
+    {"name": "Autodesk Fusion", "role": "CAD execution and exchange import/export", "bundled": false},
+    {"name": "Microsoft Edge", "role": "PDF rendering", "bundled": false},
+    {"name": "Poppler", "role": "PDF raster inspection", "bundled": false},
+    {"name": "pypdf", "role": "PDF page/text checks", "version": "6.12", "bundled": false}
+  ]
+}

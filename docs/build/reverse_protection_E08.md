@@ -1,0 +1,13 @@
+# Verpolschutz – technische Vorauswahl
+
+Stand 2026-11-10: **Pololu 5389**, fertiges Ideal-Dioden-Modul, wird technisch bevorzugt; Beschaffungs- und Einbauprüfung noch nicht abgeschlossen. Der zuvor verworfene Pololu2815 ist ein anderes Bauteil mit deutlich höherem Widerstand und bleibt verworfen.
+
+[Hersteller-Spezifikation](https://www.pololu.com/product/5389/specs): 4–60 V, Betrieb nach Start bis 3,2 V; 25 A Nennangabe, MOSFET-Widerstand unter 1,5 mΩ; 0,435×0,7×0,11 Zoll, 0,7 g. Die Dauerstromangabe ist kein Nachweis für den Einbau in unserer geschlossenen Kammer. Bei 12 A ergeben sich mit 1,5 mΩ rechnerisch 0,216 W nur im MOSFET, ohne Lötstellen/Leiterbahnen und Temperaturanstieg. Mit hypothetisch verdoppeltem Widerstand wären es 0,432 W. Herstellerangabe und thermische Planungsannahme auseinanderhalten.
+
+Die [Herstellerbeschreibung der baugleichen Anschlussfamilie](https://www.pololu.com/product/5388) erlaubt an den großen Anschlusspads höchstens 14 AWG. **4 mm² direkt hineinstecken ist keine zulässige Konstruktion.** Kurze 14-AWG-Litzen, zugentlastete Übergänge auf die 4-mm²-Hauptleitungen und isolierte/berührungssichere Montage sind nötig. Keine Kontaktstifte im 2,54-mm-Raster für den Laststrom verwenden. Die Ladeleitung bleibt separat direkt am abgesicherten Akku; diese Idealdiode sperrt Rückstrom und darf nicht in den gemeinsamen Ladepfad.
+
+Einzelhandelssuche: [Eckstein PO5389](https://eckstein-shop.de/pololu-ideal-diode-reverse-voltage-protector-4-60v-25a) zeigte 8,50 EUR inklusive 19 % USt., einzeln, „lieferbar / 1–3 Tage“, zugleich einen generischen Lieferland-Hinweis. Versand und tatsächliche Freigabe für DE müssen im Warenkorb verifiziert werden; keine Bestellung erfolgt. Daher noch keine endgültige Beschaffungsfreigabe.
+
+**Nicht als Bezugsquelle verwenden:** EXP-Tech kennzeichnet den geprüften 5388-Shop ausdrücklich als ausschließlich für registrierte Geschäftskunden; Botland.store fordert beim geprüften 5388-Artikel ebenfalls ein verifiziertes Geschäftskonto mit VAT-ID. Ein Suchtreffer mit Lagerbestand beweist keinen Privatkundenbezug. Andere regionale Botland-Shops sind dadurch nicht pauschal bewertet.
+
+Nächste Umsetzung: konkreter 14-AWG-Draht mit Primärdaten, lokale Übergangsklemmen und geeignete isolierende Halterung auswählen; Modulanschlüsse und Padkoordinaten aus Herstellerzeichnung übernehmen; Hauptstrompfad in CAD und Netzliste wirklich aufteilen; Widerstände zusätzlich in Rechnung aufnehmen; danach thermische/Verpolungs-/Einschaltprüfung bei strombegrenzter Versorgung. Aktuelle E08-Kabelrechnung enthält dieses noch nicht eingebaute Modul ausdrücklich noch nicht.

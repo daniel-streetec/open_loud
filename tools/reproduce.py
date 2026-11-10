@@ -25,6 +25,8 @@ if __name__ == "__main__":
     run("tools/calculate_power_e08.py")
     run("tools/calculate_harness_e08.py")
     run("tools/supply_sag_e08.py")
+    run("tools/generate_modeled_bom_e08.py")
+    run("tools/compare_service_packaging.py")
     before = hashes()
     run("simulation/run.py")
     run("tools/check_outputs.py")
@@ -34,6 +36,8 @@ if __name__ == "__main__":
     run("tools/calculate_power_e08.py")
     run("tools/calculate_harness_e08.py")
     run("tools/supply_sag_e08.py")
+    run("tools/generate_modeled_bom_e08.py")
+    run("tools/compare_service_packaging.py")
     if hashes() != before:
         raise RuntimeError("Outputs changed between identical runs")
     print("Reproduction passed; all generated files byte-identical across two runs.")

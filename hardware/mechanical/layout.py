@@ -16,7 +16,7 @@ def calculate(data):
     battery_box=None
     if b:
         battery_box=([b['bay_left'],m['wall'],b['bay_front']],
-                     [m['width']-m['wall']-b['bay_left'],b['bay_top']-m['wall'],m['depth']-m['wall']-b['bay_front']])
+                     [b.get('bay_right',m['width']-m['wall'])-b['bay_left'],b['bay_top']-m['wall'],m['depth']-m['wall']-b['bay_front']])
     def volume(box):return math.prod(box[1])
     def overlap(a,b):
         return math.prod(max(0,min(a[0][i]+a[1][i],b[0][i]+b[1][i])-max(a[0][i],b[0][i])) for i in range(3))
@@ -37,7 +37,7 @@ def calculate(data):
     rear_plate_volume=(m['rear_plate_width']*m['rear_plate_length']-math.pi/4*(m['rear_tap_pilot']**2+2*m['rear_retainer_bore']**2))*m['rear_plate_thickness']
     positions=[(x,m['height']*f) for x in (wall+cw/2,m['width']-wall-cw/2) for f in (.15,.5,.85)]
     positions += [(m['width']*f,y) for y in (wall+cw/2,m['height']-wall-cw/2) for f in (.27,.73)]
-    acoustic_plates=sum(y<m['service_floor_y'] and not(b and x>=b['bay_left'] and y<b['bay_top']) for x,y in positions)
+    acoustic_plates=sum(y<m['service_floor_y'] and not(b and b['bay_left']<=x<=b.get('bay_right',m['width']-wall) and y<b['bay_top']) for x,y in positions)
     rear_fixing=acoustic_plates*(rear_plate_volume-math.pi/4*m['rear_bolt_clearance']**2*cd)
     battery_excluded=volume(battery_box) if battery_box else 0
     exclusion=wi*hi*di-vb-reinforcement-cleats-backing-port-lf-m['horn_displacement']-hf-brace-rear_fixing-battery_excluded

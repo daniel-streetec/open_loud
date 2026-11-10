@@ -1,0 +1,66 @@
+id,modeled_quantity,unit,manufacturer,mpn,gross_unit_EUR,price_date,source,approval
+AMASS_XT60E_F,1,piece,AMASS,XT60E-F,2.3,2026-11-10,https://vgr-rc.de/p/amass-xt60e-f-xt60e-f-montierbare-xt60e-buchsensteckverbinder-fuer-rc-drohne-flugzeug-fpv-renndrohne,selected_internal_IP40_mount_and_mating_connector_pending
+CORDIAL_CLS215,3,modeled_route_not_purchase_length,,,,,,unqualified_model_reference
+DIN934_M4,4,piece,,"DIN934 M4 A2, h3.2 envelope",,2026-11-09,,standard_part_SKU_pending
+EREMIT_12V50Ah_MICRO_GEN7_BASIS,1,piece,EREMIT,12V50Ah MICRO GEN7 BASIS,219.9,2026-11-10,https://www.eremit.de/p/12v-50ah-lifepo4-micro-gen-7-basis-beguenstigte-pv-verwendung-0-ust,selected_not_released_terminal_geometry_and_fault_current_pending
+EREMIT_12V5A_LFP_CHARGER,1,piece,EREMIT,12V5A LFP charger suppressed,34.9,2026-11-10,https://www.eremit.de/p/12v-5a-lifepo4-ladegeraet-entstoert,selected_external_dry_use_connector_adaptation_pending
+ISO4032_M3,8,piece,,,,,,unqualified_model_reference
+ISO4032_M5,8,piece,,"ISO4032 M5 A2, h4.7 envelope",,2026-11-09,,standard_part_SKU_pending
+ISO4762_M3x10,2,piece,,,,,,unqualified_model_reference
+ISO4762_M3x16,4,piece,,,,,,unqualified_model_reference
+ISO4762_M3x20,6,piece,,,,,,unqualified_model_reference
+ISO4762_M3x6,12,piece,,,,,,unqualified_model_reference
+ISO4762_M4x40,4,piece,NormReich supplier; actual screw maker unspecified,0912A2-M040X040TISK,0.0893,2026-11-09,https://www.normreich.de/1x-Zylinderschraube-M4x40-DIN-912-A2,selected_nominal_fit_physical_check_pending
+ISO4762_M5x40,10,piece,NormReich supplier; actual screw maker unspecified,0912A2-M050X040TISK,0.0925,2026-11-09,https://www.normreich.de/1x-Zylinderschraube-M5x40-DIN-912-A2,selected_nominal_fit_physical_check_pending
+ISO4762_M5x45,8,piece,NormReich supplier; actual screw maker unspecified,0912A2-M050X045TISK,0.1058,2026-11-09,https://www.normreich.de/1x-Zylinderschraube-M5x45-DIN-912-A2,selected_nominal_fit_physical_check_pending
+ISO7089_M3,30,piece,,,,,,unqualified_model_reference
+ISO7089_M4,8,piece,,ISO7089 M4 A2,,2026-11-09,,standard_part_SKU_pending
+ISO7089_M5,26,piece,,ISO7089 M5 A2,,2026-11-09,,standard_part_SKU_pending
+LAPP_53010000,4,piece,,,,,,unqualified_model_reference
+LAPP_53017210,2,piece,LAPP,53017210,,2026-11-09,https://www.buerklin.com/de/p/lapp/kabelverschraubungen/53017210/32P3067/,DIMENSION_REFERENCE_ONLY_PROCUREMENT_NOT_RELEASED
+LITTELFUSE_FHAC0001ZXJ,2,piece,,,,,,unqualified_model_reference
+LITTELFUSE_FHAC0002ZXJ,1,piece,,,,,,unqualified_model_reference
+MASTERLOCK_3110EURDAT,2,piece,,,,,,unqualified_model_reference
+MASTERLOCK_3110EURDAT_BUCKLE,2,piece,,,,,,unqualified_model_reference
+OWN_AL2_XT60_INTERNAL_BRACKET,1,piece,,,,,,unqualified_model_reference
+OWN_AL_TRAY_152_126_2,1,piece,,,,,,unqualified_model_reference
+OWN_BATTERY_PAD_3MM,1,piece,,,,,,unqualified_model_reference
+OWN_PLY12_BATTERY_FRONT,1,piece,,,,,,unqualified_model_reference
+OWN_PLY12_BATTERY_LEFT,1,piece,,,,,,unqualified_model_reference
+OWN_PLY12_BATTERY_ROOF,1,piece,,,,,,unqualified_model_reference
+SKINDICHT_SM_M_12,4,piece,,,,,,unqualified_model_reference
+SKINDICHT_SM_M_16,2,piece,,,,,,unqualified_model_reference
+VICTRON_ORI122410110,1,piece,Victron Energy,ORI122410110,80.92,2026-11-10,https://www.ferroberlin.de/hersteller/victron-energy/dc-dc-spannungswandler/,selected_set20V_before_amp_connection_thermal_test_pending
+WIRE_4MM2_SINGLE,2,modeled_route_not_purchase_length,,,,,,unqualified_model_reference
+WONDOM_AA_JA32173,1,piece,,,,,,unqualified_model_reference
+WURTH_970100321,8,piece,,,,,,unqualified_model_reference
+component:Baffle,1,piece,,,,,,unqualified_model_reference
+component:Baffle_inner_lamination,1,piece,,,,,,unqualified_model_reference
+component:Bottom,1,piece,,,,,,unqualified_model_reference
+component:Brace_lower,1,piece,,,,,,unqualified_model_reference
+component:LF_steel_backing_ring_candidate,1,piece,,,,,,unqualified_model_reference
+component:Port_round_candidate,1,piece,,,,,,unqualified_model_reference
+component:REF_BC_DE10_DATASHEET_ENVELOPE,1,piece,,,,,,unqualified_model_reference
+component:REF_BC_ME10V3_DATASHEET_ENVELOPE,1,piece,,,,,,unqualified_model_reference
+component:REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE,1,piece,,,,,,unqualified_model_reference
+component:Rear_cleat_bottom,1,piece,,,,,,unqualified_model_reference
+component:Rear_cleat_left,1,piece,,,,,,unqualified_model_reference
+component:Rear_cleat_right,1,piece,,,,,,unqualified_model_reference
+component:Rear_cleat_top,1,piece,,,,,,unqualified_model_reference
+component:Rear_removable,1,piece,,,,,,unqualified_model_reference
+component:Rear_thread_plate_bottom_0.27,1,piece,,,,,,unqualified_model_reference
+component:Rear_thread_plate_bottom_0.73,1,piece,,,,,,unqualified_model_reference
+component:Rear_thread_plate_left_0.15,1,piece,,,,,,unqualified_model_reference
+component:Rear_thread_plate_left_0.5,1,piece,,,,,,unqualified_model_reference
+component:Rear_thread_plate_left_0.85,1,piece,,,,,,unqualified_model_reference
+component:Rear_thread_plate_right_0.15,1,piece,,,,,,unqualified_model_reference
+component:Rear_thread_plate_right_0.5,1,piece,,,,,,unqualified_model_reference
+component:Rear_thread_plate_right_0.85,1,piece,,,,,,unqualified_model_reference
+component:Rear_thread_plate_top_0.27,1,piece,,,,,,unqualified_model_reference
+component:Rear_thread_plate_top_0.73,1,piece,,,,,,unqualified_model_reference
+component:Service_floor,1,piece,,,,,,unqualified_model_reference
+component:Service_partition,1,piece,,,,,,unqualified_model_reference
+component:Side_left,1,piece,,,,,,unqualified_model_reference
+component:Side_right,1,piece,,,,,,unqualified_model_reference
+component:Top,1,piece,,,,,,unqualified_model_reference
+wood_pan_2p5x12,20,piece,,2.5x12 pan wood screw; head5x2mm envelope,,2026-11-09,,candidate_exact_head_and_retention_test_pending

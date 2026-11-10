@@ -7,7 +7,7 @@ def run(_context: str):
     assert doc.name.startswith('OPEN_LOUD_A0_E08_PowerSystem')
     d=adsk.fusion.Design.cast(doc.products.itemByProductType('DesignProductType'));root=d.rootComponent
     tm=adsk.fusion.TemporaryBRepManager.get();items=[]
-    for o in root.occurrences:
+    for o in root.allOccurrences:
         for b in o.component.bRepBodies:
             if not b.isLightBulbOn:continue
             if 'RESERVE' in o.component.name or 'EXTERNAL' in o.component.name:continue

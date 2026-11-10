@@ -1,0 +1,29 @@
+{
+  "status": "analytical_comparison_not_geometry_release",
+  "source_parameters_sha256": "1f9fd0e823f57ef39f048fccbe9214df10fc47336a613702a641a27613cafca4",
+  "cases": [
+    {
+      "name": "E08_active",
+      "battery_excluded_l": 8.446463999999997,
+      "service_partition_z_mm": 183.75892550091663,
+      "straight_rear_width_clearance_right_mm": -16.000000000000043,
+      "straight_rear_bottom_clearance_mm": -16.0,
+      "planned_roof_terminal_clearance_mm": 3.99999999999999,
+      "planned_tray_partition_gap_mm": 2.241074499083378
+    },
+    {
+      "name": "E09_study",
+      "battery_excluded_l": 9.965424,
+      "service_partition_z_mm": 205.67822536109617,
+      "straight_rear_width_clearance_right_mm": 48.99999999999996,
+      "straight_rear_bottom_clearance_mm": 5.999999999999998,
+      "planned_roof_terminal_clearance_mm": 1.99999999999996,
+      "planned_tray_partition_gap_mm": 4.32177463890383
+    }
+  ],
+  "limitations": [
+    "Clearance tests only rectangular straight-access conditions, not full assembly simulation.",
+    "Terminal zone14mm and2mm case-face tolerance are planning assumptions; actual terminal geometry unknown.",
+    "E09 needs its own supports, bay right wall, cable routing and mounting rebuild before CAD or manufacturing approval."
+  ]
+}

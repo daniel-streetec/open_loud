@@ -1,0 +1,11 @@
+# Masse und Werkstoff – konkreter Zielkonflikt
+
+Die CAD-Inventur `hardware/mechanical/exports/E08/inventory_mass.json` ergibt rund **15,83 Liter modelliertes Holz** einschließlich Doppel-Schallwand, Service- und Akkukammer, Rückleisten. Das ist tatsächliches Modellvolumen nach Ausschnitten, kein aus Außenmaßen geschätzter Vollblock.
+
+Mit den bisherigen, unbestätigten Projektdichten von 600–700 kg/m³ entstehen 9,50–11,08 kg Holz. Akku 4,9 kg, LF 2,2 kg und Wandler 0,42 kg ergeben zusammen mit Holz **17,02–18,60 kg Teilmasse**. Horn/HF, Stahl, Verstärker, Kabel, Gitter, Tragen, Ecken, Füße, Lack und Klebstoff fehlen darin noch. Die frühe A0-Vorgabe von höchstens10kg ist damit bereits im bisherigen Planungsansatz verfehlt. Dies ist keine gemessene Fertigmasse.
+
+Eine Gewichtsreduktion darf nicht durch dünnere Reststege um die Treiberausschnitte erkauft werden. 24-mm-Schallwand, Gegenring und belastbare Gegenstücke bleiben vorerst erhalten. Unter gleichen Material-/Lagerungsbedingungen skaliert die vereinfachte Plattenbiegesteifigkeit mit Dicke³: 8 statt12mm ergäbe nur rund30% der Steifigkeit. Das ist ein dimensionsanalytischer Vergleich, keine Gehäusemodalanalyse und kein Vergleich unterschiedlicher Holzarten.
+
+Als Materialvergleich liefert [Garnicas Hersteller-EPD für Efficiency Poplar](https://www.garnica.one/uploads/ad5d4a5e-57fe-4a48-a134-48cd64157e61/ad5d4a5e-57fe-4a48-a134-48cd64157e61.pdf) 450kg/m³ im dortigen 15-mm-Referenzprodukt. Übertragen auf das unveränderte CAD-Holzvolumen wären es rechnerisch7,12kg Holz und14,64kg für dieselbe unvollständige Teilmasse. **Das ist nur eine Material-Sensitivität**, kein Nachweis für irgendeine lieferbare12-mm-Platte. Steifigkeit, Schlagfestigkeit, Schraubenlagerung, Verleimung und Feuchtefestigkeit wurden damit nicht gleichgesetzt. Baumarkt-Pappel für Innenraum ist kein automatisch geeigneter Outdoor-Werkstoff.
+
+Nächster Werkstoffvergleich: außenverleimtes, endkundentauglich lieferbares Leichtsperrholz gegen die bisherige Birken-Dichteannahme; alternativ Hybridbau mit belastbaren Schallwand-/Trage-/Akkuankerpunkten. Materialdaten und Zuschnittpreise zuerst prüfen, dann Masseneffekt pro Teil, Festigkeit und Modalverhalten bewerten. Keine neue pauschale Gewichtsvorgabe ohne Projektgrundlage einführen. Nutzerpriorität bleibt Qualität und Montagefähigkeit bei vertretbarem Mehrgewicht.

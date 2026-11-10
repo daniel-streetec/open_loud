@@ -15,6 +15,7 @@ def run(_context: str):
     assert source.name.startswith('OPEN_LOUD_A0_E08_PowerSystem')
     d=adsk.fusion.Design.cast(source.products.itemByProductType('DesignProductType'))
     expected=metrics(d.rootComponent);physical=metrics(d.rootComponent,True)
+    paths=sorted(o.fullPathName for o in d.rootComponent.allOccurrences)
     pars={p.name:p.value for p in d.userParameters};reports=[]
     for kind in ('native','STEP'):
         manager=app.importManager
@@ -23,11 +24,14 @@ def run(_context: str):
         try:
             imported=adsk.fusion.Design.cast(doc.products.itemByProductType('DesignProductType'))
             observed=metrics(imported.rootComponent);compare(expected if kind=='native' else physical,observed)
-            if kind=='native':assert {p.name:p.value for p in imported.userParameters}==pars
+            if kind=='native':
+                assert {p.name:p.value for p in imported.userParameters}==pars
+                assert sorted(o.fullPathName for o in imported.rootComponent.allOccurrences)==paths,'Native hierarchy changed'
             reports.append(dict(format=kind,status='passed',observed=observed))
         finally:doc.close(False);source.activate()
     project=next(p for p in app.data.dataProjects if p.name=='OPEN_LOUD')
-    note='E08 power packaging checkpoint; eight converter-envelope mounting clashes unresolved, not fabrication release'
+    validation=json.loads((OUT/'power_validation.json').read_text(encoding='utf-8'))
+    note=f"E08 checkpoint; {len(validation['interferences'])} screened overlaps; incomplete hardware and thermal qualification, not fabrication release"
     assert source.save(note) if source.isSaved else source.saveAs(source.name,project.rootFolder,note,'E08')
-    (OUT/'export_validation.json').write_text(json.dumps(dict(checkpoint_not_release=True,checks=reports,parameter_count=len(pars)),indent=2)+'\n',encoding='utf-8')
+    (OUT/'export_validation.json').write_text(json.dumps(dict(checkpoint_not_release=True,checks=reports,parameter_count=len(pars),native_hierarchy_preserved=True,occurrence_paths=len(paths)),indent=2)+'\n',encoding='utf-8')
     print(json.dumps(dict(reimports='passed',cloud_saved=source.isSaved)))

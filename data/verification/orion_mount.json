@@ -1,0 +1,21 @@
+{
+  "source_url": "https://www.victronenergy.com/upload/documents/Orion-Tr-110W-120W-Isolated-%28stp%29.STEP",
+  "source_sha256": "cc9bc9940f969d7af3b24d411727f16d678f2b6408672059060d990c2a288598",
+  "date": "2026-11-10",
+  "ear_thickness_m": [
+    0.0019999999999999953,
+    0.0019999999999999953,
+    0.0019999999999999953,
+    0.0019999999999999953
+  ],
+  "mount_access_radius_m": 0.004,
+  "access_from_ear_base_m": 0.0020001,
+  "access_to_m": 0.015,
+  "access_overlap_cm3": [
+    [],
+    [],
+    [],
+    []
+  ],
+  "scope": "Own measured numeric facts from nominal manufacturer STEP, not a physical sample; vendor solids excluded"
+}

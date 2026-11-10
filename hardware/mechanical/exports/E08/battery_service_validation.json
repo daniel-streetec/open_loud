@@ -1,0 +1,61 @@
+{
+  "status": "BLOCKED",
+  "samples": [
+    {
+      "rearward_mm": 0,
+      "hits": []
+    },
+    {
+      "rearward_mm": 5,
+      "hits": [
+        {
+          "part": "Rear_thread_plate_right_0.15",
+          "overlap_cm3": 1.5960252283695695
+        },
+        {
+          "part": "Rear_thread_plate_bottom_0.73",
+          "overlap_cm3": 1.5960252283695637
+        },
+        {
+          "part": "E05_Rear_3_retainer_-1",
+          "overlap_cm3": 0.039269908169874704
+        },
+        {
+          "part": "E05_Rear_3_retainer_-1",
+          "overlap_cm3": 0.014726215563701734
+        },
+        {
+          "part": "E05_Rear_3_retainer_1",
+          "overlap_cm3": 0.039269908169874704
+        },
+        {
+          "part": "E05_Rear_3_retainer_1",
+          "overlap_cm3": 0.014726215563701734
+        },
+        {
+          "part": "E05_Rear_7_retainer_-1",
+          "overlap_cm3": 0.03926990816987447
+        },
+        {
+          "part": "E05_Rear_7_retainer_-1",
+          "overlap_cm3": 0.014726215563701734
+        },
+        {
+          "part": "E05_Rear_7_retainer_1",
+          "overlap_cm3": 0.03926990816987447
+        },
+        {
+          "part": "E05_Rear_7_retainer_1",
+          "overlap_cm3": 0.014726215563701734
+        }
+      ]
+    }
+  ],
+  "assumptions": [
+    "Rear cover and its screws removed, straps/pad released, battery leads disconnected."
+  ],
+  "limitations": [
+    "A sampled collision disproves this straight path; no alternative rotation/tilt path has been established.",
+    "Nominal case, not actual terminals or tolerance stack."
+  ]
+}

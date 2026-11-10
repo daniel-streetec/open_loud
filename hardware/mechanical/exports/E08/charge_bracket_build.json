@@ -1,0 +1,27 @@
+{
+  "created": [
+    "E08_Charge_socket_bracket",
+    "E08_XT60E_F_charge_socket",
+    "E08_Charge_socket_0_M3x10",
+    "E08_Charge_socket_0_back_washer",
+    "E08_Charge_socket_0_nut",
+    "E08_Charge_socket_1_M3x10",
+    "E08_Charge_socket_1_back_washer",
+    "E08_Charge_socket_1_nut",
+    "E08_Charge_roof_0_bottom_washer",
+    "E08_Charge_roof_0_top_washer",
+    "E08_Charge_roof_0_M3x20",
+    "E08_Charge_roof_0_nut",
+    "E08_Charge_roof_1_bottom_washer",
+    "E08_Charge_roof_1_top_washer",
+    "E08_Charge_roof_1_M3x20",
+    "E08_Charge_roof_1_nut"
+  ],
+  "socket_thread_protrusion_m": 0.001,
+  "roof_thread_protrusion_m": 0.0026,
+  "limitations": [
+    "Assemble bracket before battery insertion; battery terminal locations unknown.",
+    "No bolt locking or seal qualification; bend radius not modeled.",
+    "Charge mating plug access and cable solder-joint insulation still to verify."
+  ]
+}

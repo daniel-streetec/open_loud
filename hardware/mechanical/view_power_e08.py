@@ -7,7 +7,7 @@ def run(_context: str):
     assert doc.name.startswith('OPEN_LOUD_A0_E08_PowerSystem')
     d=adsk.fusion.Design.cast(doc.products.itemByProductType('DesignProductType'));root=d.rootComponent
     hidden=[]
-    for o in root.occurrences:
+    for o in root.allOccurrences:
         if o.component.name in ('Side_right','Rear_removable','Top') or 'External_' in o.component.name:
             hidden.append((o,o.isLightBulbOn));o.isLightBulbOn=False
     cam=app.activeViewport.camera;cam.eye=adsk.core.Point3D.create(95,75,110);cam.target=adsk.core.Point3D.create(18,28,20)

@@ -1,47 +1,6 @@
 {
   "status": "screening_not_release",
-  "interferences": [
-    {
-      "a": "E08_Orion_12_24_5_converter",
-      "b": "E08_Orion_0_rear_washer",
-      "volume_cm3": 0.013571680263507729
-    },
-    {
-      "a": "E08_Orion_12_24_5_converter",
-      "b": "E08_Orion_0_nut",
-      "volume_cm3": 0.03565468556404709
-    },
-    {
-      "a": "E08_Orion_12_24_5_converter",
-      "b": "E08_Orion_1_rear_washer",
-      "volume_cm3": 0.013571680263507729
-    },
-    {
-      "a": "E08_Orion_12_24_5_converter",
-      "b": "E08_Orion_1_nut",
-      "volume_cm3": 0.03565468556404709
-    },
-    {
-      "a": "E08_Orion_12_24_5_converter",
-      "b": "E08_Orion_2_rear_washer",
-      "volume_cm3": 0.013571680263507729
-    },
-    {
-      "a": "E08_Orion_12_24_5_converter",
-      "b": "E08_Orion_2_nut",
-      "volume_cm3": 0.03565468556404709
-    },
-    {
-      "a": "E08_Orion_12_24_5_converter",
-      "b": "E08_Orion_3_rear_washer",
-      "volume_cm3": 0.013571680263507729
-    },
-    {
-      "a": "E08_Orion_12_24_5_converter",
-      "b": "E08_Orion_3_nut",
-      "volume_cm3": 0.03565468556404709
-    }
-  ],
+  "interferences": [],
   "kernel_failures": [],
   "timeline_issues": [],
   "exclusions": [

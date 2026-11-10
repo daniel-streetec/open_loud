@@ -2070,5 +2070,222 @@
       "uncertainty": null
     }
   },
-  "wiring_reference_status": "wiring group is legacy E05 screening only; E08 uses power_system and harness_e08"
+  "wiring_reference_status": "wiring group is legacy E05 screening only; E08 uses power_system and harness_e08",
+  "connection_mounts_e08": {
+    "bracket_vertical_origin": {
+      "value": [
+        0.284,
+        0.19,
+        0.3159
+      ],
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "bracket_vertical_size": {
+      "value": [
+        0.038,
+        0.018,
+        0.002
+      ],
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "bracket_foot_origin": {
+      "value": [
+        0.284,
+        0.206,
+        0.298
+      ],
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "bracket_foot_size": {
+      "value": [
+        0.038,
+        0.002,
+        0.0199
+      ],
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "socket_body_origin": {
+      "value": [
+        0.29345,
+        0.193175,
+        0.3018
+      ],
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "socket_body_size": {
+      "value": [
+        0.0191,
+        0.01165,
+        0.0202
+      ],
+      "unit": "m",
+      "source": "AMASS XT60E-F drawing",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "socket_flange_origin": {
+      "value": [
+        0.286,
+        0.1911,
+        0.3179
+      ],
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "socket_flange_size": {
+      "value": [
+        0.034,
+        0.0158,
+        0.0041
+      ],
+      "unit": "m",
+      "source": "AMASS XT60E-F drawing",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "socket_hole_x": {
+      "value": [
+        0.2905,
+        0.3155
+      ],
+      "unit": "m",
+      "source": "AMASS XT60E-F 25mm pitch",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "socket_center_y": {
+      "value": 0.199,
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "socket_cutout": {
+      "value": [
+        0.0193,
+        0.01185,
+        0.0039
+      ],
+      "unit": "m",
+      "source": "AMASS XT60E-F drawing: width,height,corner radius",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "own_bracket_cut_radius": {
+      "value": 0.0002,
+      "unit": "m",
+      "source": "Own laser-cut aperture: smaller corner radius than recommended panel contour; extra corner clearance, not vendor housing geometry",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "roof_hole_x": {
+      "value": [
+        0.288,
+        0.318
+      ],
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "roof_hole_z": {
+      "value": 0.307,
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "roof_bore": {
+      "value": 0.0034,
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "socket_bolt_length": {
+      "value": 0.01,
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "roof_bolt_length": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    }
+  },
+  "orion_mount_e08": {
+    "ear_thickness": {
+      "value": 0.002,
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "manufacturer_CAD_verified",
+      "uncertainty": null
+    },
+    "hole_pitch": {
+      "value": [
+        0.0988,
+        0.0842
+      ],
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "manufacturer_CAD_verified",
+      "uncertainty": null
+    },
+    "hole_diameter": {
+      "value": 0.0038,
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "manufacturer_CAD_verified",
+      "uncertainty": null
+    },
+    "verified_access_radius": {
+      "value": 0.004,
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "manufacturer_CAD_verified",
+      "uncertainty": null
+    },
+    "verified_access_depth": {
+      "value": 0.015,
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "manufacturer_CAD_verified",
+      "uncertainty": null
+    },
+    "depth_keepout": {
+      "value": 0.0475,
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "conservative_round_up_of_official_STEP_47p34mm_bounds",
+      "uncertainty": null
+    },
+    "mass": {
+      "value": 0.42,
+      "unit": "kg",
+      "source": "https://www.victronenergy.com/upload/documents/Datasheet-Orion-Tr-DC-DC-converters-isolated-100-250-400W-EN.pdf",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    }
+  }
 }

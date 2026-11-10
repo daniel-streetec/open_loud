@@ -1,0 +1,37 @@
+{
+  "status": "study_not_active_CAD",
+  "source": "E08 actual rearward extraction clash; preserve cabinet size and wall thickness",
+  "units": "m; SI overrides of data/parameters.json",
+  "battery_mount": {
+    "bay_left": 0.132,
+    "bay_right": 0.328,
+    "bay_front": 0.105,
+    "bay_top": 0.240,
+    "battery_origin": [0.147, 0.040, 0.120],
+    "battery_size": [0.130, 0.170, 0.195]
+  },
+  "electronics_mount": {
+    "tray_origin": [0.036, 0.352, 0.222],
+    "tray_size": [0.180, 0.002, 0.102],
+    "board_offset_z": 0.008
+  },
+  "planning_tolerance_each_face_m": 0.002,
+  "terminal_zone_height_m": 0.014,
+  "removal_axis": "+Z",
+  "battery_roof_feed_xz": [[0.295, 0.250], [0.295, 0.275]],
+  "LF_floor_feed_xz": [0.255, 0.285],
+  "output_fuse_holder_origin": [0.235, 0.350, 0.230],
+  "case_rotation": "90deg about vertical Y; battery remains upright, manufacturer WxD axes exchanged",
+  "required_changes": [
+    "Battery roof raised20mm; narrower bay needs new right wall",
+    "Battery raised22mm and turned90deg in plan",
+    "New pad/support and strap geometry; real anchors still required",
+    "Main/charge fuse holders move to space right of battery",
+    "Battery roof glands move up20mm and into right-side corridor at X295/Z250 and X295/Z275",
+    "Floor mains glands follow those stations; LF feed moves to X255/Z285 to preserve counterbore separation",
+    "Charge bracket shifts8mm left and20mm upward; new fastener geometry",
+    "Tray180x102 instead of152x126; PCB shifts8mm toward rear relative to tray centre",
+    "Converter partition and native cable glands updated from new net-air budget",
+    "Cable routes, tails and terminal-clearance qualification must be rebuilt"
+  ]
+}

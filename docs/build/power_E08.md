@@ -1,3 +1,5 @@
+> Neuester Montage-/Prüfstand: [E08 Reproduktion](E08_reproduction.md). Die unten historisch genannten acht Orion-Hüllkonflikte sind nach Hersteller-STEP-Prüfung behoben; aktuelle Kernelprüfung meldet0 im dokumentierten Umfang. Material-/Massenkonflikt siehe [Massenstudie](material_mass_E08.md).
+
 # E08 – Versorgung und Einbau, Entwicklungsstand 2026-11-10
 
 Kein freigegebenes Produkt. E08 ersetzt die kleine Werkzeugakku-Planung durch einen gekauften 4S-LFP-Akku mit integriertem BMS. Verstärker und DSP bleiben das fertige WONDOM JAB3+ AA-JA32173; keine eigene Verstärkerentwicklung.

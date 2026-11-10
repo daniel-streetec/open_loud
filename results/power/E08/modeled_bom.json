@@ -1,0 +1,1290 @@
+{
+  "revision": "E08",
+  "scope": "Modeled inventory only, not complete procurement BOM; use harness.json for wire lengths",
+  "parts": [
+    {
+      "id": "AMASS_XT60E_F",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": "AMASS",
+      "mpn": "XT60E-F",
+      "gross_unit_EUR": 2.3,
+      "price_date": "2026-11-10",
+      "source": "https://vgr-rc.de/p/amass-xt60e-f-xt60e-f-montierbare-xt60e-buchsensteckverbinder-fuer-rc-drohne-flugzeug-fpv-renndrohne",
+      "approval": "selected_internal_IP40_mount_and_mating_connector_pending",
+      "components": [
+        "E08_XT60E_F_charge_socket"
+      ],
+      "assemblies": [
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "CORDIAL_CLS215",
+      "modeled_quantity": 3,
+      "unit": "modeled_route_not_purchase_length",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_ROUTE_output",
+        "E08_ROUTE_lf",
+        "E08_ROUTE_hf"
+      ],
+      "assemblies": [
+        "BG50_Kabelbaum:1"
+      ]
+    },
+    {
+      "id": "DIN934_M4",
+      "modeled_quantity": 4,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": "DIN934 M4 A2, h3.2 envelope",
+      "gross_unit_EUR": null,
+      "price_date": "2026-11-09",
+      "source": null,
+      "approval": "standard_part_SKU_pending",
+      "components": [
+        "E05_HF_-1_-1_nut",
+        "E05_HF_-1_1_nut",
+        "E05_HF_1_-1_nut",
+        "E05_HF_1_1_nut"
+      ],
+      "assemblies": [
+        "BG20_Frontbestueckung:1"
+      ]
+    },
+    {
+      "id": "EREMIT_12V50Ah_MICRO_GEN7_BASIS",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": "EREMIT",
+      "mpn": "12V50Ah MICRO GEN7 BASIS",
+      "gross_unit_EUR": 219.9,
+      "price_date": "2026-11-10",
+      "source": "https://www.eremit.de/p/12v-50ah-lifepo4-micro-gen-7-basis-beguenstigte-pv-verwendung-0-ust",
+      "approval": "selected_not_released_terminal_geometry_and_fault_current_pending",
+      "components": [
+        "E08_Battery_EREMIT_50Ah_BMS"
+      ],
+      "assemblies": [
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "EREMIT_12V5A_LFP_CHARGER",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": "EREMIT",
+      "mpn": "12V5A LFP charger suppressed",
+      "gross_unit_EUR": 34.9,
+      "price_date": "2026-11-10",
+      "source": "https://www.eremit.de/p/12v-5a-lifepo4-ladegeraet-entstoert",
+      "approval": "selected_external_dry_use_connector_adaptation_pending",
+      "components": [
+        "E08_External_EREMIT_14p6V_5A_charger"
+      ],
+      "assemblies": [
+        "BG80_Externes_Ladegeraet:1"
+      ]
+    },
+    {
+      "id": "ISO4032_M3",
+      "modeled_quantity": 8,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_Orion_0_nut",
+        "E08_Orion_1_nut",
+        "E08_Orion_2_nut",
+        "E08_Orion_3_nut",
+        "E08_Charge_socket_0_nut",
+        "E08_Charge_socket_1_nut",
+        "E08_Charge_roof_0_nut",
+        "E08_Charge_roof_1_nut"
+      ],
+      "assemblies": [
+        "BG40_Elektronikmodul:1",
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "ISO4032_M5",
+      "modeled_quantity": 8,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": "ISO4032 M5 A2, h4.7 envelope",
+      "gross_unit_EUR": null,
+      "price_date": "2026-11-09",
+      "source": null,
+      "approval": "standard_part_SKU_pending",
+      "components": [
+        "E05_LF_0_nut",
+        "E05_LF_1_nut",
+        "E05_LF_2_nut",
+        "E05_LF_3_nut",
+        "E05_LF_4_nut",
+        "E05_LF_5_nut",
+        "E05_LF_6_nut",
+        "E05_LF_7_nut"
+      ],
+      "assemblies": [
+        "BG20_Frontbestueckung:1"
+      ]
+    },
+    {
+      "id": "ISO4762_M3x10",
+      "modeled_quantity": 2,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_Charge_socket_0_M3x10",
+        "E08_Charge_socket_1_M3x10"
+      ],
+      "assemblies": [
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "ISO4762_M3x16",
+      "modeled_quantity": 4,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E06_floor_bottom_M3x16_0",
+        "E06_floor_bottom_M3x16_1",
+        "E06_floor_bottom_M3x16_2",
+        "E06_floor_bottom_M3x16_3"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "ISO4762_M3x20",
+      "modeled_quantity": 6,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_Orion_0_M3x20",
+        "E08_Orion_1_M3x20",
+        "E08_Orion_2_M3x20",
+        "E08_Orion_3_M3x20",
+        "E08_Charge_roof_0_M3x20",
+        "E08_Charge_roof_1_M3x20"
+      ],
+      "assemblies": [
+        "BG40_Elektronikmodul:1",
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "ISO4762_M3x6",
+      "modeled_quantity": 12,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E06_tray_top_M3x6_0",
+        "E06_tray_top_M3x6_1",
+        "E06_tray_top_M3x6_2",
+        "E06_tray_top_M3x6_3",
+        "E06_PCB_bottom_M3x6_0",
+        "E06_PCB_top_M3x6_0",
+        "E06_PCB_bottom_M3x6_1",
+        "E06_PCB_top_M3x6_1",
+        "E06_PCB_bottom_M3x6_2",
+        "E06_PCB_top_M3x6_2",
+        "E06_PCB_bottom_M3x6_3",
+        "E06_PCB_top_M3x6_3"
+      ],
+      "assemblies": [
+        "BG40_Elektronikmodul:1"
+      ]
+    },
+    {
+      "id": "ISO4762_M4x40",
+      "modeled_quantity": 4,
+      "unit": "piece",
+      "manufacturer": "NormReich supplier; actual screw maker unspecified",
+      "mpn": "0912A2-M040X040TISK",
+      "gross_unit_EUR": 0.0893,
+      "price_date": "2026-11-09",
+      "source": "https://www.normreich.de/1x-Zylinderschraube-M4x40-DIN-912-A2",
+      "approval": "selected_nominal_fit_physical_check_pending",
+      "components": [
+        "E05_HF_-1_-1_M4x40",
+        "E05_HF_-1_1_M4x40",
+        "E05_HF_1_-1_M4x40",
+        "E05_HF_1_1_M4x40"
+      ],
+      "assemblies": [
+        "BG20_Frontbestueckung:1"
+      ]
+    },
+    {
+      "id": "ISO4762_M5x40",
+      "modeled_quantity": 10,
+      "unit": "piece",
+      "manufacturer": "NormReich supplier; actual screw maker unspecified",
+      "mpn": "0912A2-M050X040TISK",
+      "gross_unit_EUR": 0.0925,
+      "price_date": "2026-11-09",
+      "source": "https://www.normreich.de/1x-Zylinderschraube-M5x40-DIN-912-A2",
+      "approval": "selected_nominal_fit_physical_check_pending",
+      "components": [
+        "E05_Rear_0_M5x40",
+        "E05_Rear_1_M5x40",
+        "E05_Rear_2_M5x40",
+        "E05_Rear_3_M5x40",
+        "E05_Rear_4_M5x40",
+        "E05_Rear_5_M5x40",
+        "E05_Rear_6_M5x40",
+        "E05_Rear_7_M5x40",
+        "E05_Rear_8_M5x40",
+        "E05_Rear_9_M5x40"
+      ],
+      "assemblies": [
+        "BG30_Service_Rueckwand:1"
+      ]
+    },
+    {
+      "id": "ISO4762_M5x45",
+      "modeled_quantity": 8,
+      "unit": "piece",
+      "manufacturer": "NormReich supplier; actual screw maker unspecified",
+      "mpn": "0912A2-M050X045TISK",
+      "gross_unit_EUR": 0.1058,
+      "price_date": "2026-11-09",
+      "source": "https://www.normreich.de/1x-Zylinderschraube-M5x45-DIN-912-A2",
+      "approval": "selected_nominal_fit_physical_check_pending",
+      "components": [
+        "E05_LF_0_M5x45",
+        "E05_LF_1_M5x45",
+        "E05_LF_2_M5x45",
+        "E05_LF_3_M5x45",
+        "E05_LF_4_M5x45",
+        "E05_LF_5_M5x45",
+        "E05_LF_6_M5x45",
+        "E05_LF_7_M5x45"
+      ],
+      "assemblies": [
+        "BG20_Frontbestueckung:1"
+      ]
+    },
+    {
+      "id": "ISO7089_M3",
+      "modeled_quantity": 30,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E06_floor_bottom_washer_0",
+        "E06_floor_bottom_washer_1",
+        "E06_floor_bottom_washer_2",
+        "E06_floor_bottom_washer_3",
+        "E06_tray_top_washer_0",
+        "E06_tray_top_washer_1",
+        "E06_tray_top_washer_2",
+        "E06_tray_top_washer_3",
+        "E06_PCB_bottom_washer_0",
+        "E06_PCB_top_washer_0",
+        "E06_PCB_bottom_washer_1",
+        "E06_PCB_top_washer_1",
+        "E06_PCB_bottom_washer_2",
+        "E06_PCB_top_washer_2",
+        "E06_PCB_bottom_washer_3",
+        "E06_PCB_top_washer_3",
+        "E08_Orion_0_front_washer",
+        "E08_Orion_1_front_washer",
+        "E08_Orion_2_front_washer",
+        "E08_Orion_3_front_washer",
+        "E08_Orion_0_rear_washer",
+        "E08_Orion_1_rear_washer",
+        "E08_Orion_2_rear_washer",
+        "E08_Orion_3_rear_washer",
+        "E08_Charge_socket_0_back_washer",
+        "E08_Charge_socket_1_back_washer",
+        "E08_Charge_roof_0_bottom_washer",
+        "E08_Charge_roof_0_top_washer",
+        "E08_Charge_roof_1_bottom_washer",
+        "E08_Charge_roof_1_top_washer"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1",
+        "BG40_Elektronikmodul:1",
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "ISO7089_M4",
+      "modeled_quantity": 8,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": "ISO7089 M4 A2",
+      "gross_unit_EUR": null,
+      "price_date": "2026-11-09",
+      "source": null,
+      "approval": "standard_part_SKU_pending",
+      "components": [
+        "E05_HF_-1_-1_front_washer",
+        "E05_HF_-1_-1_rear_washer",
+        "E05_HF_-1_1_front_washer",
+        "E05_HF_-1_1_rear_washer",
+        "E05_HF_1_-1_front_washer",
+        "E05_HF_1_-1_rear_washer",
+        "E05_HF_1_1_front_washer",
+        "E05_HF_1_1_rear_washer"
+      ],
+      "assemblies": [
+        "BG20_Frontbestueckung:1"
+      ]
+    },
+    {
+      "id": "ISO7089_M5",
+      "modeled_quantity": 26,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": "ISO7089 M5 A2",
+      "gross_unit_EUR": null,
+      "price_date": "2026-11-09",
+      "source": null,
+      "approval": "standard_part_SKU_pending",
+      "components": [
+        "E05_LF_0_front_washer",
+        "E05_LF_0_rear_washer",
+        "E05_LF_1_front_washer",
+        "E05_LF_1_rear_washer",
+        "E05_LF_2_front_washer",
+        "E05_LF_2_rear_washer",
+        "E05_LF_3_front_washer",
+        "E05_LF_3_rear_washer",
+        "E05_LF_4_front_washer",
+        "E05_LF_4_rear_washer",
+        "E05_LF_5_front_washer",
+        "E05_LF_5_rear_washer",
+        "E05_LF_6_front_washer",
+        "E05_LF_6_rear_washer",
+        "E05_LF_7_front_washer",
+        "E05_LF_7_rear_washer",
+        "E05_Rear_0_washer",
+        "E05_Rear_1_washer",
+        "E05_Rear_2_washer",
+        "E05_Rear_3_washer",
+        "E05_Rear_4_washer",
+        "E05_Rear_5_washer",
+        "E05_Rear_6_washer",
+        "E05_Rear_7_washer",
+        "E05_Rear_8_washer",
+        "E05_Rear_9_washer"
+      ],
+      "assemblies": [
+        "BG20_Frontbestueckung:1",
+        "BG30_Service_Rueckwand:1"
+      ]
+    },
+    {
+      "id": "LAPP_53010000",
+      "modeled_quantity": 4,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_BAT_232_gland",
+        "E08_ELEC_232_gland",
+        "E08_BAT_260_gland",
+        "E08_ELEC_260_gland"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "LAPP_53017210",
+      "modeled_quantity": 2,
+      "unit": "piece",
+      "manufacturer": "LAPP",
+      "mpn": "53017210",
+      "gross_unit_EUR": null,
+      "price_date": "2026-11-09",
+      "source": "https://www.buerklin.com/de/p/lapp/kabelverschraubungen/53017210/32P3067/",
+      "approval": "DIMENSION_REFERENCE_ONLY_PROCUREMENT_NOT_RELEASED",
+      "components": [
+        "E08_LF_feed_gland",
+        "E08_HF_feed_gland"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "LITTELFUSE_FHAC0001ZXJ",
+      "modeled_quantity": 2,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_F3_output5A_holder",
+        "E08_F2_charge7p5A_holder"
+      ],
+      "assemblies": [
+        "BG40_Elektronikmodul:1",
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "LITTELFUSE_FHAC0002ZXJ",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_F1_main15A_holder"
+      ],
+      "assemblies": [
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "MASTERLOCK_3110EURDAT",
+      "modeled_quantity": 2,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_Battery_strap_0",
+        "E08_Battery_strap_1"
+      ],
+      "assemblies": [
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "MASTERLOCK_3110EURDAT_BUCKLE",
+      "modeled_quantity": 2,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_Battery_buckle_0",
+        "E08_Battery_buckle_1"
+      ],
+      "assemblies": [
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "OWN_AL2_XT60_INTERNAL_BRACKET",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_Charge_socket_bracket"
+      ],
+      "assemblies": [
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "OWN_AL_TRAY_152_126_2",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E06_removable_tray_152x126x2"
+      ],
+      "assemblies": [
+        "BG40_Elektronikmodul:1"
+      ]
+    },
+    {
+      "id": "OWN_BATTERY_PAD_3MM",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_Battery_bottom_pad"
+      ],
+      "assemblies": [
+        "BG60_Akkuversorgung:1"
+      ]
+    },
+    {
+      "id": "OWN_PLY12_BATTERY_FRONT",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_Battery_front_wall"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "OWN_PLY12_BATTERY_LEFT",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_Battery_left_wall"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "OWN_PLY12_BATTERY_ROOF",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_Battery_roof"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "SKINDICHT_SM_M_12",
+      "modeled_quantity": 4,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_BAT_232_locknut",
+        "E08_ELEC_232_locknut",
+        "E08_BAT_260_locknut",
+        "E08_ELEC_260_locknut"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "SKINDICHT_SM_M_16",
+      "modeled_quantity": 2,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_LF_feed_locknut",
+        "E08_HF_feed_locknut"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "VICTRON_ORI122410110",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": "Victron Energy",
+      "mpn": "ORI122410110",
+      "gross_unit_EUR": 80.92,
+      "price_date": "2026-11-10",
+      "source": "https://www.ferroberlin.de/hersteller/victron-energy/dc-dc-spannungswandler/",
+      "approval": "selected_set20V_before_amp_connection_thermal_test_pending",
+      "components": [
+        "E08_Orion_12_24_5_converter"
+      ],
+      "assemblies": [
+        "BG40_Elektronikmodul:1"
+      ]
+    },
+    {
+      "id": "WIRE_4MM2_SINGLE",
+      "modeled_quantity": 2,
+      "unit": "modeled_route_not_purchase_length",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E08_ROUTE_main_plus",
+        "E08_ROUTE_main_minus"
+      ],
+      "assemblies": [
+        "BG50_Kabelbaum:1"
+      ]
+    },
+    {
+      "id": "WONDOM_AA_JA32173",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E06_JAB3_PCB_mounting_outline"
+      ],
+      "assemblies": [
+        "BG40_Elektronikmodul:1"
+      ]
+    },
+    {
+      "id": "WURTH_970100321",
+      "modeled_quantity": 8,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "E06_tray_support_0",
+        "E06_tray_support_1",
+        "E06_tray_support_2",
+        "E06_tray_support_3",
+        "E06_PCB_support_0",
+        "E06_PCB_support_1",
+        "E06_PCB_support_2",
+        "E06_PCB_support_3"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1",
+        "BG40_Elektronikmodul:1"
+      ]
+    },
+    {
+      "id": "component:Baffle",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Baffle"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Baffle_inner_lamination",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Baffle_inner_lamination"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Bottom",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Bottom"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Brace_lower",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Brace_lower"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:LF_steel_backing_ring_candidate",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "LF_steel_backing_ring_candidate"
+      ],
+      "assemblies": [
+        "BG20_Frontbestueckung:1"
+      ]
+    },
+    {
+      "id": "component:Port_round_candidate",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Port_round_candidate"
+      ],
+      "assemblies": [
+        "BG20_Frontbestueckung:1"
+      ]
+    },
+    {
+      "id": "component:REF_BC_DE10_DATASHEET_ENVELOPE",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "REF_BC_DE10_DATASHEET_ENVELOPE"
+      ],
+      "assemblies": [
+        "BG20_Frontbestueckung:1"
+      ]
+    },
+    {
+      "id": "component:REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "REF_BC_ME10V3_DATASHEET_ENVELOPE"
+      ],
+      "assemblies": [
+        "BG20_Frontbestueckung:1"
+      ]
+    },
+    {
+      "id": "component:REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE"
+      ],
+      "assemblies": [
+        "BG20_Frontbestueckung:1"
+      ]
+    },
+    {
+      "id": "component:Rear_cleat_bottom",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_cleat_bottom"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_cleat_left",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_cleat_left"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_cleat_right",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_cleat_right"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_cleat_top",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_cleat_top"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_removable",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_removable"
+      ],
+      "assemblies": [
+        "BG30_Service_Rueckwand:1"
+      ]
+    },
+    {
+      "id": "component:Rear_thread_plate_bottom_0.27",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_thread_plate_bottom_0.27"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_thread_plate_bottom_0.73",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_thread_plate_bottom_0.73"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_thread_plate_left_0.15",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_thread_plate_left_0.15"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_thread_plate_left_0.5",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_thread_plate_left_0.5"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_thread_plate_left_0.85",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_thread_plate_left_0.85"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_thread_plate_right_0.15",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_thread_plate_right_0.15"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_thread_plate_right_0.5",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_thread_plate_right_0.5"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_thread_plate_right_0.85",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_thread_plate_right_0.85"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_thread_plate_top_0.27",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_thread_plate_top_0.27"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Rear_thread_plate_top_0.73",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Rear_thread_plate_top_0.73"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Service_floor",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Service_floor"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Service_partition",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Service_partition"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Side_left",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Side_left"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Side_right",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Side_right"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "component:Top",
+      "modeled_quantity": 1,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": null,
+      "gross_unit_EUR": null,
+      "price_date": null,
+      "source": null,
+      "approval": "unqualified_model_reference",
+      "components": [
+        "Top"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    },
+    {
+      "id": "wood_pan_2p5x12",
+      "modeled_quantity": 20,
+      "unit": "piece",
+      "manufacturer": null,
+      "mpn": "2.5x12 pan wood screw; head5x2mm envelope",
+      "gross_unit_EUR": null,
+      "price_date": "2026-11-09",
+      "source": null,
+      "approval": "candidate_exact_head_and_retention_test_pending",
+      "components": [
+        "E05_Rear_0_retainer_-1",
+        "E05_Rear_0_retainer_1",
+        "E05_Rear_1_retainer_-1",
+        "E05_Rear_1_retainer_1",
+        "E05_Rear_2_retainer_-1",
+        "E05_Rear_2_retainer_1",
+        "E05_Rear_3_retainer_-1",
+        "E05_Rear_3_retainer_1",
+        "E05_Rear_4_retainer_-1",
+        "E05_Rear_4_retainer_1",
+        "E05_Rear_5_retainer_-1",
+        "E05_Rear_5_retainer_1",
+        "E05_Rear_6_retainer_-1",
+        "E05_Rear_6_retainer_1",
+        "E05_Rear_7_retainer_-1",
+        "E05_Rear_7_retainer_1",
+        "E05_Rear_8_retainer_-1",
+        "E05_Rear_8_retainer_1",
+        "E05_Rear_9_retainer_-1",
+        "E05_Rear_9_retainer_1"
+      ],
+      "assemblies": [
+        "BG10_Gehaeuse:1"
+      ]
+    }
+  ],
+  "excluded_nonphysical": [
+    "RESERVE_amp_wiring_UNVERIFIED_no_mounting_holes",
+    "E08_REF_Battery_M6_terminal_zone",
+    "E06_RESERVE_JAB3_components_NOT_ACTUAL_GEOMETRY"
+  ],
+  "missing": [
+    "WAGO terminals/carriers",
+    "Cable strain reliefs and clips",
+    "Strap anchors",
+    "Reverse protector and remote switch",
+    "Mating charge plug and insulation",
+    "Fuse elements, extra pigtails and crimp terminals",
+    "Grille, handles, corners, feet",
+    "Glue, seals, coating and thread locking"
+  ]
+}
