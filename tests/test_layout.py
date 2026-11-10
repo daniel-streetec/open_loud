@@ -15,11 +15,13 @@ class MechanicalBudget(unittest.TestCase):
         result=calculate(data);m=result['dimensions']
         excluded=sum(result[k] for k in ('service_excluded','port_displacement','reinforcement_displacement','cleat_acoustic_displacement','backing_displacement','hf_displacement','brace_displacement','rear_fixing_displacement'))
         excluded+=data['drivers']['10FE200-4']['displacement']['value']+m['horn_displacement']
+        excluded+=result.get('battery_excluded',0)
         self.assertAlmostEqual(result['gross_internal']-excluded,.034,places=12)
         # Independent layout checks: wood webs between actual aperture edges.
         lf_radius=(m['lf_cutout']+2*m['baffle_clearance'])/2
         port_radius=(result['port_d']+2*m['port_wall']+2*m['baffle_clearance'])/2
-        self.assertGreater(m['lf_y']-lf_radius-m['port_y']-port_radius,.020)
+        distance=math.hypot(m.get('port_x',m['width']/2)-m['width']/2,m['lf_y']-m['port_y'])
+        self.assertGreater(distance-lf_radius-port_radius,.020)
         self.assertGreater(m['horn_y']-m['horn_cutout']/2-m['lf_y']-lf_radius,.020)
         # Steel ring supports the M5 holes with a larger edge ligament than the wood cutout.
         self.assertGreater(m['lf_pcd']/2-m['lf_backing_inner_d']/2-m['lf_bolt_clearance']/2,.006)

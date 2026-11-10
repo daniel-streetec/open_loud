@@ -1,0 +1,36 @@
+{
+  "revision": "E08",
+  "checked_date": "2026-11-10",
+  "currency": "EUR",
+  "scope": "Additional selected power components; supplements legacy BOM, not a complete released product BOM",
+  "items": [
+    {
+      "manufacturer": "EREMIT", "mpn": "12V50Ah MICRO GEN7 BASIS", "used_quantity": 1, "paid_pack_quantity": 1,
+      "consumer_retailer_url": "https://www.eremit.de/p/12v-50ah-lifepo4-micro-gen-7-basis-beguenstigte-pv-verwendung-0-ust",
+      "gross_price_EUR": 219.90, "price_date": "2026-11-10", "availability_checked": "3-5 days",
+      "shipping_basis": "additional; basket shipping not quoted", "weight_kg": 4.9,
+      "alternative": "not qualified", "approval": "selected_not_released_terminal_geometry_and_fault_current_pending"
+    },
+    {
+      "manufacturer": "Victron Energy", "mpn": "ORI122410110", "used_quantity": 1, "paid_pack_quantity": 1,
+      "consumer_retailer_url": "https://www.ferroberlin.de/hersteller/victron-energy/dc-dc-spannungswandler/",
+      "gross_price_EUR": 80.92, "price_date": "2026-11-10", "availability_checked": "2 in stock, 3-4 days",
+      "shipping_basis": "additional; basket shipping not quoted", "weight_kg": 0.42,
+      "alternative": "not qualified", "approval": "selected_set20V_before_amp_connection_thermal_test_pending"
+    },
+    {
+      "manufacturer": "EREMIT", "mpn": "12V5A LFP charger suppressed", "used_quantity": 1, "paid_pack_quantity": 1,
+      "consumer_retailer_url": "https://www.eremit.de/p/12v-5a-lifepo4-ladegeraet-entstoert",
+      "gross_price_EUR": 34.90, "price_date": "2026-11-10", "availability_checked": "2-5 days",
+      "shipping_basis": "additional; basket shipping not quoted", "weight_kg": null,
+      "alternative": "not qualified", "approval": "selected_external_dry_use_connector_adaptation_pending"
+    },
+    {
+      "manufacturer": "AMASS", "mpn": "XT60E-F", "used_quantity": 1, "paid_pack_quantity": 1,
+      "consumer_retailer_url": "https://vgr-rc.de/p/amass-xt60e-f-xt60e-f-montierbare-xt60e-buchsensteckverbinder-fuer-rc-drohne-flugzeug-fpv-renndrohne",
+      "gross_price_EUR": 2.30, "price_date": "2026-11-10", "availability_checked": "1-2 days",
+      "shipping_basis": "additional; basket shipping not quoted", "weight_kg": null,
+      "alternative": "not qualified", "approval": "selected_internal_IP40_mount_and_mating_connector_pending"
+    }
+  ]
+}

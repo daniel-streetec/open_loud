@@ -1,7 +1,7 @@
 {
   "python": "3.13.7",
   "source_sha256": {
-    "data/parameters.json": "05ff83a37138ea2d371b9e342a07c01fd17830a3e028a0d2018ffb35337887d4",
+    "data/parameters.json": "6c51e6c48090521a045008ad1ab44802edc6026c47b31d4e89c40feb80699f76",
     "data/components.json": "2d6c2df3c8c8fc517cef1c4366c250a9839d38441ec0c8a5d8fc722270e87041",
     "simulation/model.py": "dc8ca8aabf8648e7ec08c1952b2ab509c0bcbcfc7697eb3754053f19eaf79b63",
     "simulation/run.py": "bafcfc717453bba9dc516994af49504b09afb9d89d59283e369bf6b445f8af59",

@@ -1,5 +1,5 @@
 {
-  "revision": "E06",
+  "revision": "E08",
   "model_status": "simulation_not_measurement",
   "acoustics": [
     {
@@ -92,10 +92,10 @@
     }
   },
   "envelope": {
-    "inner_geometric_l": 45.268415999999995,
+    "inner_geometric_l": 56.910335999999994,
     "shell_mass_before_cutouts_kg": [
-      6.102950400000006,
-      7.120108800000008
+      6.98019840000001,
+      8.14356480000001
     ]
   }
 }

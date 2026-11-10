@@ -1,0 +1,84 @@
+{
+  "status": "DESIGN_CALCULATION_NOT_MEASUREMENT",
+  "battery_nominal_Wh": 640.0,
+  "usable_Wh": [
+    480.0,
+    576.0
+  ],
+  "limited_sine_audio_W": 48.5,
+  "amplifier_worst_case_input_W": 76.41538461538461,
+  "converter_conservative_output_capacity_W": 100,
+  "converter_capacity_margin_percent": 23.584615384615393,
+  "worst_converter_heat_W": 20.127846153846153,
+  "scenarios": [
+    {
+      "battery_terminal_V": 10,
+      "amplifier_input_W": 76.41538461538461,
+      "converter_output_A": 3.8207692307692307,
+      "battery_A": 9.631923076923076
+    },
+    {
+      "battery_terminal_V": 12.8,
+      "amplifier_input_W": 76.41538461538461,
+      "converter_output_A": 3.8207692307692307,
+      "battery_A": 7.5424399038461525
+    },
+    {
+      "battery_terminal_V": 14.6,
+      "amplifier_input_W": 76.41538461538461,
+      "converter_output_A": 3.8207692307692307,
+      "battery_A": 6.622413066385669
+    }
+  ],
+  "runtimes": [
+    {
+      "profile": "background",
+      "mean_audio_low_W": 0.5,
+      "mean_audio_high_W": 1.5,
+      "pack_low_W": 3.7151157024793386,
+      "pack_high_W": 6.158615384615384,
+      "runtime_low_h": 77.93959681247034,
+      "runtime_high_h": 155.04227758387114
+    },
+    {
+      "profile": "normal",
+      "mean_audio_low_W": 2,
+      "mean_audio_high_W": 6,
+      "pack_low_W": 5.65209917355372,
+      "pack_high_W": 14.812461538461537,
+      "runtime_low_h": 32.40514743303456,
+      "runtime_high_h": 101.90903986524424
+    },
+    {
+      "profile": "loud",
+      "mean_audio_low_W": 7,
+      "mean_audio_high_W": 16,
+      "pack_low_W": 12.108710743801652,
+      "pack_high_W": 34.04323076923077,
+      "runtime_low_h": 14.09971936135502,
+      "runtime_high_h": 47.56906099973109
+    },
+    {
+      "profile": "near_max",
+      "mean_audio_low_W": 16,
+      "mean_audio_high_W": 28,
+      "pack_low_W": 23.730611570247937,
+      "pack_high_W": 57.12015384615383,
+      "runtime_low_h": 8.403338711110994,
+      "runtime_high_h": 24.272446510487548
+    }
+  ],
+  "charger_ideal_CC_h": 10.0,
+  "recharge_note": "10h ideal full-depth CC, CV tail adds time; cold-charge limits and actual charger termination verify",
+  "board_voltage_range_V": [
+    19.8,
+    20.2
+  ],
+  "prerequisites": [
+    "Set converter20.0V unloaded, then test under load BEFORE amplifier connection.",
+    "DSP voltage limits are targets, not deployed/calibrated firmware. Do not enable HF before bench calibration.",
+    "Converter UVLO7V does not protect4S LFP; rely on qualified battery BMS, verify BMS operation at intended terminals.",
+    "Fuse values pending inrush/temperature/interrupt coordination. Unknown pack prospective short current is not invented.",
+    "No USB load; festival days do not imply continuous music hours."
+  ]
+}

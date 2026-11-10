@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "E06",
+  "revision": "E08",
   "date": "2026-11-09",
   "convention": "SI intern; RMS voltage/current, peak excursion/port speed; null uncertainty means unknown, never zero",
   "environment": {
@@ -418,17 +418,17 @@
       "uncertainty": null
     },
     "width": {
-      "value": 0.33,
+      "value": 0.36,
       "unit": "m",
-      "source": "report:p12",
-      "status": "envelope_not_CAD",
+      "source": "E08 internal50Ah battery, clear port channel and34L target; user allows quality/weight trade",
+      "status": "design_candidate",
       "uncertainty": null
     },
     "depth": {
-      "value": 0.3,
+      "value": 0.34,
       "unit": "m",
-      "source": "report:p12",
-      "status": "envelope_not_CAD",
+      "source": "E08 internal50Ah battery, clear port channel and34L target; user allows quality/weight trade",
+      "status": "design_candidate",
       "uncertainty": null
     },
     "wall": {
@@ -586,10 +586,10 @@
       "uncertainty": null
     },
     "port_y": {
-      "value": 0.07,
+      "value": 0.082,
       "unit": "m",
-      "source": "engineering:E03_user_quality_and_assembly_priority",
-      "status": "reversible_layout_for_wider_webs",
+      "source": "E08 internal50Ah battery, clear port channel and34L target; user allows quality/weight trade",
+      "status": "design_candidate",
       "uncertainty": null
     },
     "port_wall": {
@@ -600,16 +600,16 @@
       "uncertainty": null
     },
     "service_floor_y": {
-      "value": 0.35,
+      "value": 0.33,
       "unit": "m",
-      "source": "engineering:E02",
+      "source": "E08 internal50Ah battery, clear port channel and34L target; user allows quality/weight trade",
       "status": "design_candidate",
       "uncertainty": null
     },
     "brace_y": {
-      "value": 0.14,
+      "value": 0.24,
       "unit": "m",
-      "source": "engineering:E02",
+      "source": "E08 internal50Ah battery, clear port channel and34L target; user allows quality/weight trade",
       "status": "design_candidate",
       "uncertainty": null
     },
@@ -793,6 +793,13 @@
       "unit": "m",
       "source": "engineering:E03_bearing_margin",
       "status": "candidate_clearance_model_only_verify_real_basket_before_cutting",
+      "uncertainty": null
+    },
+    "port_x": {
+      "value": 0.08,
+      "unit": "m",
+      "source": "E08 left acoustic channel beside sealed rear-right battery bay",
+      "status": "design_assumption",
       "uncertainty": null
     }
   },
@@ -1352,19 +1359,19 @@
     "tray_origin": {
       "value": [
         0.04,
-        0.372,
-        0.182
+        0.352,
+        0.198
       ],
       "unit": "m",
-      "source": "E06 floor-mounted removable tray, clear of rear left cleat",
+      "source": "E08 new service floor330mm,10mm supports; clear partition and rear cleats",
       "status": "design_assumption",
       "uncertainty": null
     },
     "tray_size": {
       "value": [
-        0.112,
+        0.152,
         0.002,
-        0.09
+        0.126
       ],
       "unit": "m",
       "source": "own2mm aluminum5052/5754 plate, grade procurement pending",
@@ -1529,5 +1536,539 @@
       "status": "design_assumption",
       "uncertainty": null
     }
-  }
+  },
+  "battery_mount": {
+    "bay_left": {
+      "value": 0.132,
+      "unit": "m",
+      "source": "E08 sealed corner bay outer boundary; 120mm-wide acoustic channel remains left",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "bay_front": {
+      "value": 0.14,
+      "unit": "m",
+      "source": "E08 outer front face of rear battery bay",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "bay_top": {
+      "value": 0.22,
+      "unit": "m",
+      "source": "E08 outer top of battery bay",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "battery_origin": {
+      "value": [
+        0.147,
+        0.018,
+        0.171
+      ],
+      "unit": "m",
+      "source": "E08 nominal upright box;6mm right/8mm rear gap, terminal cover allowance above",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "battery_size": {
+      "value": [
+        0.195,
+        0.17,
+        0.13
+      ],
+      "unit": "m",
+      "source": "EREMIT50Ah Gen7 BASIS technical dimensions; own box reference",
+      "status": "manufacturer_reference",
+      "uncertainty": {
+        "absolute": 0.002,
+        "note": "planning reserve, vendor tolerance not specified"
+      }
+    },
+    "battery_mass": {
+      "value": 4.9,
+      "unit": "kg",
+      "source": "EREMIT50Ah Gen7 BASIS product specification",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "terminal_zone_height": {
+      "value": 0.014,
+      "unit": "m",
+      "source": "Reserved M6 terminal/lug/cover space; actual terminal positions to confirm",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "pad": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "closed-cell elastomer candidate, material/compression test pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "strap_width": {
+      "value": 0.025,
+      "unit": "m",
+      "source": "standard25mm cam buckle strap candidate",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "converter_origin": {
+      "value": [
+        0.2,
+        0.4,
+        0.19575892550091664
+      ],
+      "unit": "m",
+      "source": "E08 upright isolated converter beside amplifier tray; terminals down",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "converter_size": {
+      "value": [
+        0.114,
+        0.1002,
+        0.0468
+      ],
+      "unit": "m",
+      "source": "Victron Orion-small Rev01 dimension drawing",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    }
+  },
+  "power_system": {
+    "battery_nominal": {
+      "value": 12.8,
+      "unit": "V",
+      "source": "EREMIT50Ah Gen7 BASIS",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "battery_full": {
+      "value": 14.6,
+      "unit": "V",
+      "source": "EREMIT50Ah Gen7 BASIS",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "battery_cutoff": {
+      "value": 10,
+      "unit": "V",
+      "source": "EREMIT50Ah Gen7 BASIS BMS, not a user-adjusted threshold",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "battery_capacity": {
+      "value": 50,
+      "unit": "Ah",
+      "source": "EREMIT50Ah Gen7 BASIS",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "usable_fraction_low": {
+      "value": 0.75,
+      "unit": "1",
+      "source": "cold/age/reserve planning scenario, not measured",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "usable_fraction_high": {
+      "value": 0.9,
+      "unit": "1",
+      "source": "warm/new battery planning scenario, not measured",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "converter_output": {
+      "value": 20,
+      "unit": "V",
+      "source": "Selected Orion12/24-5 adjustment18-30V; set and verify before amplifier connection",
+      "status": "design_selection",
+      "uncertainty": null
+    },
+    "converter_efficiency_low": {
+      "value": 0.8,
+      "unit": "1",
+      "source": "derated planning lower bound; nominal manufacturer88%",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "converter_efficiency_high": {
+      "value": 0.88,
+      "unit": "1",
+      "source": "Victron Orion12/24-5 nominal efficiency",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "converter_output_current": {
+      "value": 5,
+      "unit": "A",
+      "source": "Victron Orion12/24-5 continuous; output20V -> conservatively100W",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "converter_idle_current_max": {
+      "value": 0.08,
+      "unit": "A",
+      "source": "Victron Orion12/24-5 no-load input current",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "converter_disabled_current_max": {
+      "value": 0.0002,
+      "unit": "A",
+      "source": "Victron Orion12/24-5 remote disabled",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "amplifier_idle": {
+      "value": 1.8,
+      "unit": "W",
+      "source": "WONDOM AA-JA32173 datasheet",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "amplifier_efficiency_low": {
+      "value": 0.65,
+      "unit": "1",
+      "source": "conservative E05 planning assumption",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "lf_limit": {
+      "value": 12,
+      "unit": "V_rms",
+      "source": "DSP target; not hardware deployed or gain-calibrated",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "hf_limit": {
+      "value": 10,
+      "unit": "V_rms",
+      "source": "DSP target; not hardware deployed or gain-calibrated",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "charger_voltage": {
+      "value": 14.6,
+      "unit": "V",
+      "source": "EREMIT external12V5A LiFePO4 charger; verify variant output before use",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "charger_current": {
+      "value": 5,
+      "unit": "A",
+      "source": "EREMIT external12V5A LiFePO4 charger",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "main_design_current": {
+      "value": 12,
+      "unit": "A",
+      "source": "power budget over10V battery minimum with efficiency reserve",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_conductor": {
+      "value": 4,
+      "unit": "mm2",
+      "source": "H07V-K OFC; fits converter6mm2 maximum; no factory-contact assumption",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_fuse": {
+      "value": 15,
+      "unit": "A",
+      "source": "ATO287 candidate; inrush/I2t/short-circuit coordination pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "charge_fuse": {
+      "value": 7.5,
+      "unit": "A",
+      "source": "ATO287 candidate for5A charger; holder and actual lead qualification pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "output_fuse": {
+      "value": 5,
+      "unit": "A",
+      "source": "ATO287 candidate for converter-to-JAB branch, inrush test pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "remote_switch_current": {
+      "value": 0.01,
+      "unit": "A",
+      "source": "low-current control planning bound; manufacturer interface current verify",
+      "status": "design_assumption",
+      "uncertainty": null
+    }
+  },
+  "harness_e08": {
+    "main_od": {
+      "value": 0.0048,
+      "unit": "m",
+      "source": "H07V-K4mm2 single insulated wire conservative OD; actual selected SKU measure",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_bend": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "4xOD static planning bound; verify selected H07V-K datasheet",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "speaker_od": {
+      "value": 0.007,
+      "unit": "m",
+      "source": "Cordial CLS215 nominal, manufacturing OD tolerance verify",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "speaker_bend": {
+      "value": 0.035,
+      "unit": "m",
+      "source": "5x7mm static planning; compare current CLS215 manufacturer PDF",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_area": {
+      "value": 4,
+      "unit": "mm2",
+      "source": "E08 power input4mm2, converter accepts<=6mm2",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_r20": {
+      "value": 0.00495,
+      "unit": "ohm/m",
+      "source": "IEC60228-class5 planning upper resistance; verify purchased wire",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "speaker_r20": {
+      "value": 0.0133,
+      "unit": "ohm/m",
+      "source": "Cordial CLS215 manufacturer",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "temperature_delta": {
+      "value": 40,
+      "unit": "K",
+      "source": "60C conductor screening vs20C resistance reference",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "copper_alpha": {
+      "value": 0.00393,
+      "unit": "1/K",
+      "source": "copper approximation",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "contact_budget": {
+      "value": 0.01,
+      "unit": "ohm",
+      "source": "main pair combined measured acceptance allowance, including fuse",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "speaker_contact_budget": {
+      "value": 0.01,
+      "unit": "ohm",
+      "source": "combined pigtail/terminal acceptance budget",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_plus_route": {
+      "value": [
+        [
+          0.232,
+          0.204,
+          0.315
+        ],
+        [
+          0.232,
+          0.39,
+          0.315
+        ],
+        [
+          0.232,
+          0.39,
+          0.245
+        ]
+      ],
+      "unit": "m",
+      "source": "E08 after F1 through rear roof/floor glands to VIN+ station; actual converter terminal entry verify",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_minus_route": {
+      "value": [
+        [
+          0.26,
+          0.204,
+          0.315
+        ],
+        [
+          0.26,
+          0.39,
+          0.315
+        ],
+        [
+          0.26,
+          0.39,
+          0.245
+        ]
+      ],
+      "unit": "m",
+      "source": "E08 straight passage through both roof glands; battery terminal tail remains provisional until terminal drawing is verified",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "output_route": {
+      "value": [
+        [
+          0.286,
+          0.4,
+          0.25
+        ],
+        [
+          0.286,
+          0.4,
+          0.31
+        ],
+        [
+          0.18,
+          0.4,
+          0.31
+        ]
+      ],
+      "unit": "m",
+      "source": "converter OUT to power WAGO station; bare insulated tails complete actual connectors",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "lf_route": {
+      "value": [
+        [
+          0.05,
+          0.42,
+          0.275
+        ],
+        [
+          0.275,
+          0.42,
+          0.275
+        ],
+        [
+          0.275,
+          0.285,
+          0.275
+        ],
+        [
+          0.275,
+          0.285,
+          0.14
+        ],
+        [
+          0.235,
+          0.28,
+          0.11
+        ]
+      ],
+      "unit": "m",
+      "source": "WAGO LF station through floor M16 to LF terminal reserve",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "hf_route": {
+      "value": [
+        [
+          0.05,
+          0.4,
+          0.305
+        ],
+        [
+          0.17,
+          0.4,
+          0.305
+        ],
+        [
+          0.17,
+          0.5,
+          0.305
+        ],
+        [
+          0.17,
+          0.5,
+          0.145
+        ],
+        [
+          0.24,
+          0.47,
+          0.145
+        ]
+      ],
+      "unit": "m",
+      "source": "WAGO HF station through partition M16 to HF terminal reserve",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "tail_allowance": {
+      "value": 0.16,
+      "unit": "m",
+      "source": "two insulated tails80mm each; actual pigtail/terminal lengths measure",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "service_allowance": {
+      "value": 0.1,
+      "unit": "m",
+      "source": "dry-bay service reserve; loop dressing checked separately",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "charge_route": {
+      "value": [
+        [
+          0.303,
+          0.195,
+          0.316
+        ],
+        [
+          0.28,
+          0.195,
+          0.316
+        ],
+        [
+          0.28,
+          0.196,
+          0.288
+        ]
+      ],
+      "unit": "m",
+      "source": "short jacket-free internal charging leads to F2 and battery; no external cabinet hole",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "charge_area": {
+      "value": 1.5,
+      "unit": "mm2",
+      "source": "5A external charging branch",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "remote_area": {
+      "value": 0.25,
+      "unit": "mm2",
+      "source": "low-current dry-contact control, not battery load switching",
+      "status": "design_assumption",
+      "uncertainty": null
+    }
+  },
+  "wiring_reference_status": "wiring group is legacy E05 screening only; E08 uses power_system and harness_e08"
 }

@@ -17,7 +17,7 @@ A1 ist auf 14,142 Vrms gekappt. CSV enthält zusätzlich das ungekappte Berichts
 
 Kosten und Tragemassen dieser Tabelle sind E01-Referenzans?tze. Verst?rkte E03-Mechanik ist darin nicht vollst?ndig kalkuliert; siehe data/mechanical_hardware.json und hardware/mechanical/README.md.
 
-Beide nutzen vorläufig H/B/T 560/330/300 mm. Geometrisch innen 45.27 l vor Einbauten; reine Hülle vor Ausschnitten 6.10–7.12 kg. Keine vollständige Verdrängungs- oder Schwerpunktbilanz.
+Beide nutzen vorläufig H/B/T 560/360/340 mm. Geometrisch innen 56.91 l vor Einbauten; reine Hülle vor Ausschnitten 6.98–8.14 kg. Keine vollständige Verdrängungs- oder Schwerpunktbilanz.
 
 | Konzept / Lastprofil | mittlere Akkuaufnahme W | Laufzeitbereich h |
 |---|---|---|

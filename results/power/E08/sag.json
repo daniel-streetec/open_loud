@@ -1,0 +1,132 @@
+{
+  "status": "sensitivity_only_pack_BMS_resistance_unknown",
+  "load_W": 95.51923076923076,
+  "harness_loop_ohm": 0.015813098930854676,
+  "scenarios": [
+    {
+      "open_circuit_V": 10,
+      "assumed_pack_BMS_resistance_ohm": 0.01,
+      "result": {
+        "load_V": 9.747036196023231,
+        "current_A": 9.799823130666365,
+        "loss_W": 2.479000537432892
+      },
+      "below_10V_terminal_cutoff": true
+    },
+    {
+      "open_circuit_V": 10,
+      "assumed_pack_BMS_resistance_ohm": 0.03,
+      "result": {
+        "load_V": 9.541361913674145,
+        "current_A": 10.01106882156288,
+        "loss_W": 4.591457446398031
+      },
+      "below_10V_terminal_cutoff": true
+    },
+    {
+      "open_circuit_V": 10,
+      "assumed_pack_BMS_resistance_ohm": 0.06,
+      "result": {
+        "load_V": 9.214070610216822,
+        "current_A": 10.36667015155238,
+        "loss_W": 8.147470746293056
+      },
+      "below_10V_terminal_cutoff": true
+    },
+    {
+      "open_circuit_V": 11,
+      "assumed_pack_BMS_resistance_ohm": 0.01,
+      "result": {
+        "load_V": 10.771086476842768,
+        "current_A": 8.868114741682907,
+        "loss_W": 2.0300313892812176
+      },
+      "below_10V_terminal_cutoff": false
+    },
+    {
+      "open_circuit_V": 11,
+      "assumed_pack_BMS_resistance_ohm": 0.03,
+      "result": {
+        "load_V": 10.58664604931089,
+        "current_A": 9.022614936243036,
+        "loss_W": 3.729533529442624
+      },
+      "below_10V_terminal_cutoff": false
+    },
+    {
+      "open_circuit_V": 11,
+      "assumed_pack_BMS_resistance_ohm": 0.06,
+      "result": {
+        "load_V": 10.296706277008544,
+        "current_A": 9.276678211411653,
+        "loss_W": 6.524229556297418
+      },
+      "below_10V_terminal_cutoff": false
+    },
+    {
+      "open_circuit_V": 12.8,
+      "assumed_pack_BMS_resistance_ohm": 0.01,
+      "result": {
+        "load_V": 12.604381729580695,
+        "current_A": 7.578255944522902,
+        "loss_W": 1.4824453206624035
+      },
+      "below_10V_terminal_cutoff": false
+    },
+    {
+      "open_circuit_V": 12.8,
+      "assumed_pack_BMS_resistance_ohm": 0.03,
+      "result": {
+        "load_V": 12.448468238403017,
+        "current_A": 7.673171424782836,
+        "loss_W": 2.697363467989544
+      },
+      "below_10V_terminal_cutoff": false
+    },
+    {
+      "open_circuit_V": 12.8,
+      "assumed_pack_BMS_resistance_ohm": 0.06,
+      "result": {
+        "load_V": 12.206753921761553,
+        "current_A": 7.825113161242985,
+        "loss_W": 4.64221769467946
+      },
+      "below_10V_terminal_cutoff": false
+    },
+    {
+      "open_circuit_V": 14.6,
+      "assumed_pack_BMS_resistance_ohm": 0.01,
+      "result": {
+        "load_V": 14.429120047127466,
+        "current_A": 6.619892998135159,
+        "loss_W": 1.1312070035425605
+      },
+      "below_10V_terminal_cutoff": false
+    },
+    {
+      "open_circuit_V": 14.6,
+      "assumed_pack_BMS_resistance_ohm": 0.03,
+      "result": {
+        "load_V": 14.293852159644933,
+        "current_A": 6.682539437402681,
+        "loss_W": 2.045845016848395
+      },
+      "below_10V_terminal_cutoff": false
+    },
+    {
+      "open_circuit_V": 14.6,
+      "assumed_pack_BMS_resistance_ohm": 0.06,
+      "result": {
+        "load_V": 14.0858964852032,
+        "current_A": 6.7811964165412375,
+        "loss_W": 3.4862369122713015
+      },
+      "below_10V_terminal_cutoff": false
+    }
+  ],
+  "limitations": [
+    "10/30/60 milliohm pack values are hypothetical sensitivity cases, not EREMIT specifications.",
+    "Pack BMS cutoff senses internal cells, not converter terminals; terminal threshold is a conservative screen.",
+    "Measure pack/BMS DC resistance at state of charge and temperature; do not infer capacity from these scenarios."
+  ]
+}
