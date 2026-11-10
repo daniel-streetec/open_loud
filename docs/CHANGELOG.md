@@ -1,5 +1,11 @@
 # Änderungsstand
 
+## E07 – 2026-11-10 abends
+
+Auf Nutzerwunsch168flache Komponenten in funktionale Montage-Unterbaugruppen umgeordnet: Gehäuse mit festen Gegenstücken, Frontbestückung LF/HF/Port, Service-Rückwand, entnehmbares Elektronikmodul und Kabelbaum. Nichtphysische Referenzräume separat; Akkuversorgung und Schutz/Tragen ausdrücklich noch nicht modelliert. Zentrale Strukturregeln, eindeutige Zuordnung, Komponentenlisten und gruppierte Struktur-BOM erstellt.
+
+247native Körper ohne Volumen-/Lageänderung,71Parameter erhalten; nativer Breitenänderungstest10mm mit Rücksetzen und gesunde Timeline. STEP lässt zwei ausgeblendete Referenzkörper weg: nach zuerst gescheitertem247-vs245-Vergleich explizit physische Teilmenge geprüft. Gesamt-STEP und fünf separate Hauptbaugruppen-STEPs tatsächlich rückimportiert; native Hierarchie mit183Occurrence-Pfaden erhalten.16Tests bestanden. Keine neue Bau-/Passungs-/Wetterfreigabe und kein Wiederanlauf reaktiviert.
+
 ## E05 – 2026-11-09
 
 Strom-/Querschnittsauslegung für drei Kabelzweige mit Temperatur, Hin-/Rückleitung, Originalpigtail-Annahme, Kontaktbudgets und Verlusten implementiert.2x1,5mm², Zuschnitt250/460/350mm. Reproduzierbare CSV/JSON und strukturierte Ergänzungs-BOM.95zusätzliche Fusion-Komponenten einschließlich42Schrauben,34Scheiben,12Muttern, Durchführungen und Kabelmänteln; keine neue äußere Panzerverkleidung. Gewindeeingriff/Gegenstücke ausdrücklich dokumentiert, weitere Montage-/Kontaktpunkte offen.

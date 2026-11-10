@@ -1,0 +1,11 @@
+{
+  "images": [
+    "BG10_Gehaeuse.png",
+    "BG20_Frontbestueckung.png",
+    "BG30_Service_Rueckwand.png",
+    "BG40_Elektronikmodul.png",
+    "BG50_Kabelbaum.png",
+    "assembly_overview.png"
+  ],
+  "scope": "Actual CAD views, no beauty-render or manufacturing claim"
+}

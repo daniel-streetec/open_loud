@@ -2,7 +2,7 @@
 
 Tragbarer DIY-Outdoor-Lautsprecher. Entwicklungsstand: **Vorentwurf, keine Bau- oder Sicherheitsfreigabe**.
 
-Aktueller geprüfter Zwischenstand E05: Verkabelungsrechnung und modellierte Befestiger, geprüfte STEP/F3D-Rückimporte,28-seitiger CAD-Prüfzeichnungssatz. Akku-/Festivalversorgung, vollständige Anschluss-/Schutzkette, fertig bemaßte Fertigungszeichnungen und abschließende Gestaltung bleiben in Arbeit; neuester Status in docs/NEXT_SESSION.md. Die lokal bereitgestellte Forschungs-PDF wird wegen ungeklärter Weitergaberechte nicht mitgepusht. Ihr Hash ist dokumentiert, die Rechengeneratoren laufen auch ohne die PDF.
+Geprüfte Grundlage E05: Verkabelungsrechnung und modellierte Befestiger, geprüfte STEP/F3D-Rückimporte,28-seitiger CAD-Prüfzeichnungssatz. Akku-/Festivalversorgung, vollständige Anschluss-/Schutzkette, fertig bemaßte Fertigungszeichnungen und abschließende Gestaltung bleiben in Arbeit; neuester Status in docs/NEXT_SESSION.md. Die lokal bereitgestellte Forschungs-PDF wird wegen ungeklärter Weitergaberechte nicht mitgepusht. Ihr Hash ist dokumentiert, die Rechengeneratoren laufen auch ohne die PDF.
 
 Startpunkt ist der vom Nutzer bereitgestellte [Forschungsbericht](docs/research/OPEN_LOUD_Forschungsbericht_Phase_1.pdf). Seine Empfehlungen und Zahlen sind Prüfgrundlagen. Es liegen noch keine eigenen Messungen vor.
 
@@ -13,6 +13,7 @@ Startpunkt ist der vom Nutzer bereitgestellte [Forschungsbericht](docs/research/
 - [Festivalversorgung im Vergleich – USB ausdrücklich optional](results/battery/comparison.md)
 - [Autorisierter Wiederanlauf nach Kontingentreset](docs/automation/README.md)
 - [CAD-basierter Zeichnungssatz E05: 25 Teile, Gesamtansicht, Explosion und Schraubenaufbauten](hardware/mechanical/drawings/E05/README.md)
+- [Unterbaugruppen E07: Gehäuse, Front, Rückwand, Elektronik und Kabelbaum](docs/build/assemblies.md)
 - [Modell und Grenzen](simulation/README.md)
 - [Generierter Konzeptvergleich](results/comparison.md)
 - [Quellen und Verifikation](docs/sources.md)

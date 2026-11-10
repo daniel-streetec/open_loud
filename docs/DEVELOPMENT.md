@@ -1,5 +1,7 @@
 # Entwicklungsplan und Übergabe
 
+Aktueller Abendstand2026-11-10: **E07-Unterbaugruppen umgesetzt und geprüft**, Details docs/build/assemblies.md.168Komponenten in fünf physischen Hauptbaugruppen plus Referenzräume,247native/245physische STEP-Körper. Vollständiger F3D-Hierarchie-/Parameter-Rückimport und Gesamt-/fünf Baugruppen-STEP-Rückimporte bestanden. Abstände/Geometrie gegenüber E06 unverändert, nativer10mm-Breitenänderungstest bestanden.16Python-Tests. Nutzer hat Arbeit wieder aufgenommen; sämtliche Wiederanlaufprozesse bleiben abgeschaltet. E05/E06-Abschnitte unten sind Vorgeschichte. Nächste technische Priorität bleibt Batterie-/Schutzarchitektur, vollständige Anschlussstellen und Kabelbefestigung auf Basis dieser Baugruppen.
+
 Revision E05, 2026-11-09. Aktueller CAD-Stand: OPEN_LOUD / OPEN_LOUD_A0_E05_WiringFasteners. **Zuerst docs/NEXT_SESSION.md lesen**: dort neueste Nutzerkorrekturen, Wiederanlaufstatus und konkreter weiterer Arbeitsplan. E03 bleibt geprüfte Rückfallbasis; historische E03-Abschnitte unten nicht als neueste Übergabe lesen.
 
 E05-Verkabelung berechnet,42Schrauben/34Scheiben/12Muttern mit Gegenstücken modelliert. Drei anfängliche Kabelkollisionen und zwei fehlerhafte Durchführungsbohrungen behoben; anschließende Kernelprüfung ohne Kabelkollision/Timelinefehler.204Solids, STEP/F3D-Rückimport bestanden und Fusion gespeichert. Vier neue Durchführungs-DXFs; Klemmenhalter, echte Anschlüsse, Wartungsschlaufen und Elektronikschutz bleiben offen. tools/reproduce.py führt auch Wiring-/BOM-/Festivalstudie aus.

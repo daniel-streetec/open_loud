@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "scope": "Hierarchy, unchanged native solids/placement/parameters, functional width edit; not a new fit/safety approval",
+  "root_assemblies": [
+    "BG10_Gehaeuse",
+    "BG20_Frontbestueckung",
+    "BG30_Service_Rueckwand",
+    "BG40_Elektronikmodul",
+    "BG50_Kabelbaum",
+    "BG90_Referenzraeume"
+  ],
+  "leaf_components": 168,
+  "solid_bodies": 247,
+  "max_volume_change_cm3": 0,
+  "parameters_checked": 71,
+  "timeline_issues": [],
+  "width_edit_test": {
+    "delta_input_mm": 10,
+    "delta_top_panel_mm": 10.000000000000036,
+    "restored": true
+  },
+  "planned_not_modeled": [
+    {
+      "path": "BG60_Akkuversorgung",
+      "reason": "battery architecture, holder, protection and charging not selected; do not imply a completed module"
+    },
+    {
+      "path": "BG70_Schutz_Tragen",
+      "reason": "qualified purchased grille/corners/handles/feet not yet selected"
+    }
+  ]
+}

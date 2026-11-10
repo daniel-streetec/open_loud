@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "scope": "Structure/BOM completeness, actual CAD verification records, STEP syntax and artifact hashes; not new physical validation",
+  "leaf_components": 168,
+  "grouped_positions": 55,
+  "source_sha256": {
+    "data/parameters.json": "05ff83a37138ea2d371b9e342a07c01fd17830a3e028a0d2018ffb35337887d4",
+    "data/assembly_structure.json": "fafdd98f671bb9158f631868c2abf31ef723ea50b85c0e32489910bee3464586",
+    "hardware\\mechanical\\exports\\E06\\OPEN_LOUD_A0_E06_PAUSED.f3d": "eb277aabffc6d83f613506d1c2309dd9c729d33bbe7e20ef83a464830057fb75",
+    "hardware/mechanical/assemblies.py": "9ebdcfe615bc17567d6a9801c34b8eebc1704d69263b2fa2400730af7d4657b1",
+    "hardware/mechanical/prepare_assemblies_e07.py": "903b55b5a1bcb72cd9ba49e05c3ef4a9f502322e4e2de14430cf606edea10199",
+    "hardware/mechanical/organize_assemblies_e07.py": "5d4be02619045cd5a9a94f224fd00b1454129b6e4b7956ad28fb473be8cfd644",
+    "hardware/mechanical/verify_assemblies_e07.py": "2f3773a856d38d50061cd81322ae993b76122c6fc2f99339ac36665ca0dfc5b5",
+    "hardware/mechanical/check_exports_e07.py": "1c12e58ad9b186d179c3530a3ccae8ce070e94c46b3beef16a9ea1129e1bab96",
+    "hardware/mechanical/capture_assemblies_e07.py": "a6695d075a0725cebe1e5b0f0a4044d64a1a50a33f35f2b83bc568797f8fb3ff",
+    "tools/generate_assembly_bom.py": "a08c7fe07868b5d050d7cc8876c593d02ff3c6226d12c4b86b2676885b12d0d2",
+    "tools/check_assembly_outputs.py": "0d815fe9dd7911cd47b3d784e2ce0f3842cac3f61a8e7d456fef5bb4057076cb"
+  },
+  "output_sha256": {
+    "assemblies.md": "5883a88a3b0bc4b0bbf0f77c2452441f276cedf5f4faa3d83c8d5907e9db546c",
+    "assembly_bom.csv": "1f114a1b75b28461dd513aba0082f893826b28e847f0fb0c512caa4358873d35",
+    "assembly_bom_grouped.csv": "8e1af896b23e1eba7bcf3b7ede23fad93003744868b4ef806e6260651529d4e2",
+    "assembly_mapping.json": "98dc29c916e2dfd96fe72b6fbe8dc53bef588084733fcc48733d7b7133b6254e",
+    "assembly_overview.png": "e4d5927a20336c882c3cb2b82431956ff1ef0fac8e4f7b5813a7155f772f9641",
+    "assembly_parts.csv": "8e028e0041b7b73f1cf541f93c204704ea8e6ca5cfeb0fe2ea7d6f0d8ca5db98",
+    "baseline.json": "17207329419e0627aa5153b7bf4327d2992311722b7e0a5da8c48a44e5be0b03",
+    "export_validation.json": "16a8b2bb89a5f13eb6a7b0a6ed823f30ebecebdaa961d5a61859e44d3e91b52c",
+    "hierarchy_validation.json": "32c7e0d508e46277e6de1b652629dd6641bd71ecb117a71718ad78c640f78874",
+    "module_views.json": "8b210cbe426737bf90c6bcbbe1dedb7203ce518167dd92cd208890dfbddc2fc4",
+    "OPEN_LOUD_A0_E07.f3d": "9a9b61aa4075f247332d071d79fa06256a6ebef12779859c8db50212d341501d",
+    "OPEN_LOUD_A0_E07.step": "431a7bc2f45603f205d24c8dd18f5219da20f2eccb1e953f2062b6fe74705af2",
+    "subassemblies/BG10_Gehaeuse.png": "56560477c378a787e9354fce2a681766c04d80b5c9c7be1ab6280fdbddb7be52",
+    "subassemblies/BG10_Gehaeuse.step": "627cc3c77dc01f3c39597cc48736088287c5c15ae8717cedbbb79e0d2de8ee7e",
+    "subassemblies/BG20_Frontbestueckung.png": "21788a69b206b6bcf3a6815c91c381290d4dd9c4ec0d7373a47a2436e3b3b03b",
+    "subassemblies/BG20_Frontbestueckung.step": "3b70dea10647775be2daf8265596fa090d03396456318c3977ff0a6e8cad19dd",
+    "subassemblies/BG30_Service_Rueckwand.png": "0e7570cb7118cc5f62cb1b376d51013cdf5ddfbe908924502fe3a50c9a28de42",
+    "subassemblies/BG30_Service_Rueckwand.step": "a42fa8f5e73a1f6b881fea14108fdd73b3a8b17f2bf19fd68befda7c47255748",
+    "subassemblies/BG40_Elektronikmodul.png": "d592f5a7d1dcd88251a6297118d9eae52248da537957a444269710302e7b267d",
+    "subassemblies/BG40_Elektronikmodul.step": "1a40607620a02ffe4eb98437c1ee6c39ff255a9d9c0a254a7fd253d519ad1ce4",
+    "subassemblies/BG50_Kabelbaum.png": "e1b92cd39293f6c056dc5830141b563c6814ee1fe7847c658bd3d449ba59c2a5",
+    "subassemblies/BG50_Kabelbaum.step": "651180113f15b52639a61eb52dc6c1089e61a57ea2d2f23c33f25756b31ba2e9"
+  }
+}

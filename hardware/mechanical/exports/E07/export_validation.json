@@ -1,0 +1,225 @@
+{
+  "status": "passed",
+  "saved": true,
+  "native": {
+    "volume_error_cm3": 0.0,
+    "parameters": 71,
+    "occurrence_paths": 183,
+    "hierarchy_preserved": true
+  },
+  "step": {
+    "file": "OPEN_LOUD_A0_E07.step",
+    "status": "passed",
+    "expected": {
+      "bodies": 245,
+      "solid": 245,
+      "volume_cm3": 15478.06055226018,
+      "min_cm": [
+        -0.001,
+        -0.002,
+        -1.4029999999999998
+      ],
+      "max_cm": [
+        33.001999999999995,
+        56.001999999999995,
+        30.603
+      ]
+    },
+    "observed": {
+      "bodies": 245,
+      "solid": 245,
+      "volume_cm3": 15478.063336386327,
+      "min_cm": [
+        -0.001,
+        -0.002,
+        -1.4029999999999998
+      ],
+      "max_cm": [
+        33.001999999999995,
+        56.001999999999995,
+        30.60300000000001
+      ]
+    },
+    "volume_error_cm3": 0.0027841261471621692
+  },
+  "physical_subassemblies": [
+    {
+      "file": "BG10_Gehaeuse.step",
+      "status": "passed",
+      "expected": {
+        "bodies": 81,
+        "solid": 81,
+        "volume_cm3": 10581.336000370527,
+        "min_cm": [
+          -0.001,
+          -0.002,
+          -0.002
+        ],
+        "max_cm": [
+          33.001999999999995,
+          56.001999999999995,
+          30.002000000000002
+        ]
+      },
+      "observed": {
+        "bodies": 81,
+        "solid": 81,
+        "volume_cm3": 10581.336000370522,
+        "min_cm": [
+          -0.001,
+          -0.002,
+          -0.002
+        ],
+        "max_cm": [
+          33.001999999999995,
+          56.001999999999995,
+          30.002000000000002
+        ]
+      },
+      "volume_error_cm3": 5.4569682106375694e-12
+    },
+    {
+      "file": "BG20_Frontbestueckung.step",
+      "status": "passed",
+      "expected": {
+        "bodies": 56,
+        "solid": 56,
+        "volume_cm3": 2873.5255823267003,
+        "min_cm": [
+          2.499,
+          2.1493581585350006,
+          -1.402
+        ],
+        "max_cm": [
+          30.501,
+          53.526999999999994,
+          16.149860433000004
+        ]
+      },
+      "observed": {
+        "bodies": 56,
+        "solid": 56,
+        "volume_cm3": 2873.5283664529047,
+        "min_cm": [
+          2.499,
+          2.1493581585350006,
+          -1.402
+        ],
+        "max_cm": [
+          30.501,
+          53.527,
+          16.149860433000004
+        ]
+      },
+      "volume_error_cm3": 0.0027841262044603354
+    },
+    {
+      "file": "BG30_Service_Rueckwand.step",
+      "status": "passed",
+      "expected": {
+        "bodies": 21,
+        "solid": 21,
+        "volume_cm3": 1969.5733247915955,
+        "min_cm": [
+          1.1989999999999994,
+          1.1990000000000003,
+          26.098
+        ],
+        "max_cm": [
+          31.801000000000002,
+          54.801,
+          30.602
+        ]
+      },
+      "observed": {
+        "bodies": 21,
+        "solid": 21,
+        "volume_cm3": 1969.5733247915955,
+        "min_cm": [
+          1.1989999999999994,
+          1.1990000000000003,
+          26.098
+        ],
+        "max_cm": [
+          31.801000000000002,
+          54.801,
+          30.602000000000004
+        ]
+      },
+      "volume_error_cm3": 0.0
+    },
+    {
+      "file": "BG40_Elektronikmodul.step",
+      "status": "passed",
+      "expected": {
+        "bodies": 30,
+        "solid": 30,
+        "volume_cm3": 32.166258905672485,
+        "min_cm": [
+          3.998999999999999,
+          36.84700000000001,
+          18.198999999999998
+        ],
+        "max_cm": [
+          15.200999999999999,
+          38.91299999999999,
+          27.201
+        ]
+      },
+      "observed": {
+        "bodies": 30,
+        "solid": 30,
+        "volume_cm3": 32.16625890567169,
+        "min_cm": [
+          3.999,
+          36.84700000000001,
+          18.198999999999998
+        ],
+        "max_cm": [
+          15.201,
+          38.913,
+          27.201000000000004
+        ]
+      },
+      "volume_error_cm3": 7.958078640513122e-13
+    },
+    {
+      "file": "BG50_Kabelbaum.step",
+      "status": "passed",
+      "expected": {
+        "bodies": 57,
+        "solid": 57,
+        "volume_cm3": 21.45938586568579,
+        "min_cm": [
+          22.270551176272775,
+          27.685775860325265,
+          11.185775860325267
+        ],
+        "max_cm": [
+          28.851,
+          47.34620323649182,
+          26.352000000000004
+        ]
+      },
+      "observed": {
+        "bodies": 57,
+        "solid": 57,
+        "volume_cm3": 21.45938586563286,
+        "min_cm": [
+          22.270551176272775,
+          27.68577586032526,
+          11.185775860325267
+        ],
+        "max_cm": [
+          28.851000000000003,
+          47.34620323649182,
+          26.352000000000004
+        ]
+      },
+      "volume_error_cm3": 5.292832838676986e-11
+    }
+  ],
+  "reference_spaces_separate_not_exported_as_module": true,
+  "STEP_scope": "physical model; hidden nonphysical reference bodies omitted",
+  "reference_bodies_not_in_STEP": 2
+}
