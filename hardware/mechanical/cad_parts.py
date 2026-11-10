@@ -18,6 +18,7 @@ class Parts:
         return body
     def component(self,name,bodies,part,status='prototype_candidate',source=None):
         cp=self.root.occurrences.addNewComponent(adsk.core.Matrix3D.create()).component;cp.name=name;cp.partNumber=part
+        assert cp.name==name,f'Unexpected duplicate component name: requested{name}, actual{cp.name}'
         cp.attributes.add('OPEN_LOUD','part',part);cp.attributes.add('OPEN_LOUD','status',status)
         if source:cp.attributes.add('OPEN_LOUD','source',source)
         base=cp.features.baseFeatures.add();base.startEdit()

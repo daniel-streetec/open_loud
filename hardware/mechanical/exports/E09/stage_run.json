@@ -1,0 +1,205 @@
+[
+  {
+    "stage": "rear",
+    "script": "hardware/mechanical/assemble_rear_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "fasteners",
+    "script": "hardware/mechanical/add_fasteners_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "power",
+    "script": "hardware/mechanical/add_power_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "electronics",
+    "script": "hardware/mechanical/add_electronics_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "charge",
+    "script": "hardware/mechanical/add_charge_bracket_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "orion",
+    "script": "hardware/mechanical/refine_orion_mount_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "harness",
+    "script": "hardware/mechanical/add_harness_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "verify",
+    "script": "hardware/mechanical/verify_power_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "service",
+    "script": "hardware/mechanical/check_battery_service_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "inventory",
+    "script": "hardware/mechanical/inventory_mass_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "view",
+    "script": "hardware/mechanical/view_power_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "exports",
+    "script": "hardware/mechanical/check_exports_e09.py",
+    "status": "passed",
+    "returncode": 0
+  },
+  {
+    "stage": "charge_refined",
+    "script": "hardware/mechanical/add_charge_bracket_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports"
+  },
+  {
+    "stage": "routes_refined",
+    "script": "hardware/mechanical/refine_routes_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports"
+  },
+  {
+    "stage": "verify_refined",
+    "script": "hardware/mechanical/verify_power_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports"
+  },
+  {
+    "stage": "service_refined",
+    "script": "hardware/mechanical/check_battery_service_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports"
+  },
+  {
+    "stage": "inventory_refined",
+    "script": "hardware/mechanical/inventory_mass_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports"
+  },
+  {
+    "stage": "view_refined",
+    "script": "hardware/mechanical/view_power_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports"
+  },
+  {
+    "stage": "exports_refined",
+    "script": "hardware/mechanical/check_exports_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports"
+  },
+  {
+    "stage": "charge_service",
+    "script": "hardware/mechanical/add_charge_bracket_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports"
+  },
+  {
+    "stage": "envelope",
+    "script": "hardware/mechanical/check_battery_envelope_e09.py",
+    "status": "failed",
+    "returncode": 1,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports",
+    "error_tail": "{\"id\": 2, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"{\\n    \\\"error\\\": \\\"{\\\\\\\"status\\\\\\\": \\\\\\\"blocked\\\\\\\", \\\\\\\"travel_mm\\\\\\\": 227.00000000000003, \\\\\\\"hits\\\\\\\": 2, \\\\\\\"fixed_bodies\\\\\\\": 334}\\\\nTraceback (most recent call last):\\\\n  File \\\\\\\"<string>\\\\\\\", line 70, in <module>\\\\n  File \\\\\\\"<string>\\\\\\\", line 68, in run\\\\nAssertionError\\\\n\\\",\\n    \\\"success\\\": false\\n}\", \"type\": \"text\"}]}}\n"
+  },
+  {
+    "stage": "verify_service",
+    "script": "hardware/mechanical/verify_power_e09.py",
+    "status": "failed",
+    "returncode": 2,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports",
+    "tool_returncode": 0,
+    "geometric_quality_counts": {
+      "interferences": 4,
+      "kernel_failures": 0,
+      "timeline_issues": 0
+    },
+    "error_tail": "{\"id\": 2, \"jsonrpc\": \"2.0\", \"result\": {\"content\": [{\"text\": \"{\\n    \\\"message\\\": \\\"{\\\\\\\"interferences\\\\\\\": 4, \\\\\\\"kernel_failures\\\\\\\": 0, \\\\\\\"timeline_issues\\\\\\\": 0, \\\\\\\"export\\\\\\\": \\\\\\\"checkpoint_not_release\\\\\\\"}\\\\n\\\",\\n    \\\"success\\\": true\\n}\", \"type\": \"text\"}]}}\n"
+  },
+  {
+    "stage": "envelope",
+    "script": "hardware/mechanical/check_battery_envelope_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports",
+    "tool_returncode": 0
+  },
+  {
+    "stage": "verify_service",
+    "script": "hardware/mechanical/verify_power_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports",
+    "tool_returncode": 0,
+    "geometric_quality_counts": {
+      "interferences": 0,
+      "kernel_failures": 0,
+      "timeline_issues": 0
+    }
+  },
+  {
+    "stage": "inventory_service",
+    "script": "hardware/mechanical/inventory_mass_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports",
+    "tool_returncode": 0
+  },
+  {
+    "stage": "assemblies_service",
+    "script": "hardware/mechanical/verify_assemblies_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports",
+    "tool_returncode": 0
+  },
+  {
+    "stage": "view_service",
+    "script": "hardware/mechanical/view_power_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports",
+    "tool_returncode": 0
+  },
+  {
+    "stage": "exports_service",
+    "script": "hardware/mechanical/check_exports_e09.py",
+    "status": "passed",
+    "returncode": 0,
+    "scope": "Tool execution only; actual geometric and service findings are in separate validation reports",
+    "tool_returncode": 0
+  }
+]

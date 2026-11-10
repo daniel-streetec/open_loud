@@ -1,0 +1,196 @@
+{
+  "status": "sampled_path_clear",
+  "samples": [
+    {
+      "rearward_mm": 0,
+      "hits": []
+    },
+    {
+      "rearward_mm": 5,
+      "hits": []
+    },
+    {
+      "rearward_mm": 10,
+      "hits": []
+    },
+    {
+      "rearward_mm": 15,
+      "hits": []
+    },
+    {
+      "rearward_mm": 20,
+      "hits": []
+    },
+    {
+      "rearward_mm": 25,
+      "hits": []
+    },
+    {
+      "rearward_mm": 30,
+      "hits": []
+    },
+    {
+      "rearward_mm": 35,
+      "hits": []
+    },
+    {
+      "rearward_mm": 40,
+      "hits": []
+    },
+    {
+      "rearward_mm": 45,
+      "hits": []
+    },
+    {
+      "rearward_mm": 50,
+      "hits": []
+    },
+    {
+      "rearward_mm": 55,
+      "hits": []
+    },
+    {
+      "rearward_mm": 60,
+      "hits": []
+    },
+    {
+      "rearward_mm": 65,
+      "hits": []
+    },
+    {
+      "rearward_mm": 70,
+      "hits": []
+    },
+    {
+      "rearward_mm": 75,
+      "hits": []
+    },
+    {
+      "rearward_mm": 80,
+      "hits": []
+    },
+    {
+      "rearward_mm": 85,
+      "hits": []
+    },
+    {
+      "rearward_mm": 90,
+      "hits": []
+    },
+    {
+      "rearward_mm": 95,
+      "hits": []
+    },
+    {
+      "rearward_mm": 100,
+      "hits": []
+    },
+    {
+      "rearward_mm": 105,
+      "hits": []
+    },
+    {
+      "rearward_mm": 110,
+      "hits": []
+    },
+    {
+      "rearward_mm": 115,
+      "hits": []
+    },
+    {
+      "rearward_mm": 120,
+      "hits": []
+    },
+    {
+      "rearward_mm": 125,
+      "hits": []
+    },
+    {
+      "rearward_mm": 130,
+      "hits": []
+    },
+    {
+      "rearward_mm": 135,
+      "hits": []
+    },
+    {
+      "rearward_mm": 140,
+      "hits": []
+    },
+    {
+      "rearward_mm": 145,
+      "hits": []
+    },
+    {
+      "rearward_mm": 150,
+      "hits": []
+    },
+    {
+      "rearward_mm": 155,
+      "hits": []
+    },
+    {
+      "rearward_mm": 160,
+      "hits": []
+    },
+    {
+      "rearward_mm": 165,
+      "hits": []
+    },
+    {
+      "rearward_mm": 170,
+      "hits": []
+    },
+    {
+      "rearward_mm": 175,
+      "hits": []
+    },
+    {
+      "rearward_mm": 180,
+      "hits": []
+    },
+    {
+      "rearward_mm": 185,
+      "hits": []
+    },
+    {
+      "rearward_mm": 190,
+      "hits": []
+    },
+    {
+      "rearward_mm": 195,
+      "hits": []
+    },
+    {
+      "rearward_mm": 200,
+      "hits": []
+    },
+    {
+      "rearward_mm": 205,
+      "hits": []
+    },
+    {
+      "rearward_mm": 210,
+      "hits": []
+    },
+    {
+      "rearward_mm": 215,
+      "hits": []
+    },
+    {
+      "rearward_mm": 220,
+      "hits": []
+    },
+    {
+      "rearward_mm": 225,
+      "hits": []
+    }
+  ],
+  "assumptions": [
+    "Rear cover and its screws removed, straps/pad released, battery leads disconnected."
+  ],
+  "limitations": [
+    "A sampled collision disproves this straight path; no alternative rotation/tilt path has been established.",
+    "Nominal case, not actual terminals or tolerance stack."
+  ]
+}

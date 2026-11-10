@@ -1,0 +1,19 @@
+{
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.4",
+  "source_csv_sha256": "9ecf71e844dff6a82772239e82d49077b9233683ffa1b25c19e99da32507cd24",
+  "files": {
+    "LF_protection.png": {
+      "bytes": 291223,
+      "sha256": "fb5d05f49a04bcf27ab37ff3b2916d490ec15eda7278880ca5744006f86cee63"
+    },
+    "LF_protection.svg": {
+      "bytes": 154750,
+      "sha256": "7d9e943eca0b7c5fc891ecb308ba8fe94f83318e4ab4f0fc586bedd8288550dc"
+    },
+    "LF_protection.pdf": {
+      "bytes": 40640,
+      "sha256": "e5dcd6f4f29bb706444b787109598337cec665e033d5f61003452e7b65efc683"
+    }
+  }
+}

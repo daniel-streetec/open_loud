@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-10",
+  "license_decision": "pending; root LICENSE unchanged",
+  "formula_reference": {
+    "title": "W3C Audio EQ Cookbook, 2021-06-08",
+    "url": "https://www.w3.org/TR/audio-eq-cookbook/",
+    "use": "Mathematical LP/HP biquad formulae implemented in own Python; no third-party source file or document bundled",
+    "own_file": "simulation/filters.py"
+  },
+  "optional_local_dependencies": [
+    {"name": "matplotlib", "version": "3.11.2", "role": "Scientific plots", "bundled": false},
+    {"name": "numpy", "version": "2.5.4", "role": "Matplotlib runtime", "bundled": false},
+    {"name": "pypdf", "version": "6.12.0", "role": "PDF validation", "bundled": false}
+  ],
+  "dependency_reproduction": "tools/requirements-visual.txt; installed only in ignored .tools/python",
+  "numeric_runtime": "Python standard library, optional plotting/PDF packages not imported by numerical tests or calculations",
+  "vendor_geometry": "Same policy as external_material_E08.json: local Orion STEP inspection only; public E09 models contain own primitive envelopes, no vendor solids",
+  "retail_candidate_references": "data/procurement_E09_additions.json; no vendor photos, datasheets or CAD bundled"
+}

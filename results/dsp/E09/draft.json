@@ -1,0 +1,151 @@
+{
+  "status": "OFFLINE_APPROXIMATION_NOT_MEASUREMENT_OR_FIRMWARE",
+  "sample_rate_assumed_Hz": 48000,
+  "lf_target_Vrms": 10.5,
+  "comparison": [
+    {
+      "highpass_Hz": 35,
+      "max_excursion_peak_mm": 4.205321678644568,
+      "at_frequency_Hz": 32.359365692962825,
+      "Xmax_reference_mm": 4.62,
+      "max_port_peak_m_s": 10.091705421792515,
+      "port_limit_reference_m_s": 17,
+      "attenuation_50Hz_dB": -0.2434094589889524,
+      "F6_Hz": 60.642601797431794,
+      "reference_band_Hz": [
+        180,
+        250
+      ],
+      "within_nominal_excursion": true
+    },
+    {
+      "highpass_Hz": 40,
+      "max_excursion_peak_mm": 3.136105137832568,
+      "at_frequency_Hz": 88.40971692004956,
+      "Xmax_reference_mm": 4.62,
+      "max_port_peak_m_s": 8.866097066036163,
+      "port_limit_reference_m_s": 17,
+      "attenuation_50Hz_dB": -0.6735760994477625,
+      "F6_Hz": 60.98944007419801,
+      "reference_band_Hz": [
+        180,
+        250
+      ],
+      "within_nominal_excursion": true
+    },
+    {
+      "highpass_Hz": 45,
+      "max_excursion_peak_mm": 3.1318366353895657,
+      "at_frequency_Hz": 88.51156098308353,
+      "Xmax_reference_mm": 4.62,
+      "max_port_peak_m_s": 7.847699575383826,
+      "port_limit_reference_m_s": 17,
+      "attenuation_50Hz_dB": -1.554773320452554,
+      "F6_Hz": 61.69947498409083,
+      "reference_band_Hz": [
+        180,
+        250
+      ],
+      "within_nominal_excursion": true
+    },
+    {
+      "highpass_Hz": 50,
+      "max_excursion_peak_mm": 3.12283656885389,
+      "at_frequency_Hz": 88.92011178579483,
+      "Xmax_reference_mm": 4.62,
+      "max_port_peak_m_s": 7.016396191192266,
+      "port_limit_reference_m_s": 17,
+      "attenuation_50Hz_dB": -3.0103012973667247,
+      "F6_Hz": 62.88817782388135,
+      "reference_band_Hz": [
+        180,
+        250
+      ],
+      "within_nominal_excursion": true
+    }
+  ],
+  "LF_generic_biquads": [
+    {
+      "b": [
+        0.9951790670868863,
+        -1.9903581341737726,
+        0.9951790670868863
+      ],
+      "a": [
+        1,
+        -1.9903444924118558,
+        0.9903717759356891
+      ]
+    },
+    {
+      "b": [
+        0.9979934500703904,
+        -1.9959869001407808,
+        0.9979934500703904
+      ],
+      "a": [
+        1,
+        -1.9959732197997342,
+        0.9960005804818276
+      ]
+    },
+    {
+      "b": [
+        0.021620718376497008,
+        0.043241436752994016,
+        0.021620718376497008
+      ],
+      "a": [
+        1,
+        -1.543121131237386,
+        0.629604004743374
+      ]
+    },
+    {
+      "b": [
+        0.021620718376497008,
+        0.043241436752994016,
+        0.021620718376497008
+      ],
+      "a": [
+        1,
+        -1.543121131237386,
+        0.629604004743374
+      ]
+    }
+  ],
+  "HF_generic_biquads": [
+    {
+      "b": [
+        0.7931812839951901,
+        -1.5863625679903801,
+        0.7931812839951901
+      ],
+      "a": [
+        1,
+        -1.543121131237386,
+        0.629604004743374
+      ]
+    },
+    {
+      "b": [
+        0.7931812839951901,
+        -1.5863625679903801,
+        0.7931812839951901
+      ],
+      "a": [
+        1,
+        -1.543121131237386,
+        0.629604004743374
+      ]
+    }
+  ],
+  "coefficient_convention": "a0=1; y=b0*x+b1*x1+b2*x2-a1*y1-a2*y2",
+  "limitations": [
+    "No measured driver/horn response, delay, directivity, baffle response or acoustic crossover optimization.",
+    "No SigmaStudio image, fixed-point quantization, limiter timing or calibrated output gain.",
+    "A flat electrical LR sum is not a flat acoustic response.",
+    "No multitone/crest-factor proof, parameter tolerance or nonlinear compression included.",
+    "No combined LF/HF acoustic frequency response claimed."
+  ]
+}

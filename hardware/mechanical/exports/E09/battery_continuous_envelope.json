@@ -1,0 +1,30 @@
+{
+  "status": "passed_for_assumed_envelope",
+  "method": "Exact rectangular swept union along+Z, kernel intersection with fixed model solids",
+  "travel_m": 0.22700000000000004,
+  "case_free_face_tolerance_m": 0.002,
+  "lower_face": "seated pad bottom datum; no negative seating tolerance",
+  "additional_top_terminal_zone_m": 0.014,
+  "swept_origin_m": [
+    0.145,
+    0.037,
+    0.118
+  ],
+  "swept_size_m": [
+    0.134,
+    0.18900000000000003,
+    0.42600000000000005
+  ],
+  "fixed_bodies_screened": 317,
+  "hits": [],
+  "removed_for_service": [
+    "Rear cover and screws",
+    "Straps released",
+    "Battery leads disconnected; service disconnect not yet selected"
+  ],
+  "pad": "included in moving envelope",
+  "limitations": [
+    "Exact sweep applies to this assumed box and path, not a measured real battery assembly.",
+    "Holder envelopes, real post positions, hand/tool access and unmodeled connectors/anchors still need qualification."
+  ]
+}

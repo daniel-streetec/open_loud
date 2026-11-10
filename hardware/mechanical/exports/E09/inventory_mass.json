@@ -1,0 +1,1857 @@
+{
+  "status": "PARTIAL_MASS_SCREEN_NOT_MEASURED",
+  "wood_volume_m3": 0.016587982710873667,
+  "wood_density_assumption_kg_m3": [
+    600,
+    700
+  ],
+  "counted_nonwood_kg": 8.49,
+  "known_nonwood_kg": {
+    "battery": 4.9,
+    "LF": 2.2,
+    "converter": 0.42,
+    "hf_mass": 0.8,
+    "horn_mass": 0.17
+  },
+  "partial_subtotal_kg": [
+    18.442789626524203,
+    20.101587897611566
+  ],
+  "items": [
+    {
+      "component": "Side_left",
+      "part": "component:Side_left",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Side_left:1",
+      "body_volume_m3": 0.0022848000000000005,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Side_right",
+      "part": "component:Side_right",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Side_right:1",
+      "body_volume_m3": 0.0022848000000000057,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Bottom",
+      "part": "component:Bottom",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Bottom:1",
+      "body_volume_m3": 0.0013708800000000003,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Top",
+      "part": "component:Top",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Top:1",
+      "body_volume_m3": 0.0013708800000000031,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Baffle",
+      "part": "component:Baffle",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Baffle:1",
+      "body_volume_m3": 0.0014204631704969634,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "part": "component:Baffle_inner_lamination",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Baffle_inner_lamination:1",
+      "body_volume_m3": 0.0014204631704969634,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Rear_cleat_left",
+      "part": "component:Rear_cleat_left",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Rear_cleat_left:1",
+      "body_volume_m3": 0.00021297450233343355,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Rear_cleat_right",
+      "part": "component:Rear_cleat_right",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Rear_cleat_right:1",
+      "body_volume_m3": 0.00021297450233343355,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Rear_cleat_bottom",
+      "part": "component:Rear_cleat_bottom",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Rear_cleat_bottom:1",
+      "body_volume_m3": 0.00011744966822228914,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Rear_cleat_top",
+      "part": "component:Rear_cleat_top",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Rear_cleat_top:1",
+      "body_volume_m3": 0.00011744966822228914,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Service_partition",
+      "part": "component:Service_partition",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Service_partition:1",
+      "body_volume_m3": 0.0008255806649166418,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Service_floor",
+      "part": "component:Service_floor",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Service_floor:1",
+      "body_volume_m3": 0.00047461516015617555,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Brace_lower",
+      "part": "component:Brace_lower",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+Brace_lower:1",
+      "body_volume_m3": 8.063999999999996e-05,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Battery_front_wall",
+      "part": "OWN_PLY12_BATTERY_FRONT",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+E09_Battery_front_wall:1",
+      "body_volume_m3": 0.0005080319999999996,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Battery_left_wall",
+      "part": "OWN_PLY12_BATTERY_LEFT",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+E09_Battery_left_wall:1",
+      "body_volume_m3": 0.0005421119999999997,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Battery_roof",
+      "part": "OWN_PLY12_BATTERY_ROOF",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+E09_Battery_roof:1",
+      "body_volume_m3": 0.000520303199028594,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Battery_right_wall",
+      "part": "OWN_PLY12_BATTERY_RIGHT",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+E09_Battery_right_wall:1",
+      "body_volume_m3": 0.0005421120000000012,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Battery_support_runner_0",
+      "part": "OWN_WOOD_BATTERY_RUNNER_25_20_130",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+E09_Battery_support_runner_0:1",
+      "body_volume_m3": 6.499999999999994e-05,
+      "wood": true,
+      "status": "support_geometry_glue_and_retention_test_pending"
+    },
+    {
+      "component": "E09_Battery_support_runner_1",
+      "part": "OWN_WOOD_BATTERY_RUNNER_25_20_130",
+      "assembly_path": "BG10_Gehaeuse:1+BG11_Holzstruktur:1+E09_Battery_support_runner_1:1",
+      "body_volume_m3": 6.5e-05,
+      "wood": true,
+      "status": "support_geometry_glue_and_retention_test_pending"
+    },
+    {
+      "component": "Rear_thread_plate_left_0.15",
+      "part": "component:Rear_thread_plate_left_0.15",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+Rear_thread_plate_left_0.15:1",
+      "body_volume_m3": 3.8600420472825686e-06,
+      "wood": false,
+      "status": "fabricated_thread_plate_candidate_not_load_validated"
+    },
+    {
+      "component": "Rear_thread_plate_left_0.5",
+      "part": "component:Rear_thread_plate_left_0.5",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+Rear_thread_plate_left_0.5:1",
+      "body_volume_m3": 3.8600420472825686e-06,
+      "wood": false,
+      "status": "fabricated_thread_plate_candidate_not_load_validated"
+    },
+    {
+      "component": "Rear_thread_plate_left_0.85",
+      "part": "component:Rear_thread_plate_left_0.85",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+Rear_thread_plate_left_0.85:1",
+      "body_volume_m3": 3.8600420472825686e-06,
+      "wood": false,
+      "status": "fabricated_thread_plate_candidate_not_load_validated"
+    },
+    {
+      "component": "Rear_thread_plate_right_0.15",
+      "part": "component:Rear_thread_plate_right_0.15",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+Rear_thread_plate_right_0.15:1",
+      "body_volume_m3": 3.860042047282569e-06,
+      "wood": false,
+      "status": "fabricated_thread_plate_candidate_not_load_validated"
+    },
+    {
+      "component": "Rear_thread_plate_right_0.5",
+      "part": "component:Rear_thread_plate_right_0.5",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+Rear_thread_plate_right_0.5:1",
+      "body_volume_m3": 3.860042047282569e-06,
+      "wood": false,
+      "status": "fabricated_thread_plate_candidate_not_load_validated"
+    },
+    {
+      "component": "Rear_thread_plate_right_0.85",
+      "part": "component:Rear_thread_plate_right_0.85",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+Rear_thread_plate_right_0.85:1",
+      "body_volume_m3": 3.860042047282569e-06,
+      "wood": false,
+      "status": "fabricated_thread_plate_candidate_not_load_validated"
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.27",
+      "part": "component:Rear_thread_plate_bottom_0.27",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+Rear_thread_plate_bottom_0.27:1",
+      "body_volume_m3": 3.860042047282568e-06,
+      "wood": false,
+      "status": "fabricated_thread_plate_candidate_not_load_validated"
+    },
+    {
+      "component": "Rear_thread_plate_bottom_0.73",
+      "part": "component:Rear_thread_plate_bottom_0.73",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+Rear_thread_plate_bottom_0.73:1",
+      "body_volume_m3": 3.860042047282569e-06,
+      "wood": false,
+      "status": "fabricated_thread_plate_candidate_not_load_validated"
+    },
+    {
+      "component": "Rear_thread_plate_top_0.27",
+      "part": "component:Rear_thread_plate_top_0.27",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+Rear_thread_plate_top_0.27:1",
+      "body_volume_m3": 3.860042047282568e-06,
+      "wood": false,
+      "status": "fabricated_thread_plate_candidate_not_load_validated"
+    },
+    {
+      "component": "Rear_thread_plate_top_0.73",
+      "part": "component:Rear_thread_plate_top_0.73",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+Rear_thread_plate_top_0.73:1",
+      "body_volume_m3": 3.860042047282569e-06,
+      "wood": false,
+      "status": "fabricated_thread_plate_candidate_not_load_validated"
+    },
+    {
+      "component": "E05_Rear_0_retainer_-1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_0_retainer_-1:1",
+      "body_volume_m3": 9.817477042468088e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_0_retainer_1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_0_retainer_1:1",
+      "body_volume_m3": 9.817477042468088e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_1_retainer_-1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_1_retainer_-1:1",
+      "body_volume_m3": 9.817477042468088e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_1_retainer_1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_1_retainer_1:1",
+      "body_volume_m3": 9.817477042468088e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_2_retainer_-1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_2_retainer_-1:1",
+      "body_volume_m3": 9.817477042468088e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_2_retainer_1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_2_retainer_1:1",
+      "body_volume_m3": 9.817477042468088e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_3_retainer_-1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_3_retainer_-1:1",
+      "body_volume_m3": 9.817477042468094e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_3_retainer_1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_3_retainer_1:1",
+      "body_volume_m3": 9.817477042468094e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_4_retainer_-1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_4_retainer_-1:1",
+      "body_volume_m3": 9.817477042468094e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_4_retainer_1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_4_retainer_1:1",
+      "body_volume_m3": 9.817477042468094e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_5_retainer_-1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_5_retainer_-1:1",
+      "body_volume_m3": 9.817477042468094e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_5_retainer_1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_5_retainer_1:1",
+      "body_volume_m3": 9.817477042468094e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_6_retainer_-1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_6_retainer_-1:1",
+      "body_volume_m3": 9.817477042468098e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_6_retainer_1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_6_retainer_1:1",
+      "body_volume_m3": 9.817477042468098e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_7_retainer_-1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_7_retainer_-1:1",
+      "body_volume_m3": 9.81747704246807e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_7_retainer_1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_7_retainer_1:1",
+      "body_volume_m3": 9.81747704246807e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_8_retainer_-1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_8_retainer_-1:1",
+      "body_volume_m3": 9.817477042468098e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_8_retainer_1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_8_retainer_1:1",
+      "body_volume_m3": 9.817477042468098e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_9_retainer_-1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_9_retainer_-1:1",
+      "body_volume_m3": 9.81747704246807e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E05_Rear_9_retainer_1",
+      "part": "wood_pan_2p5x12",
+      "assembly_path": "BG10_Gehaeuse:1+BG12_Feste_Rueckwandgewinde:1+E05_Rear_9_retainer_1:1",
+      "body_volume_m3": 9.81747704246807e-08,
+      "wood": false,
+      "status": "purchase_candidate_head_envelope_not_threaded"
+    },
+    {
+      "component": "E06_tray_support_0",
+      "part": "WURTH_970100321",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_tray_support_0:1",
+      "body_volume_m3": 1.912868499390193e-07,
+      "wood": false,
+      "status": "manufacturer_dimensions_nominal_thread_envelope"
+    },
+    {
+      "component": "E06_floor_bottom_washer_0",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_floor_bottom_washer_0:1",
+      "body_volume_m3": 1.5221016406642336e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_floor_bottom_M3x16_0",
+      "part": "ISO4762_M3x16",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_floor_bottom_M3x16_0:1",
+      "body_volume_m3": 1.7571196481971612e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_tray_support_1",
+      "part": "WURTH_970100321",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_tray_support_1:1",
+      "body_volume_m3": 1.912868499390207e-07,
+      "wood": false,
+      "status": "manufacturer_dimensions_nominal_thread_envelope"
+    },
+    {
+      "component": "E06_floor_bottom_washer_1",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_floor_bottom_washer_1:1",
+      "body_volume_m3": 1.5221016406642336e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_floor_bottom_M3x16_1",
+      "part": "ISO4762_M3x16",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_floor_bottom_M3x16_1:1",
+      "body_volume_m3": 1.7571196481971612e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_tray_support_2",
+      "part": "WURTH_970100321",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_tray_support_2:1",
+      "body_volume_m3": 1.9128684993902045e-07,
+      "wood": false,
+      "status": "manufacturer_dimensions_nominal_thread_envelope"
+    },
+    {
+      "component": "E06_floor_bottom_washer_2",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_floor_bottom_washer_2:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_floor_bottom_M3x16_2",
+      "part": "ISO4762_M3x16",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_floor_bottom_M3x16_2:1",
+      "body_volume_m3": 1.7571196481971617e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_tray_support_3",
+      "part": "WURTH_970100321",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_tray_support_3:1",
+      "body_volume_m3": 1.9128684993902027e-07,
+      "wood": false,
+      "status": "manufacturer_dimensions_nominal_thread_envelope"
+    },
+    {
+      "component": "E06_floor_bottom_washer_3",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_floor_bottom_washer_3:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_floor_bottom_M3x16_3",
+      "part": "ISO4762_M3x16",
+      "assembly_path": "BG10_Gehaeuse:1+BG13_Elektronikstuetzen:1+E06_floor_bottom_M3x16_3:1",
+      "body_volume_m3": 1.7571196481971617e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E09_LF_feed_gland",
+      "part": "LAPP_53017210",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_LF_feed_gland:1",
+      "body_volume_m3": 1.1241875151606236e-05,
+      "wood": false,
+      "status": "manufacturer_thread_and_clamp_reference_own_outer_envelope"
+    },
+    {
+      "component": "E09_LF_feed_locknut",
+      "part": "SKINDICHT_SM_M_16",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_LF_feed_locknut:1",
+      "body_volume_m3": 5.372123437638731e-07,
+      "wood": false,
+      "status": "3mm_metal_nut_reference_SKU_qualification_pending"
+    },
+    {
+      "component": "E09_HF_feed_gland",
+      "part": "LAPP_53017210",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_HF_feed_gland:1",
+      "body_volume_m3": 1.1241875151605387e-05,
+      "wood": false,
+      "status": "manufacturer_thread_and_clamp_reference_own_outer_envelope"
+    },
+    {
+      "component": "E09_HF_feed_locknut",
+      "part": "SKINDICHT_SM_M_16",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_HF_feed_locknut:1",
+      "body_volume_m3": 5.372123437638728e-07,
+      "wood": false,
+      "status": "3mm_metal_nut_reference_SKU_qualification_pending"
+    },
+    {
+      "component": "E09_BAT_0_gland",
+      "part": "LAPP_53010000",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_BAT_0_gland:1",
+      "body_volume_m3": 5.61346372688021e-06,
+      "wood": false,
+      "status": "manufacturer_thread_and_clamp_reference_own_outer_envelope"
+    },
+    {
+      "component": "E09_BAT_0_locknut",
+      "part": "SKINDICHT_SM_M_12",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_BAT_0_locknut:1",
+      "body_volume_m3": 3.099809471297147e-07,
+      "wood": false,
+      "status": "3mm_metal_nut_reference_SKU_qualification_pending"
+    },
+    {
+      "component": "E09_ELEC_0_gland",
+      "part": "LAPP_53010000",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_ELEC_0_gland:1",
+      "body_volume_m3": 5.61346372688021e-06,
+      "wood": false,
+      "status": "manufacturer_thread_and_clamp_reference_own_outer_envelope"
+    },
+    {
+      "component": "E09_ELEC_0_locknut",
+      "part": "SKINDICHT_SM_M_12",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_ELEC_0_locknut:1",
+      "body_volume_m3": 3.0998094712972915e-07,
+      "wood": false,
+      "status": "3mm_metal_nut_reference_SKU_qualification_pending"
+    },
+    {
+      "component": "E09_BAT_1_gland",
+      "part": "LAPP_53010000",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_BAT_1_gland:1",
+      "body_volume_m3": 5.61346372688021e-06,
+      "wood": false,
+      "status": "manufacturer_thread_and_clamp_reference_own_outer_envelope"
+    },
+    {
+      "component": "E09_BAT_1_locknut",
+      "part": "SKINDICHT_SM_M_12",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_BAT_1_locknut:1",
+      "body_volume_m3": 3.099809471297147e-07,
+      "wood": false,
+      "status": "3mm_metal_nut_reference_SKU_qualification_pending"
+    },
+    {
+      "component": "E09_ELEC_1_gland",
+      "part": "LAPP_53010000",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_ELEC_1_gland:1",
+      "body_volume_m3": 5.61346372688021e-06,
+      "wood": false,
+      "status": "manufacturer_thread_and_clamp_reference_own_outer_envelope"
+    },
+    {
+      "component": "E09_ELEC_1_locknut",
+      "part": "SKINDICHT_SM_M_12",
+      "assembly_path": "BG10_Gehaeuse:1+BG14_Kabeldurchfuehrungen:1+E09_ELEC_1_locknut:1",
+      "body_volume_m3": 3.0998094712972915e-07,
+      "wood": false,
+      "status": "3mm_metal_nut_reference_SKU_qualification_pending"
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "part": "component:LF_steel_backing_ring_candidate",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+LF_steel_backing_ring_candidate:1",
+      "body_volume_m3": 7.011563563914682e-05,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "part": "component:REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE:1",
+      "body_volume_m3": 0.001890143686329898,
+      "wood": false,
+      "status": "clearance_reference_not_manufacturing"
+    },
+    {
+      "component": "E05_LF_0_front_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_0_front_washer:1",
+      "body_volume_m3": 5.6477981929913164e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_0_M5x45",
+      "part": "ISO4762_M5x45",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_0_M5x45:1",
+      "body_volume_m3": 1.1243431603217036e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_0_rear_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_0_rear_washer:1",
+      "body_volume_m3": 5.647798192991293e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_0_nut",
+      "part": "ISO4032_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_0_nut:1",
+      "body_volume_m3": 1.6821615725915568e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_1_front_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_1_front_washer:1",
+      "body_volume_m3": 5.6477981929913164e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_1_M5x45",
+      "part": "ISO4762_M5x45",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_1_M5x45:1",
+      "body_volume_m3": 1.1243431603217013e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_1_rear_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_1_rear_washer:1",
+      "body_volume_m3": 5.647798192991293e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_1_nut",
+      "part": "ISO4032_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_1_nut:1",
+      "body_volume_m3": 1.6821615725915758e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_2_front_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_2_front_washer:1",
+      "body_volume_m3": 5.6477981929913164e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_2_M5x45",
+      "part": "ISO4762_M5x45",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_2_M5x45:1",
+      "body_volume_m3": 1.1243431603217013e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_2_rear_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_2_rear_washer:1",
+      "body_volume_m3": 5.647798192991293e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_2_nut",
+      "part": "ISO4032_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_2_nut:1",
+      "body_volume_m3": 1.6821615725915758e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_3_front_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_3_front_washer:1",
+      "body_volume_m3": 5.647798192991293e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_3_M5x45",
+      "part": "ISO4762_M5x45",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_3_M5x45:1",
+      "body_volume_m3": 1.1243431603216968e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_3_rear_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_3_rear_washer:1",
+      "body_volume_m3": 5.647798192991269e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_3_nut",
+      "part": "ISO4032_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_3_nut:1",
+      "body_volume_m3": 1.6821615725915372e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_4_front_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_4_front_washer:1",
+      "body_volume_m3": 5.6477981929912966e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_4_M5x45",
+      "part": "ISO4762_M5x45",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_4_M5x45:1",
+      "body_volume_m3": 1.1243431603217004e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_4_rear_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_4_rear_washer:1",
+      "body_volume_m3": 5.647798192991273e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_4_nut",
+      "part": "ISO4032_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_4_nut:1",
+      "body_volume_m3": 1.6821615725915422e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_5_front_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_5_front_washer:1",
+      "body_volume_m3": 5.647798192991293e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_5_M5x45",
+      "part": "ISO4762_M5x45",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_5_M5x45:1",
+      "body_volume_m3": 1.1243431603216996e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_5_rear_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_5_rear_washer:1",
+      "body_volume_m3": 5.647798192991269e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_5_nut",
+      "part": "ISO4032_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_5_nut:1",
+      "body_volume_m3": 1.6821615725915398e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_6_front_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_6_front_washer:1",
+      "body_volume_m3": 5.6477981929913164e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_6_M5x45",
+      "part": "ISO4762_M5x45",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_6_M5x45:1",
+      "body_volume_m3": 1.1243431603217025e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_6_rear_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_6_rear_washer:1",
+      "body_volume_m3": 5.647798192991293e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_6_nut",
+      "part": "ISO4032_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_6_nut:1",
+      "body_volume_m3": 1.6821615725915568e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_7_front_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_7_front_washer:1",
+      "body_volume_m3": 5.6477981929913164e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_7_M5x45",
+      "part": "ISO4762_M5x45",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_7_M5x45:1",
+      "body_volume_m3": 1.1243431603217036e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_7_rear_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_7_rear_washer:1",
+      "body_volume_m3": 5.647798192991293e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_LF_7_nut",
+      "part": "ISO4032_M5",
+      "assembly_path": "BG20_Frontbestueckung:1+BG21_Tieftoener:1+E05_LF_7_nut:1",
+      "body_volume_m3": 1.6821615725915568e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "part": "component:REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+REF_BC_ME10V3_DATASHEET_ENVELOPE:1",
+      "body_volume_m3": 0.0004185884867213812,
+      "wood": false,
+      "status": "clearance_reference_not_manufacturing"
+    },
+    {
+      "component": "REF_BC_DE10_DATASHEET_ENVELOPE",
+      "part": "component:REF_BC_DE10_DATASHEET_ENVELOPE",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+REF_BC_DE10_DATASHEET_ENVELOPE:1",
+      "body_volume_m3": 0.00033717143154653916,
+      "wood": false,
+      "status": "clearance_reference_not_manufacturing"
+    },
+    {
+      "component": "E05_HF_-1_-1_front_washer",
+      "part": "ISO7089_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_-1_-1_front_washer:1",
+      "body_volume_m3": 3.9276191355181295e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_-1_-1_M4x40",
+      "part": "ISO4762_M4x40",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_-1_-1_M4x40:1",
+      "body_volume_m3": 6.371072930150889e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_-1_-1_rear_washer",
+      "part": "ISO7089_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_-1_-1_rear_washer:1",
+      "body_volume_m3": 3.9276191355181295e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_-1_-1_nut",
+      "part": "DIN934_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_-1_-1_nut:1",
+      "body_volume_m3": 9.558039734744991e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_-1_1_front_washer",
+      "part": "ISO7089_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_-1_1_front_washer:1",
+      "body_volume_m3": 3.9276191355181295e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_-1_1_M4x40",
+      "part": "ISO4762_M4x40",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_-1_1_M4x40:1",
+      "body_volume_m3": 6.371072930150883e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_-1_1_rear_washer",
+      "part": "ISO7089_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_-1_1_rear_washer:1",
+      "body_volume_m3": 3.9276191355181295e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_-1_1_nut",
+      "part": "DIN934_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_-1_1_nut:1",
+      "body_volume_m3": 9.558039734744991e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_1_-1_front_washer",
+      "part": "ISO7089_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_1_-1_front_washer:1",
+      "body_volume_m3": 3.927619135518134e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_1_-1_M4x40",
+      "part": "ISO4762_M4x40",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_1_-1_M4x40:1",
+      "body_volume_m3": 6.371072930150888e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_1_-1_rear_washer",
+      "part": "ISO7089_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_1_-1_rear_washer:1",
+      "body_volume_m3": 3.927619135518134e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_1_-1_nut",
+      "part": "DIN934_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_1_-1_nut:1",
+      "body_volume_m3": 9.558039734745064e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_1_1_front_washer",
+      "part": "ISO7089_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_1_1_front_washer:1",
+      "body_volume_m3": 3.927619135518134e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_1_1_M4x40",
+      "part": "ISO4762_M4x40",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_1_1_M4x40:1",
+      "body_volume_m3": 6.371072930150888e-07,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_1_1_rear_washer",
+      "part": "ISO7089_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_1_1_rear_washer:1",
+      "body_volume_m3": 3.927619135518134e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_HF_1_1_nut",
+      "part": "DIN934_M4",
+      "assembly_path": "BG20_Frontbestueckung:1+BG22_Hochton:1+E05_HF_1_1_nut:1",
+      "body_volume_m3": 9.558039734745064e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "Port_round_candidate",
+      "part": "component:Port_round_candidate",
+      "assembly_path": "BG20_Frontbestueckung:1+BG23_Bassreflexport:1+Port_round_candidate:1",
+      "body_volume_m3": 0.0001430172595459171,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "Rear_removable",
+      "part": "component:Rear_removable",
+      "assembly_path": "BG30_Service_Rueckwand:1+Rear_removable:1",
+      "body_volume_m3": 0.0021514530046668726,
+      "wood": true,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E05_Rear_0_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_0_washer:1",
+      "body_volume_m3": 5.647798192990973e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_0_M5x40",
+      "part": "ISO4762_M5x40",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_0_M5x40:1",
+      "body_volume_m3": 1.0275540305430777e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_1_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_1_washer:1",
+      "body_volume_m3": 5.647798192990973e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_1_M5x40",
+      "part": "ISO4762_M5x40",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_1_M5x40:1",
+      "body_volume_m3": 1.027554030543079e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_2_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_2_washer:1",
+      "body_volume_m3": 5.647798192990973e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_2_M5x40",
+      "part": "ISO4762_M5x40",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_2_M5x40:1",
+      "body_volume_m3": 1.0275540305430782e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_3_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_3_washer:1",
+      "body_volume_m3": 5.6477981929909174e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_3_M5x40",
+      "part": "ISO4762_M5x40",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_3_M5x40:1",
+      "body_volume_m3": 1.0275540305430765e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_4_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_4_washer:1",
+      "body_volume_m3": 5.6477981929909174e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_4_M5x40",
+      "part": "ISO4762_M5x40",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_4_M5x40:1",
+      "body_volume_m3": 1.0275540305430784e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_5_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_5_washer:1",
+      "body_volume_m3": 5.6477981929909174e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_5_M5x40",
+      "part": "ISO4762_M5x40",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_5_M5x40:1",
+      "body_volume_m3": 1.0275540305430782e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_6_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_6_washer:1",
+      "body_volume_m3": 5.647798192990967e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_6_M5x40",
+      "part": "ISO4762_M5x40",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_6_M5x40:1",
+      "body_volume_m3": 1.0275540305430777e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_7_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_7_washer:1",
+      "body_volume_m3": 5.647798192990992e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_7_M5x40",
+      "part": "ISO4762_M5x40",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_7_M5x40:1",
+      "body_volume_m3": 1.0275540305430807e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_8_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_8_washer:1",
+      "body_volume_m3": 5.647798192990967e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_8_M5x40",
+      "part": "ISO4762_M5x40",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_8_M5x40:1",
+      "body_volume_m3": 1.0275540305430784e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_9_washer",
+      "part": "ISO7089_M5",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_9_washer:1",
+      "body_volume_m3": 5.647798192990992e-08,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E05_Rear_9_M5x40",
+      "part": "ISO4762_M5x40",
+      "assembly_path": "BG30_Service_Rueckwand:1+E05_Rear_9_M5x40:1",
+      "body_volume_m3": 1.0275540305430786e-06,
+      "wood": false,
+      "status": "nominal_standard_envelope_SKU_verification_pending"
+    },
+    {
+      "component": "E06_removable_tray_180x102x2",
+      "part": "OWN_AL_TRAY_180_102_2",
+      "assembly_path": "BG40_Elektronikmodul:1+BG41_Traeger:1+E06_removable_tray_180x102x2:1",
+      "body_volume_m3": 3.654683541293464e-05,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_tray_top_washer_0",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG41_Traeger:1+E06_tray_top_washer_0:1",
+      "body_volume_m3": 1.5221016406642336e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_tray_top_M3x6_0",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG41_Traeger:1+E06_tray_top_M3x6_0:1",
+      "body_volume_m3": 1.0502613011394343e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_tray_top_washer_1",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG41_Traeger:1+E06_tray_top_washer_1:1",
+      "body_volume_m3": 1.5221016406642336e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_tray_top_M3x6_1",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG41_Traeger:1+E06_tray_top_M3x6_1:1",
+      "body_volume_m3": 1.0502613011394343e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_tray_top_washer_2",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG41_Traeger:1+E06_tray_top_washer_2:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_tray_top_M3x6_2",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG41_Traeger:1+E06_tray_top_M3x6_2:1",
+      "body_volume_m3": 1.0502613011394348e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_tray_top_washer_3",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG41_Traeger:1+E06_tray_top_washer_3:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_tray_top_M3x6_3",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG41_Traeger:1+E06_tray_top_M3x6_3:1",
+      "body_volume_m3": 1.0502613011394348e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_JAB3_PCB_mounting_outline",
+      "part": "WONDOM_AA_JA32173",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_JAB3_PCB_mounting_outline:1",
+      "body_volume_m3": 9.971310334734955e-06,
+      "wood": false,
+      "status": "manufacturer_outer_dimensions_holes; board_thickness_assumed"
+    },
+    {
+      "component": "E06_PCB_support_0",
+      "part": "WURTH_970100321",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_support_0:1",
+      "body_volume_m3": 1.9128684993901913e-07,
+      "wood": false,
+      "status": "manufacturer_dimensions_nominal_thread_envelope"
+    },
+    {
+      "component": "E06_PCB_bottom_washer_0",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_bottom_washer_0:1",
+      "body_volume_m3": 1.522101640664233e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_bottom_M3x6_0",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_bottom_M3x6_0:1",
+      "body_volume_m3": 1.0502613011394325e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_top_washer_0",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_top_washer_0:1",
+      "body_volume_m3": 1.5221016406646657e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_top_M3x6_0",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_top_M3x6_0:1",
+      "body_volume_m3": 1.0502613011394026e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_support_1",
+      "part": "WURTH_970100321",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_support_1:1",
+      "body_volume_m3": 1.9128684993901913e-07,
+      "wood": false,
+      "status": "manufacturer_dimensions_nominal_thread_envelope"
+    },
+    {
+      "component": "E06_PCB_bottom_washer_1",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_bottom_washer_1:1",
+      "body_volume_m3": 1.522101640664233e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_bottom_M3x6_1",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_bottom_M3x6_1:1",
+      "body_volume_m3": 1.0502613011394325e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_top_washer_1",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_top_washer_1:1",
+      "body_volume_m3": 1.5221016406646657e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_top_M3x6_1",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_top_M3x6_1:1",
+      "body_volume_m3": 1.0502613011394026e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_support_2",
+      "part": "WURTH_970100321",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_support_2:1",
+      "body_volume_m3": 1.9128684993902045e-07,
+      "wood": false,
+      "status": "manufacturer_dimensions_nominal_thread_envelope"
+    },
+    {
+      "component": "E06_PCB_bottom_washer_2",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_bottom_washer_2:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_bottom_M3x6_2",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_bottom_M3x6_2:1",
+      "body_volume_m3": 1.0502613011394321e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_top_washer_2",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_top_washer_2:1",
+      "body_volume_m3": 1.522101640664671e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_top_M3x6_2",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_top_M3x6_2:1",
+      "body_volume_m3": 1.0502613011394025e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_support_3",
+      "part": "WURTH_970100321",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_support_3:1",
+      "body_volume_m3": 1.9128684993902045e-07,
+      "wood": false,
+      "status": "manufacturer_dimensions_nominal_thread_envelope"
+    },
+    {
+      "component": "E06_PCB_bottom_washer_3",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_bottom_washer_3:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_bottom_M3x6_3",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_bottom_M3x6_3:1",
+      "body_volume_m3": 1.0502613011394321e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_top_washer_3",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_top_washer_3:1",
+      "body_volume_m3": 1.522101640664671e-08,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E06_PCB_top_M3x6_3",
+      "part": "ISO4762_M3x6",
+      "assembly_path": "BG40_Elektronikmodul:1+BG42_Verstaerker_DSP:1+E06_PCB_top_M3x6_3:1",
+      "body_volume_m3": 1.0502613011394025e-07,
+      "wood": false,
+      "status": "nominal_mounting_candidate"
+    },
+    {
+      "component": "E09_Orion_0_front_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_0_front_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Orion_0_M3x20",
+      "part": "ISO4762_M3x20",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_0_M3x20:1",
+      "body_volume_m3": 2.0506883045673553e-07,
+      "wood": false,
+      "status": "nominal_thread_envelope"
+    },
+    {
+      "component": "E09_Orion_1_front_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_1_front_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Orion_1_M3x20",
+      "part": "ISO4762_M3x20",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_1_M3x20:1",
+      "body_volume_m3": 2.0506883045673553e-07,
+      "wood": false,
+      "status": "nominal_thread_envelope"
+    },
+    {
+      "component": "E09_Orion_2_front_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_2_front_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Orion_2_M3x20",
+      "part": "ISO4762_M3x20",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_2_M3x20:1",
+      "body_volume_m3": 2.0506883045673553e-07,
+      "wood": false,
+      "status": "nominal_thread_envelope"
+    },
+    {
+      "component": "E09_Orion_3_front_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_3_front_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Orion_3_M3x20",
+      "part": "ISO4762_M3x20",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_3_M3x20:1",
+      "body_volume_m3": 2.0506883045673553e-07,
+      "wood": false,
+      "status": "nominal_thread_envelope"
+    },
+    {
+      "component": "E09_F3_output5A_holder",
+      "part": "LITTELFUSE_FHAC0001ZXJ",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_F3_output5A_holder:1",
+      "body_volume_m3": 1.3463999999999988e-05,
+      "wood": false,
+      "status": "reserved_holder_envelope_actual_measure_before_mounting"
+    },
+    {
+      "component": "E09_Orion_0_rear_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_0_rear_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Orion_0_nut",
+      "part": "ISO4032_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_0_nut:1",
+      "body_volume_m3": 4.59088439853649e-08,
+      "wood": false,
+      "status": "nominal_thread_envelope_verify_actual_SKU"
+    },
+    {
+      "component": "E09_Orion_1_rear_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_1_rear_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Orion_1_nut",
+      "part": "ISO4032_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_1_nut:1",
+      "body_volume_m3": 4.59088439853649e-08,
+      "wood": false,
+      "status": "nominal_thread_envelope_verify_actual_SKU"
+    },
+    {
+      "component": "E09_Orion_2_rear_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_2_rear_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Orion_2_nut",
+      "part": "ISO4032_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_2_nut:1",
+      "body_volume_m3": 4.59088439853649e-08,
+      "wood": false,
+      "status": "nominal_thread_envelope_verify_actual_SKU"
+    },
+    {
+      "component": "E09_Orion_3_rear_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_3_rear_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Orion_3_nut",
+      "part": "ISO4032_M3",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_3_nut:1",
+      "body_volume_m3": 4.59088439853649e-08,
+      "wood": false,
+      "status": "nominal_thread_envelope_verify_actual_SKU"
+    },
+    {
+      "component": "E09_Orion_12_24_5_converter",
+      "part": "VICTRON_ORI122410110",
+      "assembly_path": "BG40_Elektronikmodul:1+BG43_Geregelte_Versorgung:1+E09_Orion_12_24_5_converter:1",
+      "body_volume_m3": 0.0005384041162840475,
+      "wood": false,
+      "status": "own_conservative_envelope_supplier_STEP_verified_mounting_access"
+    },
+    {
+      "component": "E09_ROUTE_main_plus",
+      "part": "WIRE_4MM2_SINGLE",
+      "assembly_path": "BG50_Kabelbaum:1+E09_ROUTE_main_plus:1",
+      "body_volume_m3": 3.951448722297067e-06,
+      "wood": false,
+      "status": "sampled_bend_envelope_terminal_tails_and_service_slack_not_located"
+    },
+    {
+      "component": "E09_ROUTE_main_minus",
+      "part": "WIRE_4MM2_SINGLE",
+      "assembly_path": "BG50_Kabelbaum:1+E09_ROUTE_main_minus:1",
+      "body_volume_m3": 3.4447726591261296e-06,
+      "wood": false,
+      "status": "sampled_bend_envelope_terminal_tails_and_service_slack_not_located"
+    },
+    {
+      "component": "E09_ROUTE_output",
+      "part": "CORDIAL_CLS215",
+      "assembly_path": "BG50_Kabelbaum:1+E09_ROUTE_output:1",
+      "body_volume_m3": 9.497176482844017e-06,
+      "wood": false,
+      "status": "sampled_bend_envelope_terminal_tails_and_service_slack_not_located"
+    },
+    {
+      "component": "E09_ROUTE_lf",
+      "part": "CORDIAL_CLS215",
+      "assembly_path": "BG50_Kabelbaum:1+E09_ROUTE_lf:1",
+      "body_volume_m3": 1.8890706224936543e-05,
+      "wood": false,
+      "status": "sampled_bend_envelope_terminal_tails_and_service_slack_not_located"
+    },
+    {
+      "component": "E09_ROUTE_hf",
+      "part": "CORDIAL_CLS215",
+      "assembly_path": "BG50_Kabelbaum:1+E09_ROUTE_hf:1",
+      "body_volume_m3": 1.3116541881580378e-05,
+      "wood": false,
+      "status": "sampled_bend_envelope_terminal_tails_and_service_slack_not_located"
+    },
+    {
+      "component": "RESERVE_amp_wiring_UNVERIFIED_no_mounting_holes",
+      "part": "component:RESERVE_amp_wiring_UNVERIFIED_no_mounting_holes",
+      "assembly_path": "BG90_Referenzraeume:1+RESERVE_amp_wiring_UNVERIFIED_no_mounting_holes:1",
+      "body_volume_m3": 0.000484,
+      "wood": false,
+      "status": "clearance_reference_not_manufacturing"
+    },
+    {
+      "component": "E09_REF_Battery_M6_terminal_zone",
+      "part": "REFERENCE_TERMINAL_CLEARANCE",
+      "assembly_path": "BG90_Referenzraeume:1+E09_REF_Battery_M6_terminal_zone:1",
+      "body_volume_m3": 0.00035489999999999963,
+      "wood": false,
+      "status": "nonphysical_unverified_terminal_locations"
+    },
+    {
+      "component": "E06_RESERVE_JAB3_components_NOT_ACTUAL_GEOMETRY",
+      "part": "JAB3_COMPONENT_KEEP_OUT",
+      "assembly_path": "BG90_Referenzraeume:1+E06_RESERVE_JAB3_components_NOT_ACTUAL_GEOMETRY:1",
+      "body_volume_m3": 0.00011541922560000023,
+      "wood": false,
+      "status": "component_positions_unverified"
+    },
+    {
+      "component": "E09_Battery_EREMIT_50Ah_BMS",
+      "part": "EREMIT_12V50Ah_MICRO_GEN7_BASIS",
+      "assembly_path": "BG60_Akkuversorgung:1+BG61_Akku_BMS:1+E09_Battery_EREMIT_50Ah_BMS:1",
+      "body_volume_m3": 0.0043095,
+      "wood": false,
+      "status": "manufacturer_dimensions_own_envelope_actual_terminal_positions_unverified"
+    },
+    {
+      "component": "E09_Battery_bottom_pad",
+      "part": "OWN_BATTERY_PAD_3MM",
+      "assembly_path": "BG60_Akkuversorgung:1+BG62_Akkuhalterung:1+E09_Battery_bottom_pad:1",
+      "body_volume_m3": 5.1674999999999996e-05,
+      "wood": false,
+      "status": "foam_with_strap_reliefs_compression_unverified"
+    },
+    {
+      "component": "E09_Battery_strap_0",
+      "part": "MASTERLOCK_3110EURDAT",
+      "assembly_path": "BG60_Akkuversorgung:1+BG62_Akkuhalterung:1+E09_Battery_strap_0:1",
+      "body_volume_m3": 2.7749999999999827e-05,
+      "wood": false,
+      "status": "25mm_purchased_strap_nominal_routing_buckle_shape_not_verified"
+    },
+    {
+      "component": "E09_Battery_buckle_0",
+      "part": "MASTERLOCK_3110EURDAT_BUCKLE",
+      "assembly_path": "BG60_Akkuversorgung:1+BG62_Akkuhalterung:1+E09_Battery_buckle_0:1",
+      "body_volume_m3": 6.3999999999999785e-06,
+      "wood": false,
+      "status": "reserved_envelope_not_manufacturer_dimensions"
+    },
+    {
+      "component": "E09_Battery_strap_1",
+      "part": "MASTERLOCK_3110EURDAT",
+      "assembly_path": "BG60_Akkuversorgung:1+BG62_Akkuhalterung:1+E09_Battery_strap_1:1",
+      "body_volume_m3": 2.7749999999999827e-05,
+      "wood": false,
+      "status": "25mm_purchased_strap_nominal_routing_buckle_shape_not_verified"
+    },
+    {
+      "component": "E09_Battery_buckle_1",
+      "part": "MASTERLOCK_3110EURDAT_BUCKLE",
+      "assembly_path": "BG60_Akkuversorgung:1+BG62_Akkuhalterung:1+E09_Battery_buckle_1:1",
+      "body_volume_m3": 6.399999999999983e-06,
+      "wood": false,
+      "status": "reserved_envelope_not_manufacturer_dimensions"
+    },
+    {
+      "component": "E09_F1_main15A_holder",
+      "part": "LITTELFUSE_FHAC0002ZXJ",
+      "assembly_path": "BG60_Akkuversorgung:1+BG63_DC_Schutz:1+E09_F1_main15A_holder:1",
+      "body_volume_m3": 1.3463999999999988e-05,
+      "wood": false,
+      "status": "reserved_holder_envelope_actual_measure_before_mounting"
+    },
+    {
+      "component": "E09_F2_charge7p5A_holder",
+      "part": "LITTELFUSE_FHAC0001ZXJ",
+      "assembly_path": "BG60_Akkuversorgung:1+BG63_DC_Schutz:1+E09_F2_charge7p5A_holder:1",
+      "body_volume_m3": 1.3463999999999978e-05,
+      "wood": false,
+      "status": "reserved_holder_envelope_actual_measure_before_mounting"
+    },
+    {
+      "component": "E09_Charge_socket_bracket",
+      "part": "OWN_AL2_XT60_INTERNAL_BRACKET_E09",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_socket_bracket:1",
+      "body_volume_m3": 2.5912250504367407e-06,
+      "wood": false,
+      "status": "own_nominal_angle_bend_radius_and_material_pending"
+    },
+    {
+      "component": "E09_XT60E_F_charge_socket",
+      "part": "AMASS_XT60E_F",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_XT60E_F_charge_socket:1",
+      "body_volume_m3": 6.635432053927944e-06,
+      "wood": false,
+      "status": "manufacturer_envelope_internal_IP40_only"
+    },
+    {
+      "component": "E09_Charge_socket_0_M3x10",
+      "part": "ISO4762_M3x10",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_socket_0_M3x10:1",
+      "body_volume_m3": 1.3438299575096824e-07,
+      "wood": false,
+      "status": "nominal_thread_envelope"
+    },
+    {
+      "component": "E09_Charge_socket_0_back_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_socket_0_back_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Charge_socket_0_nut",
+      "part": "ISO4032_M3",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_socket_0_nut:1",
+      "body_volume_m3": 4.5908843985366706e-08,
+      "wood": false,
+      "status": "nominal_thread_envelope_verify_actual_SKU"
+    },
+    {
+      "component": "E09_Charge_socket_1_M3x10",
+      "part": "ISO4762_M3x10",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_socket_1_M3x10:1",
+      "body_volume_m3": 1.3438299575096824e-07,
+      "wood": false,
+      "status": "nominal_thread_envelope"
+    },
+    {
+      "component": "E09_Charge_socket_1_back_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_socket_1_back_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Charge_socket_1_nut",
+      "part": "ISO4032_M3",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_socket_1_nut:1",
+      "body_volume_m3": 4.5908843985366706e-08,
+      "wood": false,
+      "status": "nominal_thread_envelope_verify_actual_SKU"
+    },
+    {
+      "component": "E09_Charge_roof_0_bottom_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_roof_0_bottom_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Charge_roof_0_top_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_roof_0_top_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Charge_roof_0_M3x20",
+      "part": "ISO4762_M3x20",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_roof_0_M3x20:1",
+      "body_volume_m3": 2.126465527398678e-07,
+      "wood": false,
+      "status": "nominal_thread_and_head_envelope_recess_not_modeled"
+    },
+    {
+      "component": "E09_Charge_roof_0_nut",
+      "part": "ISO4032_M3",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_roof_0_nut:1",
+      "body_volume_m3": 4.590884398536421e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Charge_roof_1_bottom_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_roof_1_bottom_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Charge_roof_1_top_washer",
+      "part": "ISO7089_M3",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_roof_1_top_washer:1",
+      "body_volume_m3": 1.522101640664238e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_Charge_roof_1_M3x20",
+      "part": "ISO4762_M3x20",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_roof_1_M3x20:1",
+      "body_volume_m3": 2.126465527398678e-07,
+      "wood": false,
+      "status": "nominal_thread_and_head_envelope_recess_not_modeled"
+    },
+    {
+      "component": "E09_Charge_roof_1_nut",
+      "part": "ISO4032_M3",
+      "assembly_path": "BG60_Akkuversorgung:1+BG64_Ladeanschluss:1+E09_Charge_roof_1_nut:1",
+      "body_volume_m3": 4.590884398536421e-08,
+      "wood": false,
+      "status": "prototype_candidate"
+    },
+    {
+      "component": "E09_External_EREMIT_14p6V_5A_charger",
+      "part": "EREMIT_12V5A_LFP_CHARGER",
+      "assembly_path": "BG80_Externes_Ladegeraet:1+E09_External_EREMIT_14p6V_5A_charger:1",
+      "body_volume_m3": 0.00021449999999999998,
+      "wood": false,
+      "status": "external_accessory_dimensions_from_manufacturer_not_mains_internal"
+    }
+  ],
+  "uncounted": [
+    "Steel ring, screws, nuts and plates",
+    "Amplifier, cables, terminals and fuse holders",
+    "Grille, handles, corners, feet, finish, glue, seals and straps"
+  ],
+  "early_A0_10kg_goal_met": false,
+  "limitations": [
+    "Uniform wood density assumptions from project report, not selected supplier certified mass.",
+    "Use model volume only for wood; driver and battery bounding-box volumes are not material volumes.",
+    "Subtotal excludes listed items and is not finished product weight."
+  ]
+}

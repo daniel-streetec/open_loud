@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-10",
+  "currency": "EUR",
+  "scope": "Verified end-user offers; dimensions/interfaces still pending CAD integration",
+  "items": [
+    {
+      "id": "battery_service_disconnect", "manufacturer": "AMASS", "mpn": "XT90S-F + XT90H-M", "used_quantity": 1, "paid_pack_quantity": 1, "unit": "pair with end caps",
+      "consumer_retailer_url": "https://www.mhm-modellbau.de/part-AM-XT90S.php", "retailer_article": "AM-XT90S", "gross_price_EUR": 4.05,
+      "price_date": "2026-11-10", "availability_checked": "lagernd, 1-2 Werktage", "shipping_basis": "additional; basket shipping not quoted",
+      "technical_source": "https://www.china-amass.com/public/upload/20250319/41b7a7787d7c61edc3371469ba98f193.pdf",
+      "manufacturer_current_statement": "45A MAX with10AWG, temperature rise below85C; not a90A continuous assertion", "protection": "IP40, internal only", "weight_kg": null,
+      "alternative": "Anderson SB50 with correctly matched5915 contacts; bulkier and more expensive",
+      "approval": "engineering_selection_consumer_supply_verified_geometry_and_4mm2_termination_qualification_pending_not_modeled"
+    },
+    {
+      "id": "finished_corner_guards", "manufacturer": "Adam Hall Hardware", "mpn": "4072", "used_quantity": 8, "paid_pack_quantity": 8, "unit": "piece",
+      "consumer_retailer_url": "https://www.thomann.de/de/adam_hall_4072_ecke.htm", "retailer_article": "166419", "gross_price_EUR": 0.50,
+      "price_date": "2026-11-10", "availability_checked": "sofort lieferbar, 1-3 Werktage", "shipping_basis": "standard DE3.90EUR shown; consolidate basket, not per piece",
+      "technical_source": "https://www.adamhall.com/shop/de/boxenecken/4072-4072", "material": "plastic", "inside_radius_m": 0.006, "material_thickness_m": 0.003,
+      "mount_hole_diameter_m": 0.0035, "mount_hole_count": 4, "legs": 2, "height_m": 0.041, "leg_size_m": 0.057, "weight_kg": null,
+      "alternative": "Other finished consumer corner with qualified radius and nonbridging rear-cover mounting",
+      "approval": "candidate_supply_and_primary_spec_verified_hole_coordinates_radius_and_cover_access_pending_not_modeled"
+    }
+  ]
+}

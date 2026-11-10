@@ -1,0 +1,212 @@
+{
+  "revision": "E09",
+  "source": "User request2026-11-10: meaningful subassemblies reflecting assembly and maintenance",
+  "assemblies": [
+    {
+      "path": "BG10_Gehaeuse",
+      "part_number": "OL-100",
+      "role": "bonded structural cabinet; stays assembled during maintenance"
+    },
+    {
+      "path": "BG10_Gehaeuse/BG11_Holzstruktur",
+      "part_number": "OL-110",
+      "role": "panels, laminated baffle, brace, partition, floor and bonded rear cleats"
+    },
+    {
+      "path": "BG10_Gehaeuse/BG12_Feste_Rueckwandgewinde",
+      "part_number": "OL-120",
+      "role": "captive steel thread plates and their wood retainer screws remain on cabinet"
+    },
+    {
+      "path": "BG10_Gehaeuse/BG13_Elektronikstuetzen",
+      "part_number": "OL-130",
+      "role": "fixed tray spacers and floor-side screws/washers remain on cabinet"
+    },
+    {
+      "path": "BG10_Gehaeuse/BG14_Kabeldurchfuehrungen",
+      "part_number": "OL-140",
+      "role": "fixed speaker feedthroughs and locknuts"
+    },
+    {
+      "path": "BG20_Frontbestueckung",
+      "part_number": "OL-200",
+      "role": "serviceable acoustic components; baffle stays in cabinet"
+    },
+    {
+      "path": "BG20_Frontbestueckung/BG21_Tieftoener",
+      "part_number": "OL-210",
+      "role": "LF driver, backing ring, screws, both washers and nuts"
+    },
+    {
+      "path": "BG20_Frontbestueckung/BG22_Hochton",
+      "part_number": "OL-220",
+      "role": "horn, compression driver and horn fixing hardware; horn-to-driver mounting still open"
+    },
+    {
+      "path": "BG20_Frontbestueckung/BG23_Bassreflexport",
+      "part_number": "OL-230",
+      "role": "port tube; attachment/sealing still open"
+    },
+    {
+      "path": "BG30_Service_Rueckwand",
+      "part_number": "OL-300",
+      "role": "removable rear panel and the ten externally removed screws/washers"
+    },
+    {
+      "path": "BG40_Elektronikmodul",
+      "part_number": "OL-400",
+      "role": "Electronics service assembly; BG41+BG42 tray removes separately, BG43 converter has its own four mount screws and stays on partition during tray removal"
+    },
+    {
+      "path": "BG40_Elektronikmodul/BG41_Traeger",
+      "part_number": "OL-410",
+      "role": "removable tray and its top-side service screws/washers"
+    },
+    {
+      "path": "BG40_Elektronikmodul/BG42_Verstaerker_DSP",
+      "part_number": "OL-420",
+      "role": "JAB PCB outline and its spacers, screws, washers; keepout is separate reference"
+    },
+    {
+      "path": "BG50_Kabelbaum",
+      "part_number": "OL-500",
+      "role": "DC, LF and HF internal cable jackets; terminals/clips/loops unfinished"
+    },
+    {
+      "path": "BG90_Referenzraeume",
+      "part_number": "REF-900",
+      "role": "nonphysical hidden clearance reserves; exclude from purchasing BOM"
+    },
+    {
+      "path": "BG40_Elektronikmodul/BG43_Geregelte_Versorgung",
+      "part_number": "OL-430",
+      "role": "Orion supply with removable mounting hardware and output fuse holder"
+    },
+    {
+      "path": "BG60_Akkuversorgung",
+      "part_number": "OL-600",
+      "role": "battery supply and independent internal charging branch; electrical qualification incomplete"
+    },
+    {
+      "path": "BG60_Akkuversorgung/BG61_Akku_BMS",
+      "part_number": "OL-610",
+      "role": "factory battery with integral BMS, no DIY cell assembly"
+    },
+    {
+      "path": "BG60_Akkuversorgung/BG62_Akkuhalterung",
+      "part_number": "OL-620",
+      "role": "pads and straps, anchors incomplete; wooden sealed bay remains cabinet"
+    },
+    {
+      "path": "BG60_Akkuversorgung/BG63_DC_Schutz",
+      "part_number": "OL-630",
+      "role": "main and charge fuse holders; reverse protector and switch still missing"
+    },
+    {
+      "path": "BG60_Akkuversorgung/BG64_Ladeanschluss",
+      "part_number": "OL-640",
+      "role": "internal XT60 socket, own bracket and through-bolt counterparts"
+    },
+    {
+      "path": "BG80_Externes_Ladegeraet",
+      "part_number": "OL-800",
+      "role": "external mains accessory, excluded from carried mass"
+    }
+  ],
+  "planned_not_modeled": [
+    {
+      "path": "BG70_Schutz_Tragen",
+      "reason": "qualified purchased grille/corners/handles/feet not yet selected"
+    }
+  ],
+  "rules": [
+    {
+      "pattern": "^(Side_left|Side_right|Bottom|Top|Baffle|Baffle_inner_lamination|Service_partition|Service_floor|Brace_lower|Rear_cleat_.*)$",
+      "path": "BG10_Gehaeuse/BG11_Holzstruktur"
+    },
+    {
+      "pattern": "^(Rear_thread_plate_.*|E05_Rear_[0-9]+_retainer_.*)$",
+      "path": "BG10_Gehaeuse/BG12_Feste_Rueckwandgewinde"
+    },
+    {
+      "pattern": "^E06_(tray_support_[0-9]+|floor_bottom_.*)$",
+      "path": "BG10_Gehaeuse/BG13_Elektronikstuetzen"
+    },
+    {
+      "pattern": "^E05_(LF|HF)_(M16_gland|gland_locknut)$",
+      "path": "BG10_Gehaeuse/BG14_Kabeldurchfuehrungen"
+    },
+    {
+      "pattern": "^(REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE|LF_steel_backing_ring_candidate|E05_LF_[0-9]+_.*)$",
+      "path": "BG20_Frontbestueckung/BG21_Tieftoener"
+    },
+    {
+      "pattern": "^(REF_BC_ME10V3_DATASHEET_ENVELOPE|REF_BC_DE10_DATASHEET_ENVELOPE|E05_HF_-?1_-?1_.*)$",
+      "path": "BG20_Frontbestueckung/BG22_Hochton"
+    },
+    {
+      "pattern": "^Port_round_candidate$",
+      "path": "BG20_Frontbestueckung/BG23_Bassreflexport"
+    },
+    {
+      "pattern": "^(Rear_removable|E05_Rear_[0-9]+_(washer|M5x40))$",
+      "path": "BG30_Service_Rueckwand"
+    },
+    {
+      "pattern": "^E06_(removable_tray_[0-9]+x[0-9]+x2|tray_top_.*)$",
+      "path": "BG40_Elektronikmodul/BG41_Traeger"
+    },
+    {
+      "pattern": "^E06_(JAB3_PCB_mounting_outline|PCB_.*)$",
+      "path": "BG40_Elektronikmodul/BG42_Verstaerker_DSP"
+    },
+    {
+      "pattern": "^E05_cable_(power|lf|hf)$",
+      "path": "BG50_Kabelbaum"
+    },
+    {
+      "pattern": "^(RESERVE_amp_wiring_UNVERIFIED_no_mounting_holes|E06_RESERVE_JAB3_components_NOT_ACTUAL_GEOMETRY)$",
+      "path": "BG90_Referenzraeume"
+    },
+    {
+      "pattern": "^E09_Battery_(front_wall|left_wall|right_wall|roof|support_runner_[0-9]+)$",
+      "path": "BG10_Gehaeuse/BG11_Holzstruktur"
+    },
+    {
+      "pattern": "^E09_(LF_feed|HF_feed|BAT_[0-9]+|ELEC_[0-9]+)_(gland|locknut)$",
+      "path": "BG10_Gehaeuse/BG14_Kabeldurchfuehrungen"
+    },
+    {
+      "pattern": "^E09_ROUTE_.*$",
+      "path": "BG50_Kabelbaum"
+    },
+    {
+      "pattern": "^E09_Battery_EREMIT_50Ah_BMS$",
+      "path": "BG60_Akkuversorgung/BG61_Akku_BMS"
+    },
+    {
+      "pattern": "^E09_Battery_(bottom_pad|strap_[0-9]+|buckle_[0-9]+)$",
+      "path": "BG60_Akkuversorgung/BG62_Akkuhalterung"
+    },
+    {
+      "pattern": "^E09_F[12]_.*_holder$",
+      "path": "BG60_Akkuversorgung/BG63_DC_Schutz"
+    },
+    {
+      "pattern": "^E09_(Charge_.*|XT60E_F_charge_socket)$",
+      "path": "BG60_Akkuversorgung/BG64_Ladeanschluss"
+    },
+    {
+      "pattern": "^E09_(Orion_.*|F3_output5A_holder)$",
+      "path": "BG40_Elektronikmodul/BG43_Geregelte_Versorgung"
+    },
+    {
+      "pattern": "^E09_External_.*$",
+      "path": "BG80_Externes_Ladegeraet"
+    },
+    {
+      "pattern": "^E09_REF_.*$",
+      "path": "BG90_Referenzraeume"
+    }
+  ]
+}

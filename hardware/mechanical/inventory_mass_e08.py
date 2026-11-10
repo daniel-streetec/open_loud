@@ -16,12 +16,15 @@ def run(_context: str):
         if wood:wood_volume+=volume
         part=cp.attributes.itemByName('OPEN_LOUD','part');status=cp.attributes.itemByName('OPEN_LOUD','status')
         rows.append(dict(component=cp.name,part=part.value if part else 'component:'+cp.name,assembly_path=o.fullPathName,body_volume_m3=volume,wood=wood,status=status.value if status else 'legacy_reference'))
-    fixed=data['battery_mount']['battery_mass']['value']+data['drivers']['10FE200-4']['mass']['value']+data['orion_mount_e08']['mass']['value']
+    known=dict(battery=data['battery_mount']['battery_mass']['value'],LF=data['drivers']['10FE200-4']['mass']['value'],converter=data['orion_mount_e08']['mass']['value'])
+    for key in ('hf_mass','horn_mass'):
+        if key in data['mechanical']:known[key]=data['mechanical'][key]['value']
+    fixed=sum(known.values())
     bounds=[wood_volume*data['mechanical'][key]['value']+fixed for key in ('density_low','density_high')]
     report=dict(status='PARTIAL_MASS_SCREEN_NOT_MEASURED',wood_volume_m3=wood_volume,
         wood_density_assumption_kg_m3=[data['mechanical'][key]['value'] for key in ('density_low','density_high')],
-        counted_nonwood_kg=fixed,partial_subtotal_kg=bounds,items=rows,
-        uncounted=['HF driver and horn','Steel ring, screws, nuts and plates','Amplifier, cables, terminals and fuse holders','Grille, handles, corners, feet, finish, glue, seals and straps'],
+        counted_nonwood_kg=fixed,known_nonwood_kg=known,partial_subtotal_kg=bounds,items=rows,
+        uncounted=(['HF driver'] if 'hf_mass' not in known else [])+(['Horn'] if 'horn_mass' not in known else [])+['Steel ring, screws, nuts and plates','Amplifier, cables, terminals and fuse holders','Grille, handles, corners, feet, finish, glue, seals and straps'],
         early_A0_10kg_goal_met=False if bounds[0]>10 else None,
         limitations=['Uniform wood density assumptions from project report, not selected supplier certified mass.',
         'Use model volume only for wood; driver and battery bounding-box volumes are not material volumes.',

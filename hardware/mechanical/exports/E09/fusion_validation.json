@@ -1,0 +1,168 @@
+{
+  "fusion_version": "2705.1.15",
+  "project_name": "OPEN_LOUD",
+  "project_id": "a.YnVzaW5lc3M6c3RyZWV0ZWMyIzIwMjYxMTA5MTE2NzI5MDY4MQ",
+  "document_name": "OPEN_LOUD_A0_E09_PowerSystem",
+  "net_l": 34.0,
+  "gross_internal_l": 56.910335999999994,
+  "service_z_mm": 205.67822536109617,
+  "service_excluded_l": 8.95982534875043,
+  "baffle_total_mm": 24,
+  "reinforcement_l": 1.4204631704969068,
+  "rear_cleats_acoustic_l": 0.2943999999999992,
+  "steel_backing_l": 0.07011563563914383,
+  "port_length_mm": 161.47860433000002,
+  "port_d_mm": 90.9728368293,
+  "status": "concept_not_manufacturing_release",
+  "timeline_issues": [],
+  "solid_bodies": [
+    {
+      "component": "Side_left",
+      "body": "Side_left",
+      "solid": true,
+      "volume_cm3": 2284.8000000000006
+    },
+    {
+      "component": "Side_right",
+      "body": "Side_right",
+      "solid": true,
+      "volume_cm3": 2284.8000000000056
+    },
+    {
+      "component": "Bottom",
+      "body": "Bottom",
+      "solid": true,
+      "volume_cm3": 1370.8800000000003
+    },
+    {
+      "component": "Top",
+      "body": "Top",
+      "solid": true,
+      "volume_cm3": 1370.8800000000033
+    },
+    {
+      "component": "Baffle",
+      "body": "Baffle",
+      "solid": true,
+      "volume_cm3": 1420.4631704969634
+    },
+    {
+      "component": "Rear_removable",
+      "body": "Rear_removable",
+      "solid": true,
+      "volume_cm3": 2161.1520000000055
+    },
+    {
+      "component": "Baffle_inner_lamination",
+      "body": "Baffle_inner_lamination",
+      "solid": true,
+      "volume_cm3": 1420.4631704969634
+    },
+    {
+      "component": "LF_steel_backing_ring_candidate",
+      "body": "Steel_backing_ring",
+      "solid": true,
+      "volume_cm3": 70.11563563914682
+    },
+    {
+      "component": "Rear_cleat_left",
+      "body": "Rear_cleat_left",
+      "solid": true,
+      "volume_cm3": 214.4
+    },
+    {
+      "component": "Rear_cleat_right",
+      "body": "Rear_cleat_right",
+      "solid": true,
+      "volume_cm3": 214.4
+    },
+    {
+      "component": "Rear_cleat_bottom",
+      "body": "Rear_cleat_bottom",
+      "solid": true,
+      "volume_cm3": 118.40000000000002
+    },
+    {
+      "component": "Rear_cleat_top",
+      "body": "Rear_cleat_top",
+      "solid": true,
+      "volume_cm3": 118.40000000000002
+    },
+    {
+      "component": "Service_partition",
+      "body": "Service_partition",
+      "solid": true,
+      "volume_cm3": 830.5919999999994
+    },
+    {
+      "component": "Service_floor",
+      "body": "Service_floor",
+      "solid": true,
+      "volume_cm3": 493.2013953444491
+    },
+    {
+      "component": "Brace_lower",
+      "body": "Brace_lower",
+      "solid": true,
+      "volume_cm3": 80.63999999999996
+    },
+    {
+      "component": "Port_round_candidate",
+      "body": "Port_tube",
+      "solid": true,
+      "volume_cm3": 143.0172595459171
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "body": "LF_flange_envelope",
+      "solid": true,
+      "volume_cm3": 72.36564429764508
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "body": "K\u00f6rper2",
+      "solid": true,
+      "volume_cm3": 1455.4700027418362
+    },
+    {
+      "component": "REF_Faital_10FE200_4ohm_DATASHEET_ENVELOPE",
+      "body": "Magnet_envelope",
+      "solid": true,
+      "volume_cm3": 362.308039290417
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "body": "Horn_flange_envelope",
+      "solid": true,
+      "volume_cm3": 34.17837500000002
+    },
+    {
+      "component": "REF_BC_ME10V3_DATASHEET_ENVELOPE",
+      "body": "K\u00f6rper2",
+      "solid": true,
+      "volume_cm3": 384.4101117213812
+    },
+    {
+      "component": "REF_BC_DE10_DATASHEET_ENVELOPE",
+      "body": "DE10_cylinder_envelope",
+      "solid": true,
+      "volume_cm3": 337.17143154653917
+    },
+    {
+      "component": "RESERVE_amp_wiring_UNVERIFIED_no_mounting_holes",
+      "body": "Amp_space_reserve",
+      "solid": true,
+      "volume_cm3": 484.0
+    }
+  ],
+  "cloud_save_requested": false,
+  "saved": false,
+  "layout_source": "data/experiments/E09_parameters.json",
+  "rear_fixing_acoustic_l": 0.016924380792135593,
+  "envelope_mm": [
+    360.0,
+    560.0,
+    340.0
+  ],
+  "construction": "12mm birch plywood shell, 24mm laminated baffle, 3mm steel LF backing, 20mm rear cleats, ten 5mm tapped steel plates"
+}

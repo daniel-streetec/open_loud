@@ -1,0 +1,110 @@
+{
+  "revision": "E09",
+  "status": "SOURCE_BASED_PLANNING_NOT_MEASUREMENT",
+  "nominal_load_sine_audio_W": 40.0625,
+  "conservative_impedance_bound_audio_W": 56.7063492063492,
+  "LF_resistance_sensitivity_ohm": 2.7,
+  "HF_minimum_impedance_ohm": 6.3,
+  "input_warm_loop_including_planned_protector_ohm": 0.019924358090854678,
+  "output_warm_loop_ohm": 0.029914281138441454,
+  "scenarios": [
+    {
+      "battery_terminal_V": 10,
+      "mean_audio_W": 56.7063492063492,
+      "amplifier_input_W": 89.04053724053723,
+      "board_terminal_V": 19.6645489571341,
+      "converter_output_W": 89.65385584005666,
+      "converter_output_A": 4.527972517174579,
+      "output_wire_loss_W": 0.6133185995194165,
+      "converter_input_V": 9.769820867029324,
+      "battery_A": 11.552649873138359,
+      "battery_W": 115.52649873138358,
+      "input_wire_and_planned_protector_loss_W": 2.6591789313127716,
+      "estimated_converter_heat_W": 23.213463960014153
+    },
+    {
+      "battery_terminal_V": 12.8,
+      "mean_audio_W": 56.7063492063492,
+      "amplifier_input_W": 89.04053724053723,
+      "board_terminal_V": 19.6645489571341,
+      "converter_output_W": 89.65385584005666,
+      "converter_output_A": 4.527972517174579,
+      "output_wire_loss_W": 0.6133185995194165,
+      "converter_input_V": 12.621473141253286,
+      "battery_A": 8.960231387763432,
+      "battery_W": 114.69096176337194,
+      "input_wire_and_planned_protector_loss_W": 1.599641963301119,
+      "estimated_converter_heat_W": 23.437463960014156
+    },
+    {
+      "battery_terminal_V": 14.6,
+      "mean_audio_W": 56.7063492063492,
+      "amplifier_input_W": 89.04053724053723,
+      "board_terminal_V": 19.6645489571341,
+      "converter_output_W": 89.65385584005666,
+      "converter_output_A": 4.527972517174579,
+      "output_wire_loss_W": 0.6133185995194165,
+      "converter_input_V": 14.443798635163994,
+      "battery_A": 7.839718806685314,
+      "battery_W": 114.45989457760558,
+      "input_wire_and_planned_protector_loss_W": 1.224574777534751,
+      "estimated_converter_heat_W": 23.581463960014162
+    }
+  ],
+  "converter_capacity_W": 100,
+  "converter_capacity_margin_percent": 10.346144159943337,
+  "nominal_battery_Wh": 640.0,
+  "runtimes": [
+    {
+      "profile": "background",
+      "mean_audio_range_W": [
+        0.5,
+        1.5
+      ],
+      "runtime_h": [
+        77.86080633056646,
+        154.95230442567177
+      ]
+    },
+    {
+      "profile": "normal",
+      "mean_audio_range_W": [
+        2,
+        6
+      ],
+      "runtime_h": [
+        32.32125715175198,
+        101.81351978536118
+      ]
+    },
+    {
+      "profile": "loud",
+      "mean_audio_range_W": [
+        7,
+        16
+      ],
+      "runtime_h": [
+        14.01348098860475,
+        47.46711870505129
+      ]
+    },
+    {
+      "profile": "near_max",
+      "mean_audio_range_W": [
+        16,
+        28
+      ],
+      "runtime_h": [
+        8.316195113288876,
+        24.16743558537764
+      ]
+    }
+  ],
+  "limitations": [
+    "LF Re multiplied by0.9 is a sensitivity assumption, not certified tolerance or measured minimum impedance.",
+    "Amplifier efficiency65percent, converter80percent, idle current and contact budgets are conservative planning inputs.",
+    "Reverse module is a planned load allowance, not installed or fully qualified. Pigtail/contact resistance needs measurement.",
+    "20V setting, channel gain and10.5/10Vrms DSP targets must be calibrated; no DSP image deployed.",
+    "Thermal path, pack/BMS fault coordination, cold-charge protection and actual audio duty cycle remain unproven."
+  ]
+}

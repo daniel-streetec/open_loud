@@ -3,7 +3,7 @@ def values(records):return {k:r['value'] for k,r in records.items()}
 def calculate(data):
     p=values(data['electronics_mount']);m=values(data['mechanical'])
     x,y,z=p['tray_origin'];w,t,depth=p['tray_size'];h=p['spacer_length'];wh=p['washer_thickness']
-    board=[x+(w-p['pcb_width'])/2,y+t+h,z+(depth-p['pcb_depth'])/2]
+    board=[x+(w-p['pcb_width'])/2,y+t+h,z+(depth-p['pcb_depth'])/2+p.get('board_offset_z',0)]
     support=[(x+dx,z+dz) for dx in (p['support_inset'],w-p['support_inset']) for dz in (p['support_inset'],depth-p['support_inset'])]
     board_holes=[(board[0]+p['pcb_width']/2+sx*p['pcb_pitch_x']/2,board[2]+p['pcb_depth']/2+sz*p['pcb_pitch_z']/2) for sx in (-1,1) for sz in (-1,1)]
     engagement=dict(floor_bottom=p['floor_screw_length']-m['wall']-wh,

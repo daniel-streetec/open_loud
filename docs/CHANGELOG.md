@@ -1,3 +1,7 @@
+## E09 2026-11-10 – Montagepfad und konservative Versorgung
+
+Neuer Akku-/Kammeraufbau, durchgehender Hüllraum-Auszug geprüft, Ladehalter/Kabelkollisionen behoben und228 Teile in22 Gruppen organisiert. Native/STEP-Rückimporte bestanden. Warme Versorgungsrechnung und Offline-DSP-Schutzsweep mit wissenschaftlichen PDF/SVG/PNG-Plots,20 Tests. Masse/Kühlung und unvollständige Anschlüsse ausdrücklich offen; keine Fertigungsfreigabe.
+
 # Änderungsstand
 
 ## E07 – 2026-11-10 abends

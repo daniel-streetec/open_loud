@@ -9,10 +9,19 @@ def run(_context: str):
     app=adsk.core.Application.get();doc=app.activeDocument
     assert doc.name.startswith('OPEN_LOUD_A0_E08_PowerSystem')
     d=adsk.fusion.Design.cast(doc.products.itemByProductType('DesignProductType'));root=d.rootComponent
-    for o in list(root.occurrences):
-        if o.component.name in ('E08_Charge_socket_bracket','E08_XT60E_F_charge_socket') or o.component.name.startswith(('E08_Charge_socket_','E08_Charge_roof_')):o.deleteMe()
+    for o in list(root.allOccurrences):
+        if o.component.name.startswith(('E08_Charge_socket_bracket','E08_XT60E_F_charge_socket','E08_Charge_socket_','E08_Charge_roof_')):
+            native=o.nativeObject or o
+            assert native.deleteMe(),f'Cannot remove owned component {o.component.name}'
     p={k:r['value'] for k,r in json.loads((ROOT/'data/parameters.json').read_text(encoding='utf-8'))['connection_mounts_e08'].items()}
-    F=cad_parts.Parts(root)
+    target=next((o.component for o in root.allOccurrences if o.component.name=='BG64_Ladeanschluss'),root)
+    F=cad_parts.Parts(target)
+    roof=next(o.component for o in root.allOccurrences if o.component.name=='E08_Battery_roof')
+    owned=[]
+    for ft in roof.features.extrudeFeatures:
+        if hasattr(ft.profile,'parentSketch') and ft.profile.parentSketch.name.startswith('E08_charge_bracket_M3_'):owned.append((ft,ft.profile.parentSketch))
+    for ft,sk in sorted(owned,key=lambda pair:pair[0].timelineObject.index,reverse=True):ft.deleteMe();sk.deleteMe()
+    d.timeline.moveToEnd()
     plate=F.box(p['bracket_vertical_origin'],p['bracket_vertical_size'])
     foot=F.box(p['bracket_foot_origin'],p['bracket_foot_size'])
     assert F.tm.booleanOperation(plate,foot,adsk.fusion.BooleanTypes.UnionBooleanType)
@@ -28,7 +37,8 @@ def run(_context: str):
         F.subtract(plate,F.cylinder([x,cy,z-.001],[x,cy,z+.003],.0017))
         F.subtract(flange,F.cylinder([x,cy,z-.001],[x,cy,z+.008],.00155))
     for x in p['roof_hole_x']:
-        F.subtract(plate,F.cylinder([x,.205,p['roof_hole_z']],[x,.209,p['roof_hole_z']],p['roof_bore']/2))
+        foot_y=p['bracket_foot_origin'][1];foot_t=p['bracket_foot_size'][1]
+        F.subtract(plate,F.cylinder([x,foot_y-.001,p['roof_hole_z']],[x,foot_y+foot_t+.001,p['roof_hole_z']],p['roof_bore']/2))
     F.component('E08_Charge_socket_bracket',[plate],'OWN_AL2_XT60_INTERNAL_BRACKET','own_nominal_angle_bend_radius_and_material_pending')
     F.component('E08_XT60E_F_charge_socket',[F.box(p['socket_body_origin'],p['socket_body_size']),flange],'AMASS_XT60E_F','manufacturer_envelope_internal_IP40_only')
     for i,x in enumerate(p['socket_hole_x']):
@@ -41,7 +51,7 @@ def run(_context: str):
         body=F.hexz(0,0,0,h,.0055);matrix=adsk.core.Matrix3D.create()
         matrix.setToRotation(-math.pi/2,adsk.core.Vector3D.create(1,0,0),F.point([0,0,0]));matrix.translation=adsk.core.Vector3D.create(x*100,y*100,z*100)
         assert F.tm.transform(body,matrix);return body
-    roof=next(o.component for o in root.occurrences if o.component.name=='E08_Battery_roof')
+    roof=next(o.component for o in root.allOccurrences if o.component.name=='E08_Battery_roof')
     for i,x in enumerate(p['roof_hole_x']):
         zz=p['roof_hole_z'];cutname=f'E08_charge_bracket_M3_{i}'
         if not any(sk.name==cutname for sk in roof.sketches):F.cut_circle(roof,'y',[x,.208,zz],p['roof_bore'],.012,cutname)

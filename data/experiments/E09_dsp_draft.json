@@ -1,0 +1,14 @@
+{
+  "status": "offline_design_study_not_deployed",
+  "parameters": {
+    "sample_rate": {"value":48000,"unit":"Hz","source":"planning assumption; verify actual JAB firmware/clock","status":"assumption","uncertainty":null},
+    "crossover": {"value":2500,"unit":"Hz","source":"B&C DE10 recommended crossover https://bcspeakers.com/en/products/hf-driver/1-0/8/de10","status":"manufacturer_recommended_candidate_not_measured_acoustic_alignment","uncertainty":null},
+    "highpass_candidates": {"value":[35,40,45,50],"unit":"Hz","source":"own LF excursion and bass trade study","status":"design_choices","uncertainty":null},
+    "selected_highpass": {"value":40,"unit":"Hz","source":"nominal sweep:~32percent excursion margin,0.67dB attenuation at50Hz;35Hz leaves~9percent margin; measurements/tolerance sweep pending","status":"draft_not_released","uncertainty":null},
+    "frequency_low": {"value":10,"unit":"Hz","source":"analysis grid","status":"numerical_setting","uncertainty":null},
+    "frequency_high": {"value":1000,"unit":"Hz","source":"LF lumped model; interpret mainly below250Hz","status":"model_limit_warning","uncertainty":null},
+    "points": {"value":4001,"unit":"count","source":"analysis grid","status":"numerical_setting","uncertainty":null}
+  },
+  "topology": {"subsonic":"Butterworth4 highpass","crossover":"electrical Linkwitz-Riley4 both branches"},
+  "limitations": ["No measured driver/horn response, delay, directivity, baffle response or acoustic crossover optimization.","No SigmaStudio image, fixed-point quantization, limiter timing or calibrated output gain.","A flat electrical LR sum is not a flat acoustic response."]
+}

@@ -1,0 +1,2441 @@
+{
+  "schema_version": 1,
+  "revision": "E09",
+  "date": "2026-11-10",
+  "convention": "SI intern; RMS voltage/current, peak excursion/port speed; null uncertainty means unknown, never zero",
+  "environment": {
+    "rho": {
+      "value": 1.2,
+      "unit": "kg/m3",
+      "source": "report:p8",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "c": {
+      "value": 343,
+      "unit": "m/s",
+      "source": "report:p8",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "p0": {
+      "value": 2e-05,
+      "unit": "Pa",
+      "source": "report:p8",
+      "status": "reference",
+      "uncertainty": null
+    },
+    "distance": {
+      "value": 1,
+      "unit": "m",
+      "source": "report:p8",
+      "status": "model_condition",
+      "uncertainty": null
+    }
+  },
+  "model": {
+    "ql": {
+      "value": 7,
+      "unit": "1",
+      "source": "report:p8",
+      "status": "assumption",
+      "uncertainty": {
+        "range": [
+          4,
+          12
+        ],
+        "kind": "sensitivity_not_confidence"
+      }
+    },
+    "qp": {
+      "value": 20,
+      "unit": "1",
+      "source": "report:p8",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "port_peak_limit": {
+      "value": 17,
+      "unit": "m/s",
+      "source": "report:p7",
+      "status": "comparison_threshold_not_validation",
+      "uncertainty": null
+    },
+    "rail_fraction": {
+      "value": 0.9,
+      "unit": "1",
+      "source": "report:p8",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "end_correction": {
+      "value": 0.73,
+      "unit": "1",
+      "source": "report:p8",
+      "status": "equivalent_round_port_approximation",
+      "uncertainty": null
+    },
+    "f_min": {
+      "value": 20,
+      "unit": "Hz",
+      "source": "engineering:E01",
+      "status": "grid_choice",
+      "uncertainty": null
+    },
+    "f_max": {
+      "value": 400,
+      "unit": "Hz",
+      "source": "engineering:E01",
+      "status": "grid_choice_interpret_below_250Hz",
+      "uncertainty": null
+    },
+    "points": {
+      "value": 1401,
+      "unit": "count",
+      "source": "report:attachment_modell.py",
+      "status": "grid_choice",
+      "uncertainty": null
+    },
+    "norm_low": {
+      "value": 180,
+      "unit": "Hz",
+      "source": "report:p7",
+      "status": "reference_band",
+      "uncertainty": null
+    },
+    "norm_high": {
+      "value": 250,
+      "unit": "Hz",
+      "source": "report:p7",
+      "status": "reference_band",
+      "uncertainty": null
+    }
+  },
+  "drivers": {
+    "10FE200-4": {
+      "manufacturer": "FaitalPRO",
+      "mpn": "02504057",
+      "source": "S31",
+      "Re": {
+        "value": 3.0,
+        "unit": "ohm",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Bl": {
+        "value": 7.0,
+        "unit": "N/A",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Mms": {
+        "value": 0.0248,
+        "unit": "kg",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Rms": {
+        "value": 0.9,
+        "unit": "kg/s",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Fs": {
+        "value": 55,
+        "unit": "Hz",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Sd": {
+        "value": 0.036,
+        "unit": "m2",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Xmax": {
+        "value": 0.00462,
+        "unit": "m",
+        "source": "S31",
+        "status": "geometric_with_gap_allowance_not_THD_limit",
+        "uncertainty": null
+      },
+      "Pn": {
+        "value": 150,
+        "unit": "W",
+        "source": "S31",
+        "status": "AES_rating_not_continuous_sine_copper_limit",
+        "uncertainty": null
+      },
+      "Vas": {
+        "value": 0.061,
+        "unit": "m3",
+        "source": "S31",
+        "status": "manufacturer_nominal_check_only",
+        "uncertainty": null
+      },
+      "Qts": {
+        "value": 0.49,
+        "unit": "1",
+        "source": "S31",
+        "status": "manufacturer_nominal_check_only",
+        "uncertainty": null
+      },
+      "mass": {
+        "value": 2.2,
+        "unit": "kg",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "displacement": {
+        "value": 0.0006,
+        "unit": "m3",
+        "source": "S31",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      }
+    },
+    "10FE300-4": {
+      "manufacturer": "FaitalPRO",
+      "mpn": "02504357",
+      "source": "S33",
+      "Re": {
+        "value": 3.3,
+        "unit": "ohm",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Bl": {
+        "value": 9.7,
+        "unit": "N/A",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Mms": {
+        "value": 0.037,
+        "unit": "kg",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Rms": {
+        "value": 1.1,
+        "unit": "kg/s",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Fs": {
+        "value": 50,
+        "unit": "Hz",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Sd": {
+        "value": 0.0358,
+        "unit": "m2",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "Xmax": {
+        "value": 0.00547,
+        "unit": "m",
+        "source": "S33",
+        "status": "geometric_with_gap_allowance_not_THD_limit",
+        "uncertainty": null
+      },
+      "Pn": {
+        "value": 250,
+        "unit": "W",
+        "source": "S33",
+        "status": "AES_rating_not_continuous_sine_copper_limit",
+        "uncertainty": null
+      },
+      "Vas": {
+        "value": 0.049,
+        "unit": "m3",
+        "source": "S33",
+        "status": "manufacturer_nominal_check_only",
+        "uncertainty": null
+      },
+      "Qts": {
+        "value": 0.39,
+        "unit": "1",
+        "source": "S33",
+        "status": "manufacturer_nominal_check_only",
+        "uncertainty": null
+      },
+      "mass": {
+        "value": 3.2,
+        "unit": "kg",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      },
+      "displacement": {
+        "value": 0.00125,
+        "unit": "m3",
+        "source": "S33",
+        "status": "manufacturer_nominal",
+        "uncertainty": null
+      }
+    }
+  },
+  "concepts": {
+    "A0": {
+      "driver": "10FE200-4",
+      "hf": "DE10",
+      "horn": "ME10V3",
+      "power_path": "direct",
+      "Vb": {
+        "value": 0.034,
+        "unit": "m3",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "Fb": {
+        "value": 50,
+        "unit": "Hz",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "port_area": {
+        "value": 0.0065,
+        "unit": "m2",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "rail": {
+        "value": 18,
+        "unit": "V",
+        "source": "report:p7",
+        "status": "nominal_scenario",
+        "uncertainty": {
+          "range": [
+            15,
+            21
+          ],
+          "kind": "scenario_not_tolerance"
+        }
+      },
+      "amp_rms_cap": {
+        "value": 14.142135623730951,
+        "unit": "V",
+        "source": "report:p8_50W_at_4ohm",
+        "status": "provisional_cap",
+        "uncertainty": null
+      },
+      "mass_low": {
+        "value": 8,
+        "unit": "kg",
+        "source": "report:p1",
+        "status": "unverified_estimate",
+        "uncertainty": null
+      },
+      "mass_high": {
+        "value": 10,
+        "unit": "kg",
+        "source": "report:p1",
+        "status": "unverified_estimate",
+        "uncertainty": null
+      }
+    },
+    "A1": {
+      "driver": "10FE300-4",
+      "hf": "CDX1-1445",
+      "horn": "H1-8050",
+      "power_path": "boost",
+      "Vb": {
+        "value": 0.034,
+        "unit": "m3",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "Fb": {
+        "value": 48,
+        "unit": "Hz",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "port_area": {
+        "value": 0.008,
+        "unit": "m2",
+        "source": "report:p7",
+        "status": "design_candidate",
+        "uncertainty": null
+      },
+      "rail": {
+        "value": 23.5,
+        "unit": "V",
+        "source": "report:p7",
+        "status": "requires_boost_validation",
+        "uncertainty": null
+      },
+      "amp_rms_cap": {
+        "value": 14.142135623730951,
+        "unit": "V",
+        "source": "report:p8_50W_at_4ohm",
+        "status": "provisional_cap",
+        "uncertainty": null
+      },
+      "mass_low": {
+        "value": 10,
+        "unit": "kg",
+        "source": "report:p1",
+        "status": "unverified_estimate",
+        "uncertainty": null
+      },
+      "mass_high": {
+        "value": 12,
+        "unit": "kg",
+        "source": "report:p1",
+        "status": "conflicts_with_11kg_target",
+        "uncertainty": null
+      }
+    }
+  },
+  "mechanical": {
+    "height": {
+      "value": 0.56,
+      "unit": "m",
+      "source": "engineering:E03_user_quality_and_assembly_priority",
+      "status": "reversible_layout_for_wider_webs",
+      "uncertainty": null
+    },
+    "width": {
+      "value": 0.36,
+      "unit": "m",
+      "source": "E08 internal50Ah battery, clear port channel and34L target; user allows quality/weight trade",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "depth": {
+      "value": 0.34,
+      "unit": "m",
+      "source": "E08 internal50Ah battery, clear port channel and34L target; user allows quality/weight trade",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "wall": {
+      "value": 0.012,
+      "unit": "m",
+      "source": "report:p12",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "density_low": {
+      "value": 600,
+      "unit": "kg/m3",
+      "source": "report:p12",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "density_high": {
+      "value": 700,
+      "unit": "kg/m3",
+      "source": "report:p12",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "lf_outer": {
+      "value": 0.2568,
+      "unit": "m",
+      "source": "S31",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_cutout": {
+      "value": 0.2333,
+      "unit": "m",
+      "source": "S31",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_depth": {
+      "value": 0.102,
+      "unit": "m",
+      "source": "S31",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_flange": {
+      "value": 0.008,
+      "unit": "m",
+      "source": "S31",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_pcd": {
+      "value": 0.2438,
+      "unit": "m",
+      "source": "S31",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_magnet_d": {
+      "value": 0.1153,
+      "unit": "m",
+      "source": "S31:drawing_4",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_magnet_depth": {
+      "value": 0.0347,
+      "unit": "m",
+      "source": "S31:drawing_4",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_basket_d": {
+      "value": 0.2318,
+      "unit": "m",
+      "source": "S31:drawing_4",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_hole_d": {
+      "value": 0.0057,
+      "unit": "m",
+      "source": "S31:drawing_4",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_width": {
+      "value": 0.1305,
+      "unit": "m",
+      "source": "S50",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_depth": {
+      "value": 0.09,
+      "unit": "m",
+      "source": "S50",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_cutout": {
+      "value": 0.104,
+      "unit": "m",
+      "source": "S50:cutout_shape_to_verify",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_throat": {
+      "value": 0.025,
+      "unit": "m",
+      "source": "S50",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_flange": {
+      "value": 0.0055,
+      "unit": "m",
+      "source": "S50:drawing_me10v3",
+      "status": "manufacturer_dimension",
+      "uncertainty": null
+    },
+    "hf_diameter": {
+      "value": 0.09,
+      "unit": "m",
+      "source": "S48",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "hf_depth": {
+      "value": 0.053,
+      "unit": "m",
+      "source": "S48",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "horn_displacement": {
+      "value": 0.00015,
+      "unit": "m3",
+      "source": "S50",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_y": {
+      "value": 0.26,
+      "unit": "m",
+      "source": "engineering:E03_user_quality_and_assembly_priority",
+      "status": "reversible_layout_for_wider_webs",
+      "uncertainty": null
+    },
+    "horn_y": {
+      "value": 0.47,
+      "unit": "m",
+      "source": "engineering:E03_user_quality_and_assembly_priority",
+      "status": "reversible_layout_for_wider_webs",
+      "uncertainty": null
+    },
+    "port_y": {
+      "value": 0.082,
+      "unit": "m",
+      "source": "E08 internal50Ah battery, clear port channel and34L target; user allows quality/weight trade",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "port_wall": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "service_floor_y": {
+      "value": 0.33,
+      "unit": "m",
+      "source": "E08 internal50Ah battery, clear port channel and34L target; user allows quality/weight trade",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "brace_y": {
+      "value": 0.24,
+      "unit": "m",
+      "source": "E08 internal50Ah battery, clear port channel and34L target; user allows quality/weight trade",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "brace_z": {
+      "value": 0.2,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "brace_height": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "baffle_clearance": {
+      "value": 0.0005,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "radial_manufacturing_allowance",
+      "uncertainty": null
+    },
+    "amp_reserve_width": {
+      "value": 0.11,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "unverified_installation_reserve_not_board_dimension",
+      "uncertainty": null
+    },
+    "amp_reserve_height": {
+      "value": 0.11,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "unverified_installation_reserve_not_board_dimension",
+      "uncertainty": null
+    },
+    "amp_reserve_depth": {
+      "value": 0.04,
+      "unit": "m",
+      "source": "engineering:E02",
+      "status": "unverified_installation_reserve_not_board_dimension",
+      "uncertainty": null
+    },
+    "baffle_layers": {
+      "value": 2,
+      "unit": "count",
+      "source": "user:2026-11-09_quality_over_mass",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "rear_cleat_width": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "rear_cleat_depth": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "lf_backing_outer_d": {
+      "value": 0.28,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "lf_backing_thickness": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "lf_bolt_clearance": {
+      "value": 0.0055,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "horn_bolt_clearance": {
+      "value": 0.0045,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "horn_bolt_pitch": {
+      "value": 0.114,
+      "unit": "m",
+      "source": "S50:drawing_me10v3",
+      "status": "manufacturer_dimension",
+      "uncertainty": null
+    },
+    "port_backing_relief": {
+      "value": 0.001,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "rear_bolt_clearance": {
+      "value": 0.0055,
+      "unit": "m",
+      "source": "engineering:E03",
+      "status": "prototype_candidate_not_structurally_validated",
+      "uncertainty": null
+    },
+    "rear_plate_width": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "rear_plate_length": {
+      "value": 0.04,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "rear_plate_thickness": {
+      "value": 0.005,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "rear_tap_pilot": {
+      "value": 0.0042,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "rear_retainer_bore": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "rear_retainer_pitch": {
+      "value": 0.024,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "gasket_groove_width": {
+      "value": 0.004,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "gasket_groove_depth": {
+      "value": 0.001,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "gasket_edge_offset": {
+      "value": 0.002,
+      "unit": "m",
+      "source": "engineering:E03_assembly",
+      "status": "candidate_verify_before_manufacture",
+      "uncertainty": null
+    },
+    "lf_backing_inner_d": {
+      "value": 0.22,
+      "unit": "m",
+      "source": "engineering:E03_bearing_margin",
+      "status": "candidate_clearance_model_only_verify_real_basket_before_cutting",
+      "uncertainty": null
+    },
+    "port_x": {
+      "value": 0.08,
+      "unit": "m",
+      "source": "E08 left acoustic channel beside sealed rear-right battery bay",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "hf_mass": {
+      "value": 0.8,
+      "unit": "kg",
+      "source": "https://bcspeakers.com/en/products/hf-driver/1-0/8/de10",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    },
+    "horn_mass": {
+      "value": 0.17,
+      "unit": "kg",
+      "source": "https://www.bcspeakers.com/en/products/horn/1/0/ME10V3/",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    }
+  },
+  "energy": {
+    "nominal_Wh": {
+      "value": 72,
+      "unit": "Wh",
+      "source": "report:p10_18V_times_4Ah",
+      "status": "nominal_not_usable",
+      "uncertainty": null
+    },
+    "usable_low": {
+      "value": 58,
+      "unit": "Wh",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "usable_high": {
+      "value": 65,
+      "unit": "Wh",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "idle": {
+      "value": 1.8,
+      "unit": "W",
+      "source": "report:p8",
+      "status": "reported_manufacturer_not_independently_verified",
+      "uncertainty": null
+    },
+    "aux_low": {
+      "value": 0.2,
+      "unit": "W",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "aux_high": {
+      "value": 0.5,
+      "unit": "W",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "eta_low": {
+      "value": 0.65,
+      "unit": "1",
+      "source": "report:p10",
+      "status": "assumption_incremental",
+      "uncertainty": null
+    },
+    "eta_high": {
+      "value": 0.88,
+      "unit": "1",
+      "source": "report:p10",
+      "status": "assumption_incremental",
+      "uncertainty": null
+    },
+    "boost_eta_low": {
+      "value": 0.85,
+      "unit": "1",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "boost_eta_high": {
+      "value": 0.92,
+      "unit": "1",
+      "source": "report:p10",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "boost_idle": {
+      "value": 0.3,
+      "unit": "W",
+      "source": "engineering:E01",
+      "status": "explicit_unmeasured_scenario",
+      "uncertainty": null
+    },
+    "pack_resistance_low": {
+      "value": 0.05,
+      "unit": "ohm",
+      "source": "engineering:E01",
+      "status": "sensitivity_only_not_pack_spec",
+      "uncertainty": null
+    },
+    "pack_resistance_high": {
+      "value": 0.2,
+      "unit": "ohm",
+      "source": "engineering:E01",
+      "status": "sensitivity_only_not_pack_spec",
+      "uncertainty": null
+    },
+    "uvlo_trial": {
+      "value": 15,
+      "unit": "V",
+      "source": "report:p10",
+      "status": "trial_not_safe_cell_limit",
+      "uncertainty": null
+    },
+    "voc_nominal": {
+      "value": 18,
+      "unit": "V",
+      "source": "report:p10",
+      "status": "scenario",
+      "uncertainty": null
+    },
+    "voc_low": {
+      "value": 15.5,
+      "unit": "V",
+      "source": "engineering:E01",
+      "status": "near_cutoff_scenario",
+      "uncertainty": null
+    },
+    "peak_audio": {
+      "value": 75,
+      "unit": "W",
+      "source": "engineering:E01_50W_LF_plus_25W_8ohm_HF",
+      "status": "electrical_stress_scenario_not_music_or_HF_safe_rating",
+      "uncertainty": null
+    },
+    "profiles": {
+      "background": {
+        "value": [
+          0.5,
+          1.5
+        ],
+        "unit": "W",
+        "source": "report:p10",
+        "status": "mean_audio_scenario",
+        "uncertainty": null
+      },
+      "normal": {
+        "value": [
+          2,
+          6
+        ],
+        "unit": "W",
+        "source": "report:p10",
+        "status": "mean_audio_scenario",
+        "uncertainty": null
+      },
+      "loud": {
+        "value": [
+          7,
+          16
+        ],
+        "unit": "W",
+        "source": "report:p10",
+        "status": "mean_audio_scenario",
+        "uncertainty": null
+      },
+      "near_max": {
+        "value": [
+          16,
+          28
+        ],
+        "unit": "W",
+        "source": "report:p10",
+        "status": "mean_audio_scenario",
+        "uncertainty": null
+      }
+    }
+  },
+  "wiring": {
+    "supply_min": {
+      "value": 15,
+      "unit": "V",
+      "source": "A0: 5S design window; pack UVLO not verified",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "supply_max": {
+      "value": 21,
+      "unit": "V",
+      "source": "5S Li-ion 4.2 V/cell assumption",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "amplifier_efficiency_low": {
+      "value": 0.65,
+      "unit": "1",
+      "source": "conservative planning assumption; manufacturer 83% at different test point",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "amplifier_idle": {
+      "value": 1.8,
+      "unit": "W",
+      "source": "WONDOM AA-JA32173 manufacturer data PDF",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "rail_fraction": {
+      "value": 0.9,
+      "unit": "1",
+      "source": "simulation/model.py voltage-headroom assumption",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "hf_voltage_limit": {
+      "value": 12.6491106407,
+      "unit": "V_rms",
+      "source": "sqrt(20 W * 8 ohm); DSP setting NOT implemented",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "dc_design_current": {
+      "value": 6,
+      "unit": "A",
+      "source": "rounded 25% reserve over simultaneous sine-load screening",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "dc_short_test_current": {
+      "value": 10,
+      "unit": "A",
+      "source": "inrush test scenario ONLY; no measured inrush",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "lf_design_current": {
+      "value": 4,
+      "unit": "A_rms",
+      "source": "13.365 Vrms / 3.6 ohm min plus reserve",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "hf_design_current": {
+      "value": 2.1,
+      "unit": "A_rms",
+      "source": "12.649 Vrms / 6.3 ohm min plus reserve",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "conductor_area": {
+      "value": 1.5,
+      "unit": "mm2",
+      "source": "Cordial CLS215 manufacturer",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "conductor_resistance": {
+      "value": 0.0133,
+      "unit": "ohm/m",
+      "source": "Cordial CLS215 manufacturer at nominal reference temperature",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "copper_alpha": {
+      "value": 0.00393,
+      "unit": "1/K",
+      "source": "copper linear temperature approximation",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "temperature_rise_from_20": {
+      "value": 40,
+      "unit": "K",
+      "source": "60 C conductor screening, not measured",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "cable_diameter": {
+      "value": 0.007,
+      "unit": "m",
+      "source": "Cordial CLS215 manufacturer nominal",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "cable_mass": {
+      "value": 0.079,
+      "unit": "kg/m",
+      "source": "Cordial CLS215 manufacturer",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "bend_radius": {
+      "value": 0.028,
+      "unit": "m",
+      "source": "4x nominal OD static planning rule; vendor minimum unknown",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "service_allowance": {
+      "value": 0.1,
+      "unit": "m",
+      "source": "removable service loop; accommodated in dry bay, final dressing at mock-up",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "termination_allowance": {
+      "value": 0.06,
+      "unit": "m",
+      "source": "both ends combined; spare jacket/stripping allowance",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "pigtail_length": {
+      "value": 0.1,
+      "unit": "m",
+      "source": "each branch factory cable assumed 100 mm; MEASURE before release",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "pigtail_min_area": {
+      "value": 0.326,
+      "unit": "mm2",
+      "source": "AWG22 worst-case planning hypothesis, not board cable specification",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "dc_contact_budget": {
+      "value": 0.03,
+      "unit": "ohm",
+      "source": "combined fuse, holder, switch, adapter, terminals acceptance budget",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "speaker_contact_budget": {
+      "value": 0.01,
+      "unit": "ohm",
+      "source": "combined OEM connector, WAGO, driver terminals acceptance budget",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "loop_heat_budget": {
+      "value": 1.2,
+      "unit": "W/m",
+      "source": "design screening proxy; not an ampacity standard",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "lf_route": {
+      "value": [
+        [
+          0.23,
+          0.425,
+          0.24
+        ],
+        [
+          0.275,
+          0.425,
+          0.24
+        ],
+        [
+          0.275,
+          0.31,
+          0.24
+        ],
+        [
+          0.275,
+          0.31,
+          0.145
+        ],
+        [
+          0.225,
+          0.28,
+          0.115
+        ]
+      ],
+      "unit": "m",
+      "source": "E05 rear service bay to LF terminal reserve; actual terminal endpoint unverified",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "hf_route": {
+      "value": [
+        [
+          0.23,
+          0.46,
+          0.24
+        ],
+        [
+          0.275,
+          0.46,
+          0.24
+        ],
+        [
+          0.275,
+          0.46,
+          0.13
+        ],
+        [
+          0.225,
+          0.47,
+          0.13
+        ]
+      ],
+      "unit": "m",
+      "source": "E05 partition feedthrough to HF terminal reserve; endpoint unverified",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "power_route": {
+      "value": [
+        [
+          0.285,
+          0.385,
+          0.26
+        ],
+        [
+          0.285,
+          0.425,
+          0.26
+        ],
+        [
+          0.23,
+          0.425,
+          0.26
+        ]
+      ],
+      "unit": "m",
+      "source": "E05 provisional battery-adapter station to amplifier; pack mount absent",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "gland_thread_length": {
+      "value": 0.012,
+      "unit": "m",
+      "source": "LAPP 53017210 manufacturer datasheet",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "gland_clamp_min": {
+      "value": 0.0035,
+      "unit": "m",
+      "source": "LAPP 53017210 manufacturer datasheet",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "gland_clamp_max": {
+      "value": 0.008,
+      "unit": "m",
+      "source": "LAPP 53017210 manufacturer datasheet",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "gland_nut_thickness_reserve": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "LAPP SKINDICHT SM-M M16 manufacturer DB52103000EN thickness 3mm; exact current SKU and consumer source pending",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "gland_seal_thickness": {
+      "value": 0.0005,
+      "unit": "m",
+      "source": "compressed panel seal planning hypothesis",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "gland_counterbore_depth": {
+      "value": 0.005,
+      "unit": "m",
+      "source": "internal relief in 12 mm panel leaves 7 mm wood",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "gland_bore": {
+      "value": 0.0165,
+      "unit": "m",
+      "source": "M16 clearance design",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "gland_counterbore_diameter": {
+      "value": 0.028,
+      "unit": "m",
+      "source": "socket/locknut installation reserve; actual nut verify",
+      "status": "design_assumption",
+      "uncertainty": null
+    }
+  },
+  "fasteners": {
+    "m5_head_d": {
+      "value": 0.0085,
+      "unit": "m",
+      "source": "Bossard/Bollhoff ISO4762 technical table",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "m5_head_h": {
+      "value": 0.005,
+      "unit": "m",
+      "source": "Bossard/Bollhoff ISO4762 technical table",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "m4_head_d": {
+      "value": 0.007,
+      "unit": "m",
+      "source": "ISO4762 nominal design; verify purchased SKU",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "m4_head_h": {
+      "value": 0.004,
+      "unit": "m",
+      "source": "ISO4762 nominal design; verify purchased SKU",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "lf_screw_length": {
+      "value": 0.045,
+      "unit": "m",
+      "source": "E05 stack: 8+24+3+2x1+4.7 mm =41.7 mm; 3.3 mm protrusion",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "horn_screw_length": {
+      "value": 0.04,
+      "unit": "m",
+      "source": "E05 stack: 5.5+24+2x0.8+3.2 mm=34.3 mm",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "rear_screw_length": {
+      "value": 0.04,
+      "unit": "m",
+      "source": "E05 stack washer1+panel12+cleat20+plate5=38 mm",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "m5_nut_h": {
+      "value": 0.0047,
+      "unit": "m",
+      "source": "ISO4032 nominal envelope; SKU verification pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "m4_nut_h": {
+      "value": 0.0032,
+      "unit": "m",
+      "source": "DIN934 nominal envelope; SKU verification pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "m5_washer_h": {
+      "value": 0.001,
+      "unit": "m",
+      "source": "ISO7089 nominal envelope",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "m4_washer_h": {
+      "value": 0.0008,
+      "unit": "m",
+      "source": "ISO7089 nominal envelope",
+      "status": "design_assumption",
+      "uncertainty": null
+    }
+  },
+  "electronics_mount": {
+    "tray_origin": {
+      "value": [
+        0.036,
+        0.352,
+        0.222
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "tray_size": {
+      "value": [
+        0.18,
+        0.002,
+        0.102
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "support_inset": {
+      "value": 0.006,
+      "unit": "m",
+      "source": "M3 stand-off centres6mm inside tray edges",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "spacer_length": {
+      "value": 0.01,
+      "unit": "m",
+      "source": "Wurth970100321 manufacturer datasheet",
+      "status": "manufacturer_reference",
+      "uncertainty": {
+        "absolute": 0.0002,
+        "note": "ISO2768m planning; verify tolerance interpretation"
+      }
+    },
+    "spacer_af": {
+      "value": 0.0055,
+      "unit": "m",
+      "source": "Wurth970100321 manufacturer datasheet",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "screw_diameter": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "M3 nominal thread envelope",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "floor_screw_length": {
+      "value": 0.016,
+      "unit": "m",
+      "source": "12mmwood+0.5washer+3.5mm metal-thread engagement",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "small_screw_length": {
+      "value": 0.006,
+      "unit": "m",
+      "source": "M3x6 for2mm tray or1.6mm PCB plus0.5mm washer",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "washer_thickness": {
+      "value": 0.0005,
+      "unit": "m",
+      "source": "ISO7089 M3 nominal; purchased SKU pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "washer_od": {
+      "value": 0.007,
+      "unit": "m",
+      "source": "ISO7089 M3 nominal envelope",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "washer_id": {
+      "value": 0.0032,
+      "unit": "m",
+      "source": "ISO7089 M3 nominal envelope",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "pcb_width": {
+      "value": 0.09144,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3",
+      "status": "manufacturer_reference",
+      "uncertainty": {
+        "absolute": 0.0005
+      }
+    },
+    "pcb_depth": {
+      "value": 0.0686,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3",
+      "status": "manufacturer_reference",
+      "uncertainty": {
+        "absolute": 0.0005
+      }
+    },
+    "pcb_total_height": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3; conservative full component envelope",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "pcb_thickness": {
+      "value": 0.0016,
+      "unit": "m",
+      "source": "PCB laminate thickness assumption, not specified by WONDOM",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "pcb_pitch_x": {
+      "value": 0.0838,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3",
+      "status": "manufacturer_reference",
+      "uncertainty": {
+        "absolute": 0.0005
+      }
+    },
+    "pcb_pitch_z": {
+      "value": 0.061,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3",
+      "status": "manufacturer_reference",
+      "uncertainty": {
+        "absolute": 0.0005
+      }
+    },
+    "pcb_hole": {
+      "value": 0.0036,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3 typical, not minimum",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "tray_pcb_bore": {
+      "value": 0.004,
+      "unit": "m",
+      "source": "allows nominal pattern movement; washer7mm covers bore; verify actual PCB before drilling",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "floor_bore": {
+      "value": 0.0034,
+      "unit": "m",
+      "source": "matched drilling through own tray template; wood not threaded",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "tray_support_bore": {
+      "value": 0.0034,
+      "unit": "m",
+      "source": "own M3 clearance",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "spacer_thread_reference": {
+      "value": "970100321",
+      "unit": "part_number",
+      "source": "https://www.we-online.com/components/products/datasheet/970100321.pdf",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "floor_wood_thickness": {
+      "value": 0.012,
+      "unit": "m",
+      "source": "mechanical.wall; duplicated for stack review only",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "board_offset_z": {
+      "value": 0.008,
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    }
+  },
+  "battery_mount": {
+    "bay_left": {
+      "value": 0.132,
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "bay_front": {
+      "value": 0.105,
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "bay_top": {
+      "value": 0.24,
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "battery_origin": {
+      "value": [
+        0.147,
+        0.04,
+        0.12
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "battery_size": {
+      "value": [
+        0.13,
+        0.17,
+        0.195
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "battery_mass": {
+      "value": 4.9,
+      "unit": "kg",
+      "source": "EREMIT50Ah Gen7 BASIS product specification",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "terminal_zone_height": {
+      "value": 0.014,
+      "unit": "m",
+      "source": "Reserved M6 terminal/lug/cover space; actual terminal positions to confirm",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "pad": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "closed-cell elastomer candidate, material/compression test pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "strap_width": {
+      "value": 0.025,
+      "unit": "m",
+      "source": "standard25mm cam buckle strap candidate",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "converter_origin": {
+      "value": [
+        0.2,
+        0.4,
+        0.21767822536109618
+      ],
+      "unit": "m",
+      "source": "E08 upright isolated converter beside amplifier tray; terminals down",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "converter_size": {
+      "value": [
+        0.114,
+        0.1002,
+        0.0468
+      ],
+      "unit": "m",
+      "source": "Victron Orion-small Rev01 dimension drawing",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "bay_right": {
+      "value": 0.328,
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "power_feed_xz": {
+      "value": [
+        [
+          0.295,
+          0.25
+        ],
+        [
+          0.295,
+          0.275
+        ]
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_floor_feed_xz": {
+      "value": [
+        0.255,
+        0.285
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "support_runner_z": {
+      "value": [
+        0.14,
+        0.27
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "support_runner_depth": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "own two25mm-high cross runners with3mm pad",
+      "status": "design_candidate",
+      "uncertainty": null
+    }
+  },
+  "power_system": {
+    "battery_nominal": {
+      "value": 12.8,
+      "unit": "V",
+      "source": "EREMIT50Ah Gen7 BASIS",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "battery_full": {
+      "value": 14.6,
+      "unit": "V",
+      "source": "EREMIT50Ah Gen7 BASIS",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "battery_cutoff": {
+      "value": 10,
+      "unit": "V",
+      "source": "EREMIT50Ah Gen7 BASIS BMS, not a user-adjusted threshold",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "battery_capacity": {
+      "value": 50,
+      "unit": "Ah",
+      "source": "EREMIT50Ah Gen7 BASIS",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "usable_fraction_low": {
+      "value": 0.75,
+      "unit": "1",
+      "source": "cold/age/reserve planning scenario, not measured",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "usable_fraction_high": {
+      "value": 0.9,
+      "unit": "1",
+      "source": "warm/new battery planning scenario, not measured",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "converter_output": {
+      "value": 20,
+      "unit": "V",
+      "source": "Selected Orion12/24-5 adjustment18-30V; set and verify before amplifier connection",
+      "status": "design_selection",
+      "uncertainty": null
+    },
+    "converter_efficiency_low": {
+      "value": 0.8,
+      "unit": "1",
+      "source": "derated planning lower bound; nominal manufacturer88%",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "converter_efficiency_high": {
+      "value": 0.88,
+      "unit": "1",
+      "source": "Victron Orion12/24-5 nominal efficiency",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "converter_output_current": {
+      "value": 5,
+      "unit": "A",
+      "source": "Victron Orion12/24-5 continuous; output20V -> conservatively100W",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "converter_idle_current_max": {
+      "value": 0.08,
+      "unit": "A",
+      "source": "Victron Orion12/24-5 no-load input current",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "converter_disabled_current_max": {
+      "value": 0.0002,
+      "unit": "A",
+      "source": "Victron Orion12/24-5 remote disabled",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "amplifier_idle": {
+      "value": 1.8,
+      "unit": "W",
+      "source": "WONDOM AA-JA32173 datasheet",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "amplifier_efficiency_low": {
+      "value": 0.65,
+      "unit": "1",
+      "source": "conservative E05 planning assumption",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "lf_limit": {
+      "value": 10.5,
+      "unit": "V_rms",
+      "source": "E09 conservative impedance/temperature sensitivity and100W converter margin; not deployed",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "hf_limit": {
+      "value": 10,
+      "unit": "V_rms",
+      "source": "DSP target; not hardware deployed or gain-calibrated",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "charger_voltage": {
+      "value": 14.6,
+      "unit": "V",
+      "source": "EREMIT external12V5A LiFePO4 charger; verify variant output before use",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "charger_current": {
+      "value": 5,
+      "unit": "A",
+      "source": "EREMIT external12V5A LiFePO4 charger",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "main_design_current": {
+      "value": 12,
+      "unit": "A",
+      "source": "power budget over10V battery minimum with efficiency reserve",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_conductor": {
+      "value": 4,
+      "unit": "mm2",
+      "source": "H07V-K OFC; fits converter6mm2 maximum; no factory-contact assumption",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_fuse": {
+      "value": 15,
+      "unit": "A",
+      "source": "ATO287 candidate; inrush/I2t/short-circuit coordination pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "charge_fuse": {
+      "value": 7.5,
+      "unit": "A",
+      "source": "ATO287 candidate for5A charger; holder and actual lead qualification pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "output_fuse": {
+      "value": 5,
+      "unit": "A",
+      "source": "ATO287 candidate for converter-to-JAB branch, inrush test pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "remote_switch_current": {
+      "value": 0.01,
+      "unit": "A",
+      "source": "low-current control planning bound; manufacturer interface current verify",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "hf_min_impedance": {
+      "value": 6.3,
+      "unit": "ohm",
+      "source": "https://bcspeakers.com/en/products/hf-driver/1-0/8/de10",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_re_factor_low": {
+      "value": 0.9,
+      "unit": "1",
+      "source": "10percent below nominal Re sensitivity, not certified production or temperature tolerance",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "planned_reverse_resistance": {
+      "value": 0.003,
+      "unit": "ohm",
+      "source": "Pololu5389 planning2x1.5mOhm; module not installed, hot resistance not guaranteed",
+      "status": "design_candidate",
+      "uncertainty": null
+    }
+  },
+  "wiring_reference_status": "wiring group is legacy E05 screening only; E08 uses power_system and harness_e08",
+  "dsp_draft": {
+    "sample_rate": {
+      "value": 48000,
+      "unit": "Hz",
+      "source": "planning assumption; verify actual JAB firmware/clock",
+      "status": "assumption",
+      "uncertainty": null
+    },
+    "crossover": {
+      "value": 2500,
+      "unit": "Hz",
+      "source": "B&C DE10 recommended crossover https://bcspeakers.com/en/products/hf-driver/1-0/8/de10",
+      "status": "manufacturer_recommended_candidate_not_measured_acoustic_alignment",
+      "uncertainty": null
+    },
+    "highpass_candidates": {
+      "value": [
+        35,
+        40,
+        45,
+        50
+      ],
+      "unit": "Hz",
+      "source": "own LF excursion and bass trade study",
+      "status": "design_choices",
+      "uncertainty": null
+    },
+    "selected_highpass": {
+      "value": 40,
+      "unit": "Hz",
+      "source": "nominal sweep:~32percent excursion margin,0.67dB attenuation at50Hz;35Hz leaves~9percent margin; measurements/tolerance sweep pending",
+      "status": "draft_not_released",
+      "uncertainty": null
+    },
+    "frequency_low": {
+      "value": 10,
+      "unit": "Hz",
+      "source": "analysis grid",
+      "status": "numerical_setting",
+      "uncertainty": null
+    },
+    "frequency_high": {
+      "value": 1000,
+      "unit": "Hz",
+      "source": "LF lumped model; interpret mainly below250Hz",
+      "status": "model_limit_warning",
+      "uncertainty": null
+    },
+    "points": {
+      "value": 4001,
+      "unit": "count",
+      "source": "analysis grid",
+      "status": "numerical_setting",
+      "uncertainty": null
+    }
+  },
+  "connection_mounts_e09": {
+    "bracket_vertical_origin": {
+      "value": [
+        0.28,
+        0.21,
+        0.3159
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "bracket_vertical_size": {
+      "value": [
+        0.034,
+        0.018,
+        0.002
+      ],
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "bracket_foot_origin": {
+      "value": [
+        0.28,
+        0.22599999999999998,
+        0.288
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "bracket_foot_size": {
+      "value": [
+        0.034,
+        0.002,
+        0.0299
+      ],
+      "unit": "m",
+      "source": "own E09 foot extended10mm for screw-head access;34mm width clears moving battery envelope",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "socket_body_origin": {
+      "value": [
+        0.28745,
+        0.213175,
+        0.3018
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "socket_body_size": {
+      "value": [
+        0.0191,
+        0.01165,
+        0.0202
+      ],
+      "unit": "m",
+      "source": "AMASS XT60E-F drawing",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "socket_flange_origin": {
+      "value": [
+        0.28,
+        0.21109999999999998,
+        0.3179
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "socket_flange_size": {
+      "value": [
+        0.034,
+        0.0158,
+        0.0041
+      ],
+      "unit": "m",
+      "source": "AMASS XT60E-F drawing",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "socket_hole_x": {
+      "value": [
+        0.2845,
+        0.3095
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "socket_center_y": {
+      "value": 0.219,
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "socket_cutout": {
+      "value": [
+        0.0193,
+        0.01185,
+        0.0039
+      ],
+      "unit": "m",
+      "source": "AMASS XT60E-F drawing: width,height,corner radius",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "own_bracket_cut_radius": {
+      "value": 0.0002,
+      "unit": "m",
+      "source": "Own laser-cut aperture: smaller corner radius than recommended panel contour; extra corner clearance, not vendor housing geometry",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "roof_hole_x": {
+      "value": [
+        0.285,
+        0.309
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "roof_hole_z": {
+      "value": 0.296,
+      "unit": "m",
+      "source": "own E09 screw-head clearance from XT60 housing",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "roof_bore": {
+      "value": 0.0034,
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "socket_bolt_length": {
+      "value": 0.01,
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "roof_bolt_length": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "OPEN_LOUD E08 own mounting design",
+      "status": "design_candidate",
+      "uncertainty": null
+    }
+  },
+  "harness_e09": {
+    "main_od": {
+      "value": 0.0048,
+      "unit": "m",
+      "source": "H07V-K4mm2 single insulated wire conservative OD; actual selected SKU measure",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_bend": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "4xOD static planning bound; verify selected H07V-K datasheet",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "speaker_od": {
+      "value": 0.007,
+      "unit": "m",
+      "source": "Cordial CLS215 nominal, manufacturing OD tolerance verify",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "speaker_bend": {
+      "value": 0.035,
+      "unit": "m",
+      "source": "5x7mm static planning; compare current CLS215 manufacturer PDF",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_area": {
+      "value": 4,
+      "unit": "mm2",
+      "source": "E08 power input4mm2, converter accepts<=6mm2",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_r20": {
+      "value": 0.00495,
+      "unit": "ohm/m",
+      "source": "IEC60228-class5 planning upper resistance; verify purchased wire",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "speaker_r20": {
+      "value": 0.0133,
+      "unit": "ohm/m",
+      "source": "Cordial CLS215 manufacturer",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "temperature_delta": {
+      "value": 40,
+      "unit": "K",
+      "source": "60C conductor screening vs20C resistance reference",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "copper_alpha": {
+      "value": 0.00393,
+      "unit": "1/K",
+      "source": "copper approximation",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "contact_budget": {
+      "value": 0.01,
+      "unit": "ohm",
+      "source": "main pair combined measured acceptance allowance, including fuse",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "speaker_contact_budget": {
+      "value": 0.01,
+      "unit": "ohm",
+      "source": "combined pigtail/terminal acceptance budget",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "main_plus_route": {
+      "value": [
+        [
+          0.295,
+          0.226,
+          0.25
+        ],
+        [
+          0.295,
+          0.39,
+          0.25
+        ],
+        [
+          0.232,
+          0.39,
+          0.25
+        ]
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "main_minus_route": {
+      "value": [
+        [
+          0.295,
+          0.226,
+          0.275
+        ],
+        [
+          0.295,
+          0.39,
+          0.275
+        ],
+        [
+          0.26,
+          0.39,
+          0.275
+        ]
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "output_route": {
+      "value": [
+        [
+          0.286,
+          0.405,
+          0.27
+        ],
+        [
+          0.286,
+          0.405,
+          0.31
+        ],
+        [
+          0.114,
+          0.405,
+          0.31
+        ],
+        [
+          0.114,
+          0.405,
+          0.245
+        ]
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "lf_route": {
+      "value": [
+        [
+          0.05,
+          0.42,
+          0.273
+        ],
+        [
+          0.255,
+          0.42,
+          0.285
+        ],
+        [
+          0.255,
+          0.285,
+          0.285
+        ],
+        [
+          0.255,
+          0.285,
+          0.14
+        ],
+        [
+          0.235,
+          0.28,
+          0.11
+        ]
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "hf_route": {
+      "value": [
+        [
+          0.194,
+          0.39,
+          0.273
+        ],
+        [
+          0.17,
+          0.39,
+          0.305
+        ],
+        [
+          0.17,
+          0.5,
+          0.305
+        ],
+        [
+          0.17,
+          0.5,
+          0.145
+        ],
+        [
+          0.24,
+          0.47,
+          0.145
+        ]
+      ],
+      "unit": "m",
+      "source": "data/experiments/E09_packaging.json",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "tail_allowance": {
+      "value": 0.3,
+      "unit": "m",
+      "source": "two150mm tails; actual terminals still to verify",
+      "status": "design_candidate",
+      "uncertainty": null
+    },
+    "service_allowance": {
+      "value": 0.1,
+      "unit": "m",
+      "source": "dry-bay service reserve; loop dressing checked separately",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "charge_route": {
+      "value": [
+        [
+          0.303,
+          0.195,
+          0.316
+        ],
+        [
+          0.28,
+          0.195,
+          0.316
+        ],
+        [
+          0.28,
+          0.196,
+          0.288
+        ]
+      ],
+      "unit": "m",
+      "source": "short jacket-free internal charging leads to F2 and battery; no external cabinet hole",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "charge_area": {
+      "value": 1.5,
+      "unit": "mm2",
+      "source": "5A external charging branch",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "remote_area": {
+      "value": 0.25,
+      "unit": "mm2",
+      "source": "low-current dry-contact control, not battery load switching",
+      "status": "design_assumption",
+      "uncertainty": null
+    }
+  },
+  "orion_mount_e09": {
+    "ear_thickness": {
+      "value": 0.002,
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "manufacturer_CAD_verified",
+      "uncertainty": null
+    },
+    "hole_pitch": {
+      "value": [
+        0.0988,
+        0.0842
+      ],
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "manufacturer_CAD_verified",
+      "uncertainty": null
+    },
+    "hole_diameter": {
+      "value": 0.0038,
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "manufacturer_CAD_verified",
+      "uncertainty": null
+    },
+    "verified_access_radius": {
+      "value": 0.004,
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "manufacturer_CAD_verified",
+      "uncertainty": null
+    },
+    "verified_access_depth": {
+      "value": 0.015,
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "manufacturer_CAD_verified",
+      "uncertainty": null
+    },
+    "depth_keepout": {
+      "value": 0.0475,
+      "unit": "m",
+      "source": "data/verification/orion_mount.json",
+      "status": "conservative_round_up_of_official_STEP_47p34mm_bounds",
+      "uncertainty": null
+    },
+    "mass": {
+      "value": 0.42,
+      "unit": "kg",
+      "source": "https://www.victronenergy.com/upload/documents/Datasheet-Orion-Tr-DC-DC-converters-isolated-100-250-400W-EN.pdf",
+      "status": "manufacturer_nominal",
+      "uncertainty": null
+    }
+  }
+}

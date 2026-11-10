@@ -1,0 +1,14 @@
+{
+  "status": "screening_not_release",
+  "interferences": [],
+  "kernel_failures": [],
+  "timeline_issues": [],
+  "exclusions": [
+    "Same-component geometry",
+    "Reference reserves",
+    "Strap and buckle envelopes; retention not released"
+  ],
+  "limitations": [
+    "Envelope geometry and provisional terminal stations; actual supplier models and extraction remain to verify."
+  ]
+}

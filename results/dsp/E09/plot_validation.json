@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "formats": [
+    "PNG",
+    "SVG",
+    "PDF"
+  ],
+  "two_renders_byte_identical": true,
+  "pdf_pages": 1,
+  "scope": "Actual regenerated artifact bytes, PDF text/pages; visual review separately performed"
+}
