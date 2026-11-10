@@ -35,10 +35,10 @@ def next_reset(limits,now):
             resets.append(instant(window['resets_at'])+dt.timedelta(seconds=60))
     return max(resets) if resets else now+dt.timedelta(hours=5,minutes=1)
 
-def command(cli,session,output):
+def command(cli,session,output,mode='fork'):
     # argv list + stdin: no shell interpolation, no secrets in the command line.
     return [cli,'exec','-C',str(ROOT),'-c','approval_policy="never"','-c','sandbox_mode="danger-full-access"',
-            'resume',session,'-','--json','-o',str(output)]
+            mode,session,'-','--json','-o',str(output)]
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
@@ -65,7 +65,7 @@ def main():
         record=dict(time=dt.datetime.now(UTC).isoformat(),event=event,**extra)
         with (out/'supervisor.jsonl').open('a',encoding='utf-8') as stream:stream.write(json.dumps(record)+'\n')
         (out/'status.json').write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
-    log('waiting',pid=os.getpid(),wake=wake.isoformat(),deadline=deadline.isoformat())
+    log('waiting',pid=os.getpid(),wake=wake.isoformat(),deadline=deadline.isoformat(),mode='fork')
     attempts=0
     while dt.datetime.now(UTC)<deadline:
         if (out/'STOP').exists():log('stopped_by_user');return
@@ -78,9 +78,10 @@ def main():
         if not ready.exists() or not json.loads(ready.read_text(encoding='utf-8')).get('ready'):
             log('waiting_for_handoff');time.sleep(30);continue
         attempts+=1
-        logfile=out/f'exec-{attempts:02d}.jsonl'
+        stamp=dt.datetime.now(UTC).strftime('%Y%m%dT%H%M%SZ')
+        logfile=out/f'exec-{stamp}-{attempts:02d}.jsonl'
         prompt=(ROOT/'docs/automation/continue_prompt.md').read_text(encoding='utf-8')
-        log('starting',attempt=attempts,session=args.session)
+        log('starting',attempt=attempts,parent_session=args.session,mode='fork')
         with logfile.open('w',encoding='utf-8') as output:
             proc=subprocess.Popen(command(cli,args.session,out/'last-message.txt'),cwd=ROOT,stdin=subprocess.PIPE,
                 stdout=output,stderr=subprocess.STDOUT,text=True,encoding='utf-8',
@@ -89,8 +90,12 @@ def main():
             proc.communicate(prompt);code=proc.returncode
         if code==0:log('completed',attempt=attempts);return
         content=logfile.read_text(encoding='utf-8',errors='replace').lower()
+        writer_conflict='already has an active writer' in content
         limited=any(marker in content for marker in ('usage_limit_reached','rate_limit_exceeded','usage limit','rate limit'))
-        log('attempt_failed',attempt=attempts,exit_code=code,quota_wait=limited)
+        log('attempt_failed',attempt=attempts,exit_code=code,quota_wait=limited,writer_conflict=writer_conflict,log=str(logfile))
+        if writer_conflict:
+            log('blocked_writer_conflict',message='No engineering work started. Inspect log; do not treat argument validation as a successful restart.')
+            return
         if not limited or attempts>=args.max_attempts:return
         _,limits=rollout_state(args.session_log);wake=next_reset(limits,dt.datetime.now(UTC))
         log('quota_wait',wake=wake.isoformat())

@@ -9,5 +9,5 @@ class SupervisorChecks(unittest.TestCase):
         self.assertEqual(next_reset(limits,now),now+dt.timedelta(seconds=260))
     def test_fixed_uuid_and_stdin_no_shell(self):
         args=command('C:/Program Files/Codex/codex.exe','fixed-session',Path('result.txt'))
-        self.assertIn('resume',args);self.assertIn('fixed-session',args);self.assertNotIn('--last',args)
+        self.assertIn('fork',args);self.assertNotIn('resume',args);self.assertIn('fixed-session',args);self.assertNotIn('--last',args)
         self.assertEqual(args[args.index('fixed-session')+1],'-')

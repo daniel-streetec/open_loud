@@ -1,5 +1,13 @@
 # Wiederanlauf nach einem Nutzungslimit
 
+## Tatsächlicher Vorfall und Korrektur, 2026-11-10
+
+Der erste Nachtlauf startete03:38MEZ, scheiterte aber sofort an `already has an active writer`. Die geöffnete Oberfläche hielt die ursprüngliche Sitzung zum Schreiben reserviert, obwohl der letzte Turn abgeschlossen war. Es fand **keine nächtliche Produktentwicklung** statt. Der zuvor bestandene Dry-Run prüfte nur Argumente und konnte diesen Fehler nicht erkennen.
+
+Korrigiert auf `codex exec fork AUSGANGS_UUID`: separate Fortsetzung mit kopierter Gesprächshistorie, kein zweiter Writer derselben Sitzung. Ein tatsächlicher minimaler Modellaufruf in read-only/ephemeral-Modus lief am10.11. erfolgreich durch (Exit0, exakte Antwort OPEN_LOUD_FORK_OK). Testbefehl `python -B tools/check_codex_fork.py`, lokaler Nachweis `.tools/overnight/fork-smoke-validation.json`. Das ist ein Starttest, noch kein Beweis eines vollständigen Engineeringlaufs. Argument- und Zeittests bleiben zusätzlich bestehen. Offizielle OpenAI-Dokumentation: [Developer commands / exec fork](https://learn.chatgpt.com/docs/developer-commands).
+
+Protokolle neuer Versuche tragen eindeutige Zeitstempel, damit der erste Fehler nicht überschrieben wird. Writer-Konflikte erhalten einen expliziten Blockierungsstatus. Der Supervisor wartet weiterhin auf das Ende des aktiven Ausgangs-Turns; keine parallelen Änderungen durch Oberfläche und Fortsetzung. Im folgenden Text bezeichnet die feste UUID die Ausgangssitzung; die fortgesetzte Arbeit erhält eine eigene Sitzungs-ID.
+
 Der Nutzer hat automatisches Fortsetzen nach Ablauf des5h-Fensters ausdrücklich beauftragt. `tools/resume_after_reset.py` verwendet die installierte Codex-CLI0.167.0 und eine feste Sitzungs-UUID. Keine API-Schlüssel, kein Kontowechsel, kein Zurücksetzen von Limits. Grundlage: [offizielle OpenAI-Dokumentation zum nichtinteraktiven Betrieb](https://learn.chatgpt.com/docs/non-interactive-mode), [CLI-Referenz](https://learn.chatgpt.com/docs/cli/reference) und tatsächlich ausgeführtes `codex exec resume --help`.
 
 Der lokale Startzeitpunkt ist eine Wartezeit, kein garantierter Kontingent-Reset. Ein erneutes Quotalimit führt zu weiterem Warten; sonstige Fehler beenden den Supervisor mit Protokoll. Maximal zwei Versuche und ein festes nächtliches Start-Endfenster. Ein erfolgreicher Codex-Lauf beendet den Supervisor. Windows muss eingeschaltet/angemeldet sein, die Authentifizierung gültig und Fusion für CAD erreichbar bleiben. Kein automatisches Windows-Wakeup eingerichtet.
