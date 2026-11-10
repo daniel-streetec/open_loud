@@ -1,0 +1,44 @@
+{
+  "checkpoint_not_release": true,
+  "checks": [
+    {
+      "format": "native",
+      "status": "passed",
+      "observed": {
+        "bodies": 327,
+        "solids": 327,
+        "volume_cm3": 25081.104989961066,
+        "min_cm": [
+          -0.001,
+          -0.002,
+          -1.402
+        ],
+        "max_cm": [
+          57.001999999999995,
+          56.001999999999995,
+          34.602
+        ]
+      }
+    },
+    {
+      "format": "STEP",
+      "status": "passed",
+      "observed": {
+        "bodies": 324,
+        "solids": 324,
+        "volume_cm3": 24126.788531319293,
+        "min_cm": [
+          -0.001,
+          -0.002,
+          -1.402
+        ],
+        "max_cm": [
+          57.001999999999995,
+          56.001999999999995,
+          34.602
+        ]
+      }
+    }
+  ],
+  "parameter_count": 73
+}

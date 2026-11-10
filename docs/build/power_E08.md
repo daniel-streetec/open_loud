@@ -28,3 +28,11 @@ Akkuhüllmaß 195×170×130 mm, 4,9 kg. Eigene abgedichtete Kammer mit Montagefr
 Pololu 2815 wurde geprüft, aber nicht als Verpolschutz gewählt: [Hersteller](https://www.pololu.com/product/2815) nennt 16 A erst bei bis zu 150 °C und nur 6 A bei 55 °C unter seinen Versuchsbedingungen. Das rechtfertigt keine ungeprüfte Auswahl für 12 A im geschlossenen Holzgehäuse.
 
 Offen: robustes Schalt-/Verpolschutzteil, Gurtanker, Halter für Ladebuchse und Sicherungen, Klemmen und Kabelschellen, vollständige Anschluss-Pinliste, Akku-Polkoordinaten, Kühlung, reale Kabelführung samt Wartungsschlaufen, Kollisionsbehebung und Auszugprüfung, E08-Baugruppenhierarchie, Export-Rückimporte, aktualisierte vollständige BOM und Zeichnungssatz. Spritzwasser-, Sicherheits- und Leistungsfreigabe bleiben unbewiesen.
+
+## Tatsächlich ausgeführte CAD-Prüfung
+
+`python -B tools/fusion_bridge.py run hardware/mechanical/verify_power_e08.py`: nach zwei Korrekturrunden keine Kabel-/Sicherungshalterüberschneidung mehr; acht verbleibende Überschneidungen ausschließlich zwischen konservativer Orion-Hülle und eigenen Montage-Muttern/Scheiben. Montageohr-Dicke und Zugänglichkeit weiterhin klären. Keine Kerneloperation fehlgeschlagen, keine Timelinefehler. Kein Nachweis einer vollständigen Baugruppen-Kollisionsfreiheit oder Montierbarkeit.
+
+`python -B tools/fusion_bridge.py run hardware/mechanical/check_exports_e08.py`: nativer F3D-Rückimport und STEP-Rückimport bestanden, Körperzahlen/Volumina/Gesamtgrenzen verglichen, native Benutzerparameter erhalten. Bericht `hardware/mechanical/exports/E08/export_validation.json`. Dokument im Fusion-Projekt OPEN_LOUD gespeichert. Damit ist der oben ursprünglich offene Export-Rückimport für diesen Zwischenstand erledigt; keine Fertigungsfreigabe.
+
+Der direkte lokale Download des WAGO-2522-Datenblatts von Farnell brach nach 25 Sekunden ohne Daten mit Timeout ab. Der Webzugriff auf das Herstellerdatenblatt war möglich, enthielt jedoch keine bemaßte Schraublochposition. Nicht als bereits heruntergeladenes Hersteller-CAD oder qualifizierte Halterbohrung behandeln.
