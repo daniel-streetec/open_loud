@@ -1,0 +1,47 @@
+{
+  "revision": "E06",
+  "new_mount_interferences": [],
+  "service_extraction_samples": [
+    {
+      "rearward_displacement_m": 0,
+      "hits": []
+    },
+    {
+      "rearward_displacement_m": 0.015,
+      "hits": []
+    },
+    {
+      "rearward_displacement_m": 0.03,
+      "hits": []
+    },
+    {
+      "rearward_displacement_m": 0.06,
+      "hits": []
+    },
+    {
+      "rearward_displacement_m": 0.1,
+      "hits": []
+    },
+    {
+      "rearward_displacement_m": 0.15,
+      "hits": []
+    }
+  ],
+  "timeline_issues": [],
+  "numerical_failures": [],
+  "thread_stacks": {
+    "floor_bottom": 0.0035,
+    "floor_top": 0.0035,
+    "board_bottom": 0.0035,
+    "board_top": 0.0039000000000000003
+  },
+  "opposing_screw_tip_gaps_m": {
+    "floor_pair": 0.0030000000000000005,
+    "board_pair": 0.0026000000000000003
+  },
+  "limitations": [
+    "Extraction samples are not continuous swept-volume proof.",
+    "Rear cover and four tray-top screws removed, all cables disconnected.",
+    "Actual component/connector envelope, PCB thickness, keepouts and thermal path still require verification."
+  ]
+}

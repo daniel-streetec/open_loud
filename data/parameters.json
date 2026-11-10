@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "E05",
+  "revision": "E06",
   "date": "2026-11-09",
   "convention": "SI intern; RMS voltage/current, peak excursion/port speed; null uncertainty means unknown, never zero",
   "environment": {
@@ -1344,6 +1344,188 @@
       "value": 0.0008,
       "unit": "m",
       "source": "ISO7089 nominal envelope",
+      "status": "design_assumption",
+      "uncertainty": null
+    }
+  },
+  "electronics_mount": {
+    "tray_origin": {
+      "value": [
+        0.04,
+        0.372,
+        0.182
+      ],
+      "unit": "m",
+      "source": "E06 floor-mounted removable tray, clear of rear left cleat",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "tray_size": {
+      "value": [
+        0.112,
+        0.002,
+        0.09
+      ],
+      "unit": "m",
+      "source": "own2mm aluminum5052/5754 plate, grade procurement pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "support_inset": {
+      "value": 0.006,
+      "unit": "m",
+      "source": "M3 stand-off centres6mm inside tray edges",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "spacer_length": {
+      "value": 0.01,
+      "unit": "m",
+      "source": "Wurth970100321 manufacturer datasheet",
+      "status": "manufacturer_reference",
+      "uncertainty": {
+        "absolute": 0.0002,
+        "note": "ISO2768m planning; verify tolerance interpretation"
+      }
+    },
+    "spacer_af": {
+      "value": 0.0055,
+      "unit": "m",
+      "source": "Wurth970100321 manufacturer datasheet",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "screw_diameter": {
+      "value": 0.003,
+      "unit": "m",
+      "source": "M3 nominal thread envelope",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "floor_screw_length": {
+      "value": 0.016,
+      "unit": "m",
+      "source": "12mmwood+0.5washer+3.5mm metal-thread engagement",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "small_screw_length": {
+      "value": 0.006,
+      "unit": "m",
+      "source": "M3x6 for2mm tray or1.6mm PCB plus0.5mm washer",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "washer_thickness": {
+      "value": 0.0005,
+      "unit": "m",
+      "source": "ISO7089 M3 nominal; purchased SKU pending",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "washer_od": {
+      "value": 0.007,
+      "unit": "m",
+      "source": "ISO7089 M3 nominal envelope",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "washer_id": {
+      "value": 0.0032,
+      "unit": "m",
+      "source": "ISO7089 M3 nominal envelope",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "pcb_width": {
+      "value": 0.09144,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3",
+      "status": "manufacturer_reference",
+      "uncertainty": {
+        "absolute": 0.0005
+      }
+    },
+    "pcb_depth": {
+      "value": 0.0686,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3",
+      "status": "manufacturer_reference",
+      "uncertainty": {
+        "absolute": 0.0005
+      }
+    },
+    "pcb_total_height": {
+      "value": 0.02,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3; conservative full component envelope",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "pcb_thickness": {
+      "value": 0.0016,
+      "unit": "m",
+      "source": "PCB laminate thickness assumption, not specified by WONDOM",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "pcb_pitch_x": {
+      "value": 0.0838,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3",
+      "status": "manufacturer_reference",
+      "uncertainty": {
+        "absolute": 0.0005
+      }
+    },
+    "pcb_pitch_z": {
+      "value": 0.061,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3",
+      "status": "manufacturer_reference",
+      "uncertainty": {
+        "absolute": 0.0005
+      }
+    },
+    "pcb_hole": {
+      "value": 0.0036,
+      "unit": "m",
+      "source": "WONDOM AA-JA32173 datasheet p3 typical, not minimum",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "tray_pcb_bore": {
+      "value": 0.004,
+      "unit": "m",
+      "source": "allows nominal pattern movement; washer7mm covers bore; verify actual PCB before drilling",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "floor_bore": {
+      "value": 0.0034,
+      "unit": "m",
+      "source": "matched drilling through own tray template; wood not threaded",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "tray_support_bore": {
+      "value": 0.0034,
+      "unit": "m",
+      "source": "own M3 clearance",
+      "status": "design_assumption",
+      "uncertainty": null
+    },
+    "spacer_thread_reference": {
+      "value": "970100321",
+      "unit": "part_number",
+      "source": "https://www.we-online.com/components/products/datasheet/970100321.pdf",
+      "status": "manufacturer_reference",
+      "uncertainty": null
+    },
+    "floor_wood_thickness": {
+      "value": 0.012,
+      "unit": "m",
+      "source": "mechanical.wall; duplicated for stack review only",
       "status": "design_assumption",
       "uncertainty": null
     }

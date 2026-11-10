@@ -1,0 +1,128 @@
+{
+  "revision": "E06",
+  "document": "OPEN_LOUD_A0_E06_Electronics",
+  "added_components": [
+    "E06_removable_tray_112x90x2",
+    "E06_JAB3_PCB_mounting_outline",
+    "E06_RESERVE_JAB3_components_NOT_ACTUAL_GEOMETRY",
+    "E06_tray_support_0",
+    "E06_floor_bottom_washer_0",
+    "E06_floor_bottom_M3x16_0",
+    "E06_tray_top_washer_0",
+    "E06_tray_top_M3x6_0",
+    "E06_tray_support_1",
+    "E06_floor_bottom_washer_1",
+    "E06_floor_bottom_M3x16_1",
+    "E06_tray_top_washer_1",
+    "E06_tray_top_M3x6_1",
+    "E06_tray_support_2",
+    "E06_floor_bottom_washer_2",
+    "E06_floor_bottom_M3x16_2",
+    "E06_tray_top_washer_2",
+    "E06_tray_top_M3x6_2",
+    "E06_tray_support_3",
+    "E06_floor_bottom_washer_3",
+    "E06_floor_bottom_M3x16_3",
+    "E06_tray_top_washer_3",
+    "E06_tray_top_M3x6_3",
+    "E06_PCB_support_0",
+    "E06_PCB_bottom_washer_0",
+    "E06_PCB_bottom_M3x6_0",
+    "E06_PCB_top_washer_0",
+    "E06_PCB_top_M3x6_0",
+    "E06_PCB_support_1",
+    "E06_PCB_bottom_washer_1",
+    "E06_PCB_bottom_M3x6_1",
+    "E06_PCB_top_washer_1",
+    "E06_PCB_top_M3x6_1",
+    "E06_PCB_support_2",
+    "E06_PCB_bottom_washer_2",
+    "E06_PCB_bottom_M3x6_2",
+    "E06_PCB_top_washer_2",
+    "E06_PCB_top_M3x6_2",
+    "E06_PCB_support_3",
+    "E06_PCB_bottom_washer_3",
+    "E06_PCB_bottom_M3x6_3",
+    "E06_PCB_top_washer_3",
+    "E06_PCB_top_M3x6_3"
+  ],
+  "inventory": {
+    "OWN_AL_TRAY_112_90_2": 1,
+    "WONDOM_AA_JA32173": 1,
+    "JAB3_COMPONENT_KEEP_OUT": 1,
+    "WURTH_970100321": 8,
+    "ISO7089_M3": 16,
+    "ISO4762_M3x16": 4,
+    "ISO4762_M3x6": 12
+  },
+  "layout": {
+    "tray_origin_m": [
+      0.04,
+      0.372,
+      0.182
+    ],
+    "tray_size_m": [
+      0.112,
+      0.002,
+      0.09
+    ],
+    "board_origin_m": [
+      0.050280000000000005,
+      0.384,
+      0.19269999999999998
+    ],
+    "support_centres_m": [
+      [
+        0.046,
+        0.188
+      ],
+      [
+        0.046,
+        0.266
+      ],
+      [
+        0.146,
+        0.188
+      ],
+      [
+        0.146,
+        0.266
+      ]
+    ],
+    "pcb_hole_centres_m": [
+      [
+        0.0541,
+        0.19649999999999998
+      ],
+      [
+        0.0541,
+        0.25749999999999995
+      ],
+      [
+        0.1379,
+        0.19649999999999998
+      ],
+      [
+        0.1379,
+        0.25749999999999995
+      ]
+    ],
+    "thread_engagement_m": {
+      "floor_bottom": 0.0035,
+      "floor_top": 0.0035,
+      "board_bottom": 0.0035,
+      "board_top": 0.0039000000000000003
+    },
+    "screw_tip_gap_m": {
+      "floor_pair": 0.0030000000000000005,
+      "board_pair": 0.0026000000000000003
+    },
+    "hole_pattern_tolerance_capacity_m": 0.0007999999999999999,
+    "status": "nominal_mounting_design_no_board_keepout_or_thermal_release"
+  },
+  "limitations": [
+    "JAB component/connector layout and PCB thickness not manufacturer CAD; thermal clearance unqualified.",
+    "Legacy cable stations unchanged, actual pigtails and clamps remain unfinished.",
+    "No battery or weatherproofing release."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "LF_SIMULATION_NOT_MEASUREMENT",
+  "summary": [
+    {
+      "rail_V": 12,
+      "SPL_50Hz_ideal_2pi_1m_dB": 99.55714750442753,
+      "voltage_limit_Vrms": 7.636753236814713,
+      "first_limit": "rail"
+    },
+    {
+      "rail_V": 12.8,
+      "SPL_50Hz_ideal_2pi_1m_dB": 100.1177219764324,
+      "voltage_limit_Vrms": 8.145870119269027,
+      "first_limit": "rail"
+    },
+    {
+      "rail_V": 14.4,
+      "SPL_50Hz_ideal_2pi_1m_dB": 101.14077242538004,
+      "voltage_limit_Vrms": 9.164103884177656,
+      "first_limit": "rail"
+    },
+    {
+      "rail_V": 18,
+      "SPL_50Hz_ideal_2pi_1m_dB": 103.07897268554116,
+      "voltage_limit_Vrms": 11.455129855222069,
+      "first_limit": "rail"
+    },
+    {
+      "rail_V": 19.2,
+      "SPL_50Hz_ideal_2pi_1m_dB": 103.63954715754603,
+      "voltage_limit_Vrms": 12.21880517890354,
+      "first_limit": "rail"
+    },
+    {
+      "rail_V": 21.9,
+      "SPL_50Hz_ideal_2pi_1m_dB": 104.7824048802774,
+      "voltage_limit_Vrms": 13.937074657186852,
+      "first_limit": "rail"
+    }
+  ],
+  "conditions": [
+    "A0 fixed34L50Hz; existing losses and reference tests apply.",
+    "Voltage is AT amplifier terminals; battery sag, switch and harness loss must be deducted upstream.",
+    "Frequency-by-frequency maximum envelope requires DSP limits, not yet implemented. No HF response/polar prediction.",
+    "4S LFP below12V is outside board specification; no full-discharge runtime claim."
+  ]
+}

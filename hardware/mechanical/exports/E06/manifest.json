@@ -1,0 +1,8 @@
+{
+  "fusion_version": "2705.1.15",
+  "input_sha256": {
+    "data/parameters.json": "05ff83a37138ea2d371b9e342a07c01fd17830a3e028a0d2018ffb35337887d4",
+    "hardware/mechanical/build_electronics_e06.py": "407a5e9a98e0455c6e575441509c070aa4bfe15545d1d9853e37f986b72976eb",
+    "hardware/mechanical/electronics.py": "0f6e8dd041bc83004014fd106c98c1d715f05159888729c6d111e6eed2419f45"
+  }
+}
